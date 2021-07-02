@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;550;700;800&display=swap');
+
+*,
+*::before,
+*::after,
+*::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    position: relative;
+    user-select: none;
+}
+
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    font-weight: 550;
+    line-height: 1.25;
+}
+
+[heading] {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(black, 70%);
+}
+
+[brand-name] {
+    font-weight: 800;
+    text-transform: capitalize;
+    line-height: 1;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+[brand-name]:hover {
+    color: #a55eea;
+}
+
+[card-bg] {
+    background-color: #ffffff;
+}
+
+header {
+    padding: 0.625rem 0;
+}
+
+footer {
+    padding: 1.875rem 0;
+}
+
+section {
+    padding: 5.625rem 0;
+}
+
+input,
+textarea,
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    resize: none;
+}
+
+$para-color: rgba(black, 60%);
+$title-color: rgba(black, 70%);
+$head-color: rgba(black, 80%);
+$holder-color: rgba(black, 50%);
+$box-shadow: 0 0 0.5rem rgba(black, 10%);
+$border-color: rgba(black, 10%);
+$accent-color: #a55eea;
+
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+[index] {
+    header {
+        border-bottom: 1px solid $border-color;
+    }
+
+    .header__left--item {
+        display: inline-flex;
+        padding: 1rem 0;
+        align-items: center;
+        cursor: pointer;
+        color: $para-color;
+
+        .iconify {
+            margin-left: 4px;
+            color: $para-color;
+        }
+
+        &:hover {
+            color: $accent-color;
+
+            .iconify {
+                color: $accent-color;
+            }
+
+            .header__lang--box {
+                transform: scaleY(1);
+            }
+        }
+    }
+
+    .header__lang--box {
+        padding: 1rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: $box-shadow;
+        cursor: default;
+        transform: scaleY(0);
+        transition: 0.4s;
+        transform-origin: left top;
+        border-radius: 10px;
+        z-index: 10;
+    }
+
+    .lang__box--item {
+        cursor: pointer;
+        color: $para-color;
+        margin: 0.5rem 0;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
+    .left__item--line {
+        width: 1.5px;
+        height: 1rem;
+        background-color: $border-color;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right__icons {
+
+        a,
+        .iconify {
+            color: $para-color;
+            font-size: 1.45rem;
+        }
+
+        div:hover {
+            cursor: pointer;
+
+            a,
+            .iconify {
+                color: $accent-color;
+            }
+        }
+    }
+
+    .right__icon--badge {
+        &::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 1rem;
+            width: 1rem;
+            border-radius: 3rem;
+            background-color: $title-color;
+            content: "0";
+            font-size: 0.6rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &:hover {
+            &::after {
+                background-color: $accent-color;
+            }
+        }
+    }
+
+    #header__search--box {
+        position: absolute;
+        top: 150%;
+        left: 0;
+        height: 45px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        cursor: default;
+        overflow: hidden;
+        transition: transform 0.5s;
+        transform-origin: left center;
+        z-index: 10;
+
+        &:hover {
+            .iconify {
+                color: white;
+            }
+        }
+    }
+
+    .search-close {
+        transform: scaleX(0);
+    }
+
+    .search-open {
+        transform: scaleX(1);
+    }
+
+    .header__search--form {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .search-input {
+        height: 100%;
+        width: 100%;
+        padding: 0 0.9rem;
+        text-transform: capitalize;
+        font-size: 0.9375rem;
+        color: $head-color;
+
+        &::placeholder {
+            color: $holder-color;
+            padding-bottom: 4px;
+        }
+    }
+
+    .search-button {
+        background-color: $accent-color;
+        width: 3.2rem;
+
+        .iconify {
+            color: white;
+        }
+    }
+
+    .header2__item {
+        padding: 0;
+        margin: 0 0.625rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        a {
+            text-transform: capitalize;
+            padding: 1.2rem 0;
+            color: $para-color;
+            font-weight: 550;
+        }
+
+        .iconify {
+            color: $para-color;
+            margin-left: 0.2rem;
+        }
+
+        &:hover {
+
+            .iconify,
+            a {
+                color: $accent-color;
+            }
+
+            .window {
+                transform: scaleY(1);
+
+                a {
+                    color: $para-color;
+
+                    &:hover {
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .window {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        background-color: #ffffff;
+        cursor: default;
+        border-radius: 0.75rem;
+        box-shadow: $box-shadow;
+        transform: scaleY(0);
+        transform-origin: center top;
+        transition: 0.4s;
+        z-index: 10;
+        white-space: nowrap;
+
+        a {
+            padding: 0.4rem 0;
+            margin: 0.2rem 0;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+
+            .point-dot {
+                height: 0.525rem;
+                width: 0.525rem;
+                border-radius: 2rem;
+                background-color: $accent-color;
+                margin-left: -0.3rem;
+                transform: scale(0);
+                transition: 0.3s;
+            }
+
+            &:hover {
+
+                .point-dot {
+                    transform: scale(1);
+                    margin-left: 0;
+                    margin-right: 0.3rem;
+                }
+            }
+        }
+    }
+
+    .shop-window {
+        background-color: red;
+        .row {
+           background-color: yellow;
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+       }
+    }
+
+
+
+
+
+}
+
+// ========================================== \\
+
+
+// |=====> [-index-] Header-02 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Slide Change Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Category Card Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Deals Card Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Service Card Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Subscribe Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Footer-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Footer-02 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// ========================================== \\

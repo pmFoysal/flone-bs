@@ -1,1 +1,1 @@
-# flone-bs
+# Responsive E-commerce Website - Flone
