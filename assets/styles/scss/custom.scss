@@ -350,11 +350,12 @@ $accent-color: #a55eea;
 
     .shop-window {
         background-color: red;
+
         .row {
-           background-color: yellow;
-           display: grid;
-           grid-template-columns: repeat(3, 1fr);
-       }
+            background-color: yellow;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
     }
 
 
