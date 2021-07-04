@@ -15,8 +15,17 @@
     --bs-font-sans-serif: 'Inter', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #f2f2f2;
+    background-color: #f8f8f8;
 }
 
 h1,
@@ -81,6 +90,10 @@ button {
     outline: none;
     background-color: transparent;
     resize: none;
+}
+
+body>.container {
+    max-width: 1300px;
 }
 
 $para-color: rgba(black, 60%);
@@ -261,6 +274,49 @@ $accent-color: #a55eea;
         }
     }
 
+    // ========================================== \\
+
+
+
+    // |=====> [-index-] Header-02 Custom Style Starts <=====| \\
+    .header2 {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        transition: 0.3s;
+    }
+
+    .header_sticky {
+        box-shadow: 0 0 3rem rgba($accent-color, 20%);
+        background-color: #ffffff;
+    }
+
+    .header2__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .header2__brand {
+        display: none;
+
+        a {
+            font-size: 2rem;
+            font-weight: 700;
+            color: $head-color;
+            text-transform: capitalize;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+    }
+
+    .header2__brand_op {
+        display: inline-block;
+    }
+
     .header2__item {
         padding: 0;
         margin: 0 0.625rem;
@@ -326,6 +382,8 @@ $accent-color: #a55eea;
             display: flex;
             align-items: center;
             transition: 0.3s;
+            font-weight: 550;
+            font-size: 0.9rem;
 
             .point-dot {
                 height: 0.525rem;
@@ -349,54 +407,663 @@ $accent-color: #a55eea;
     }
 
     .shop-window {
-        background-color: red;
+        background-color: #ffffff;
 
         .row {
-            background-color: yellow;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            gap: 0.8rem;
+            height: 100%;
+
+            .col {
+
+                * {
+                    font-weight: 550;
+                    font-size: 0.9rem;
+                }
+            }
+
+            .img-col {
+
+                .menu-img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
         }
     }
 
+    .home-window {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.8rem;
+    }
+
+    // ========================================== \\
 
 
+    // |=====> [-index-] Slide Change Custom Style Starts <=====| \\
+    .carousel__container {
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+
+        .carousel-inner {
+            height: 31.25rem;
+
+            .carousel-item {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .carousel-control-prev {
+            left: -5%;
+        }
+
+        .carousel-control-next {
+            left: 101.5%;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: auto;
+            position: absolute;
+
+            .iconify {
+                height: 2.5rem;
+                width: auto;
+                color: $para-color;
+            }
+
+            &:hover {
+                .iconify {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
+    .container__carousel {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .carousel__left,
+    .carousel__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carousel__left {
+        .display-2 {
+            width: 70%;
+        }
+
+        h4 {
+            font-weight: 400;
+        }
+
+        .btn {
+            width: 27%;
+            padding: 0.8rem;
+            text-transform: uppercase;
+            border-color: $para-color;
+            color: $para-color;
+            margin-top: 2rem;
+
+            &:hover {
+                background-color: $accent-color;
+                border-color: $accent-color;
+                color: #ffffff;
+            }
+
+            &:focus {
+                box-shadow: none;
+                outline: none;
+            }
+        }
+    }
+
+    // ========================================== \\
 
 
+    // |=====> [-index-] Category Card Custom Style Starts <=====| \\
+    .category__cards {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 7rem;
+
+        .container_row {
+            padding: 0;
+            height: 15.625rem;
+            gap: 2rem;
+        }
+    }
+
+    .category__card {
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 0.9rem;
+        border: 0.3125rem solid #ffffff;
+        overflow: hidden;
+        cursor: pointer;
+
+        &:hover {
+            img {
+                transform: scale(1.15);
+            }
+        }
+    }
+
+    .card_right {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+
+        img {
+            height: 100%;
+            transition: 0.3s;
+        }
+    }
+
+    .card_left {
+        height: 100%;
+        width: 100%;
+        padding-left: 1.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 3;
+
+        h1,
+        span {
+            color: darkolivegreen;
+            font-weight: 400;
+        }
+
+        p {
+            color: $para-color;
+        }
+
+        .circle {
+            height: 2rem;
+            width: 2rem;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0.125rem solid darkolivegreen;
+            cursor: pointer;
+
+            .iconify {
+                height: 1.2rem;
+                width: auto;
+                color: darkolivegreen;
+            }
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    // ========================================== \\
+
+
+    // |=====> [-index-] Deals Card Custom Style Starts <=====| \\
+    .daily__deals {
+        padding: 0;
+
+        h1 {
+            margin-bottom: 4rem;
+        }
+
+        #pills-tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+
+            button {
+                text-transform: capitalize;
+                background-color: transparent;
+                color: $para-color;
+                font-weight: 550;
+            }
+
+            .active {
+                color: $accent-color;
+            }
+        }
+
+        #pills-tabContent {
+            .tab-pane {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+    .title_line {
+
+        &::before,
+        &::after {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            content: '';
+            height: 0.175rem;
+            width: 5rem;
+            border-radius: 1rem;
+            background-color: $title-color;
+        }
+
+        &::before {
+            right: 107%;
+        }
+
+        &::after {
+            left: 107%;
+        }
+    }
+
+    .card__container {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+
+        .card {
+            border: 0;
+            background-color: transparent;
+            border-radius: 0.8rem;
+            overflow: hidden;
+
+            .card__top {
+                background-color: #efefef;
+                width: 100%;
+                height: 21.875rem;
+                cursor: pointer;
+
+                .tagbox {
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.4rem;
+                    z-index: 5;
+                }
+
+                .tag {
+                    padding: 0.3rem 0.8rem;
+                    text-transform: capitalize;
+                    font-weight: 550;
+                    color: #ffffff;
+                    font-size: 0.8rem;
+                    border-radius: 0.2rem;
+                }
+
+                .tag1 {
+                    background-color: orchid;
+                }
+
+                .tag2 {
+                    background-color: $accent-color;
+                }
+
+                .imagebox {
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    overflow: hidden;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        transition: 0.5s;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 2;
+                    }
+
+                    .image2 {
+                        z-index: 1;
+                        transform: translateY(2rem);
+                        opacity: 0;
+                    }
+
+                    &:hover {
+                        .image1 {
+                            opacity: 0;
+                            transform: translateY(-2rem);
+                        }
+
+                        .image2 {
+                            transform: none;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+
+            .card__bottom {
+                padding: 1.5rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+                background-color: #ffffff;
+
+                .iconify {
+                    height: 1.1rem;
+                    width: auto;
+                }
+
+                .rated_star {
+                    color: green;
+                }
+
+                .title {
+                    font-weight: 550;
+                    color: $para-color;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $accent-color;
+                    }
+                }
+
+                .price_text {
+                    color: $head-color;
+                    font-weight: 550;
+
+                    span {
+                        color: $para-color;
+                        font-weight: 550;
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+    }
+
+    // ========================================== \\
+
+
+    // |=====> [-index-] Service Card Custom Style Starts <=====| \\
+    .service__cards {
+        height: 15.625rem;
+        margin: 7rem 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .service__card {
+        border-radius: 0.9rem;
+        border: 0.3125rem solid #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        * {
+            padding: 0;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+        .iconify {
+            height: 3rem;
+            width: auto;
+            color: $title-color;
+        }
+
+        p {
+            color: $para-color;
+        }
+
+        h4 {
+            color: $title-color;
+        }
+
+        &:hover {
+            .iconify {
+                animation: serviceAnim 0.3s forwards;
+            }
+        }
+    }
+
+    @keyframes serviceAnim {
+        15% {
+            transform: scale(1.1);
+        }
+
+        35% {
+            transform: scale(1.1) rotate(10deg);
+        }
+
+        55% {
+            transform: scale(1.1) rotate(-10deg);
+        }
+
+        75% {
+            transform: scale(1.1) rotate(10deg);
+        }
+
+        95% {
+            transform: scale(1.1) rotate(-10deg);
+        }
+    }
+
+    // ========================================== \\
+
+
+    // |=====> [-index-] Subscribe Custom Style Starts <=====| \\
+    .subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.8rem;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 7rem;
+
+        .emailbox {
+            height: 3rem;
+            width: 600px;
+            background-color: transparent;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            border: 0.125rem solid $border-color;
+            border-radius: 0.75rem;
+
+            #email {
+                padding: 0 0.75rem;
+                color: $head-color;
+                font-weight: 550;
+                text-transform: lowercase;
+
+                &::placeholder {
+                    color: $holder-color;
+                    text-transform: capitalize;
+                    font-weight: 400;
+                }
+            }
+
+            .iconify {
+                height: 1.75rem;
+                width: auto;
+                color: $para-color;
+
+                &:hover {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
+    // ========================================== \\
+
+
+    // |=====> [-index-] Footer-01 Custom Style Starts <=====| \\
+    .footer1 {
+        padding: 6rem 0;
+        background-color: #f0f0f0;
+    }
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2rem;
+    }
+
+    .footer1__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        text-transform: capitalize;
+        gap: 0.75rem;
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .brand__name {
+            display: inline-block;
+            font-size: 2rem;
+            font-weight: 700;
+            color: $head-color;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+
+        .brand__title {
+            font-weight: 550;
+            color: $title-color;
+        }
+
+        .footer__title {
+            text-transform: uppercase;
+            font-weight: 550;
+            color: $title-color;
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: $para-color;
+
+            &:hover {
+                color: $accent-color;
+            }
+        }
+
+        .subscribe__text {
+            color: $para-color;
+        }
+
+        .footer__form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 0.75rem;
+
+            input[type="email"] {
+                border: 0.125rem solid $border-color;
+                height: 2.5rem;
+                padding: 0 0.75rem;
+                color: $title-color;
+                font-weight: 550;
+                border-radius: 0.75rem;
+                margin-top: 0.5rem;
+                text-transform: lowercase;
+
+                &::placeholder {
+                    color: $holder-color;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+
+                &:focus {
+                    border-color: $accent-color;
+                }
+            }
+
+            button[type="submit"] {
+                padding: 0.625rem 1rem;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                border: 0.1rem solid $accent-color;
+                background-color: $accent-color;
+                border-radius: 0.5rem;
+                color: #ffffff;
+                transition: 0.25s;
+
+                &:hover {
+                    background-color: transparent;
+                    color: $accent-color;
+                    font-weight: 550;
+                }
+            }
+        }
+    }
+
+    // ========================================== \\
+
+
+    // |=====> [-index-] Footer-02 Custom Style Starts <=====| \\
+    .footer2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 0;
+        background-color: #ffffff;
+
+        * {
+            margin: 0;
+            padding: 0;
+            color: $para-color;
+            font-weight: 550;
+            text-transform: capitalize;
+        }
+
+        a {
+            padding: 0.4rem 0.8rem;
+            margin-left: 0.5rem;
+            border-radius: 0.5rem;
+            background-color: #f0f0f0;
+            color: #a55eea;
+            transition: 0.25s;
+
+            &:hover {
+                background-color: $accent-color;
+                color: #ffffff;
+            }
+        }
+    }
+
+    // ========================================== \\
 }
 
-// ========================================== \\
-
-
-// |=====> [-index-] Header-02 Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Slide Change Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Category Card Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Deals Card Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Service Card Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Subscribe Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Footer-01 Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Footer-02 Custom Style Starts <=====| \\
-// ========================================== \\
 
 
 // |=====> [-index-] Header-01 Custom Style Starts <=====| \\
