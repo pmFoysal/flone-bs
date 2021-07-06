@@ -1066,31 +1066,154 @@ $accent-color: #a55eea;
     // ========================================== \\
 }
 
+// ========================================== \\
 
+// |=====> [-wishlist-] Header-01 Custom Style Starts <=====| \\
+[wishlist] {
+    @extend [index];
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+    .header_top {
+        border-bottom: 0.0625rem solid $border-color;
+        margin: 0;
+        padding: 0;
+        z-index: 20;
+    }
+
+    .header_top_container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+
+    .header_top_right {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: $para-color;
+        text-transform: capitalize;
+        span {
+            color: red;
+            margin-left: 0.35rem;
+        }
+    }
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-wishlist-] Header-02 Custom Style Starts <=====| \\
+
+    .header_bottom {
+        border: 0;
+        padding: 0;
+        z-index: 10;
+        position: sticky;
+        top: 0;
+        left: 0;
+        transition: 0.3s;
+    }
+
+    .header2__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header2__brand {
+        display: inline-block;
+    }
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-wishlist-] Page Navigation Custom Style Starts <=====| \\
+
+    .page_navigation {
+        padding: 1.5rem 0;
+        background-color: #ffffff;
+    }
+
+    .page_navigation_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: $para-color;
+            font-weight: 550;
+            font-size: 1.1rem;
+            text-transform: capitalize;
+            padding: 0;
+            margin: 0;
+            a {
+                font-weight: 550;
+                color: $head-color;
+                &:hover {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-wishlist-] Main Content Custom Style Starts <=====| \\
+.main_content {
+    padding: 7rem 0;
+}
+
+.main_content_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    .iconify {
+        height: 10rem;
+        width: auto;
+        color: $para-color;
+    }
+
+    p {
+        color: $para-color;
+        font-weight: 550;
+        text-transform: capitalize;
+    }
+
+    .main_content_button {
+        padding: 0.9rem 1.7rem;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: $accent-color;
+        border-radius: 0.5rem;
+        border: 0.125rem solid transparent;
+        transition: 0.3s;
+        &:hover {
+            background-color: transparent;
+            border-color: $accent-color;
+            color: $accent-color;
+            font-weight: 550;
+        }
+    }
+}
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-wishlist-] Wishlist Custom Style Starts <=====| \\
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-wishlist-] Wishlist Custom Style Starts <=====| \\
 // ========================================== \\
 
+
+// |=====> [-wishlist-] Wishlist Custom Style Starts <=====| \\
+// ========================================== \\
+
+
+// |=====> [-wishlist-] Wishlist Custom Style Starts <=====| \\
+// ========================================== \\
+}
 
 // |=====> [-index-] Header-01 Custom Style Starts <=====| \\
 // ========================================== \\
