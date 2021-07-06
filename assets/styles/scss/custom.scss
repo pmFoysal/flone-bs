@@ -108,6 +108,47 @@ $accent-color: #a55eea;
 
 // |=====> [-index-] Header-01 Custom Style Starts <=====| \\
 [index] {
+
+    .top_up {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        background-color: $accent-color;
+        border-radius: 100%;
+        overflow: hidden;
+        box-shadow: 0 0 2rem rgba($accent-color, 50%);
+        z-index: 200;
+        cursor: pointer;
+        display: none;
+        transform: translateY(4rem);
+        transition: 0.3s;
+
+        .iconify {
+            height: 2rem;
+            width: auto;
+            color: #ffffff;
+        }
+
+        a {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .top_up_shown {
+        display: inline-block;
+        animation: topUp 1s forwards;
+    }
+
+    @keyframes topUp {
+        to {transform: translateY(0);}
+    }
+
     header {
         border-bottom: 1px solid $border-color;
         z-index: 20;
@@ -290,8 +331,15 @@ $accent-color: #a55eea;
 
     .header_sticky {
         box-shadow: 0 0 3rem rgba($accent-color, 20%);
+        animation: headerDown 1s forwards;
         background-color: #ffffff;
+        transform-origin: center top;
         z-index: 50;
+    }
+
+    @keyframes headerDown {
+        0% {transform: scaleY(0); overflow: hidden;}
+        100% {transform: scaleY(1); overflow: visible;}
     }
 
     .header2__container {
