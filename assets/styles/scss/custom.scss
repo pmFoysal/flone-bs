@@ -1205,7 +1205,6 @@ $accent-color: #a55eea;
 
     // ========================================== \\
 }
-
 // ========================================== \\
 
 
@@ -1213,7 +1212,6 @@ $accent-color: #a55eea;
 [cart] {
     @extend [wishlist];
 }
-
 // ========================================== \\
 
 
@@ -1228,19 +1226,88 @@ $accent-color: #a55eea;
         }
     }
 }
-
 // ========================================== \\
 
 
-// |=====> [-Cart-] Cart Page Custom Style Starts <=====| \\
+// |=====> [-Compare-] Compare Page Custom Style Starts <=====| \\
 [compare] {
     @extend [wishlist];
 }
-
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-P404-] P404 Page Custom Style Starts <=====| \\
+[P404] {
+    @extend [wishlist];
+
+    .main_content_container {
+        .large_text {
+            font-size: 10rem;
+            padding: 0;
+            margin: 0;
+            color: $head-color;
+            font-weight: 550;
+        }
+    
+        h1 {
+            padding: 0;
+            margin: 0;
+            color: $para-color;
+        }
+
+        .search_box {
+            width: 700px;
+            height: 3rem;
+            border: 0;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            overflow: hidden;
+
+            input[type="search"] {
+                height: 100%;
+                width: 100%;
+                border: 0;
+                padding: 0 1rem;
+                color: $head-color;
+                text-transform: capitalize;
+                font-weight: 550;
+                border: 0.08rem solid $border-color;
+                border-radius: 0.625rem 0 0 0.625rem;
+
+                &::placeholder {
+                    color: $holder-color;
+                    font-weight: 400;
+                }
+            }
+
+            button[type="submit"] {
+                height: 100%;
+                width: 100%;
+                padding: 0.5rem 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: $accent-color;
+                border: 0.08rem solid $accent-color;
+                border-radius: 0 0.625rem 0.625rem 0;
+                transition: 0.3s;
+                .iconify {
+                    height: 1.5rem;
+                    width: auto;
+                    color: #ffffff;
+                }
+
+                &:hover {
+                    background-color: transparent;
+                    border-color: $accent-color;
+                    .iconify {
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+}
 // ========================================== \\
 
 
