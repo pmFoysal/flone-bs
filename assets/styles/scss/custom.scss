@@ -1201,14 +1201,24 @@ $accent-color: #a55eea;
 // ========================================== \\
 
 
-// |=====> [-cart-] Cart Page Custom Style Starts <=====| \\
+// |=====> [-Cart-] Cart Page Custom Style Starts <=====| \\
 [cart] {
     @extend [wishlist];
 }
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-Checkout-] Checkout Custom Style Starts <=====| \\
+[checkout] {
+    @extend [wishlist];
+
+    .main_content_container {
+        .iconify {
+            height: 9rem;
+            width: auto;
+        }
+    }
+}
 // ========================================== \\
 
 
