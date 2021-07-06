@@ -1081,7 +1081,7 @@ $accent-color: #a55eea;
 
     .header_top_container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
@@ -1091,15 +1091,17 @@ $accent-color: #a55eea;
         justify-content: flex-end;
         color: $para-color;
         text-transform: capitalize;
+
         span {
             color: red;
             margin-left: 0.35rem;
         }
     }
-// ========================================== \\
+
+    // ========================================== \\
 
 
-// |=====> [-wishlist-] Header-02 Custom Style Starts <=====| \\
+    // |=====> [-wishlist-] Header-02 Custom Style Starts <=====| \\
 
     .header_bottom {
         border: 0;
@@ -1120,10 +1122,11 @@ $accent-color: #a55eea;
     .header2__brand {
         display: inline-block;
     }
-// ========================================== \\
+
+    // ========================================== \\
 
 
-// |=====> [-wishlist-] Page Navigation Custom Style Starts <=====| \\
+    // |=====> [-wishlist-] Page Navigation Custom Style Starts <=====| \\
 
     .page_navigation {
         padding: 1.5rem 0;
@@ -1142,9 +1145,11 @@ $accent-color: #a55eea;
             text-transform: capitalize;
             padding: 0;
             margin: 0;
+
             a {
                 font-weight: 550;
                 color: $head-color;
+
                 &:hover {
                     color: $accent-color;
                 }
@@ -1152,52 +1157,55 @@ $accent-color: #a55eea;
         }
     }
 
-// ========================================== \\
+    // ========================================== \\
 
 
-// |=====> [-wishlist-] Main Content Custom Style Starts <=====| \\
-.main_content {
-    padding: 7rem 0;
-}
-
-.main_content_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-
-    .iconify {
-        height: 10rem;
-        width: auto;
-        color: $para-color;
+    // |=====> [-wishlist-] Main Content Custom Style Starts <=====| \\
+    .main_content {
+        padding: 7rem 0;
     }
 
-    p {
-        color: $para-color;
-        font-weight: 550;
-        text-transform: capitalize;
-    }
+    .main_content_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
 
-    .main_content_button {
-        padding: 0.9rem 1.7rem;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        color: #ffffff;
-        background-color: $accent-color;
-        border-radius: 0.5rem;
-        border: 0.125rem solid transparent;
-        transition: 0.3s;
-        &:hover {
-            background-color: transparent;
-            border-color: $accent-color;
-            color: $accent-color;
+        .iconify {
+            height: 10rem;
+            width: auto;
+            color: $para-color;
+        }
+
+        p {
+            color: $para-color;
             font-weight: 550;
+            text-transform: capitalize;
+        }
+
+        .main_content_button {
+            padding: 0.9rem 1.7rem;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #ffffff;
+            background-color: $accent-color;
+            border-radius: 0.5rem;
+            border: 0.125rem solid transparent;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: transparent;
+                border-color: $accent-color;
+                color: $accent-color;
+                font-weight: 550;
+            }
         }
     }
+
+    // ========================================== \\
 }
-// ========================================== \\
-}
+
 // ========================================== \\
 
 
@@ -1205,6 +1213,7 @@ $accent-color: #a55eea;
 [cart] {
     @extend [wishlist];
 }
+
 // ========================================== \\
 
 
@@ -1219,10 +1228,15 @@ $accent-color: #a55eea;
         }
     }
 }
+
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-Cart-] Cart Page Custom Style Starts <=====| \\
+[compare] {
+    @extend [wishlist];
+}
+
 // ========================================== \\
 
 
