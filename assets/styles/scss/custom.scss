@@ -146,7 +146,9 @@ $accent-color: #a55eea;
     }
 
     @keyframes topUp {
-        to {transform: translateY(0);}
+        to {
+            transform: translateY(0);
+        }
     }
 
     header {
@@ -338,8 +340,15 @@ $accent-color: #a55eea;
     }
 
     @keyframes headerDown {
-        0% {transform: scaleY(0); overflow: hidden;}
-        100% {transform: scaleY(1); overflow: visible;}
+        0% {
+            transform: scaleY(0);
+            overflow: hidden;
+        }
+
+        100% {
+            transform: scaleY(1);
+            overflow: visible;
+        }
     }
 
     .header2__container {
@@ -1253,6 +1262,7 @@ $accent-color: #a55eea;
 
     // ========================================== \\
 }
+
 // ========================================== \\
 
 
@@ -1260,6 +1270,7 @@ $accent-color: #a55eea;
 [cart] {
     @extend [wishlist];
 }
+
 // ========================================== \\
 
 
@@ -1274,6 +1285,7 @@ $accent-color: #a55eea;
         }
     }
 }
+
 // ========================================== \\
 
 
@@ -1281,6 +1293,7 @@ $accent-color: #a55eea;
 [compare] {
     @extend [wishlist];
 }
+
 // ========================================== \\
 
 
@@ -1296,7 +1309,7 @@ $accent-color: #a55eea;
             color: $head-color;
             font-weight: 550;
         }
-    
+
         h1 {
             padding: 0;
             margin: 0;
@@ -1339,6 +1352,7 @@ $accent-color: #a55eea;
                 border: 0.08rem solid $accent-color;
                 border-radius: 0 0.625rem 0.625rem 0;
                 transition: 0.3s;
+
                 .iconify {
                     height: 1.5rem;
                     width: auto;
@@ -1348,6 +1362,7 @@ $accent-color: #a55eea;
                 &:hover {
                     background-color: transparent;
                     border-color: $accent-color;
+
                     .iconify {
                         color: $accent-color;
                     }
@@ -1356,6 +1371,183 @@ $accent-color: #a55eea;
         }
     }
 }
+
+// ========================================== \\
+
+
+// |=====> [-Compare-] Compare Page Custom Style Starts <=====| \\
+[myaccount] {
+    @extend [wishlist];
+
+    .main_content_container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .question_container {
+        width: 75%;
+        margin: 0 auto;
+        border: 0.08rem solid $border-color;
+        border-radius: 0.5rem;
+        transition: 0.5s;
+    }
+
+    .question_top {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        cursor: pointer;
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            text-transform: uppercase;
+        }
+
+        .iconify {
+            color: $para-color;
+            height: 1.75rem;
+            width: auto;
+        }
+
+        &:hover {
+            * {
+                color: $accent-color;
+            }
+        }
+    }
+
+    .question_bottom {
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .question_bottom_op {
+        max-height: 650px;
+    }
+
+    .question_bottom_content {
+        padding: 2rem;
+        border-top: 0.08rem solid $border-color;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        overflow: hidden;
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        p {
+            color: $para-color;
+            font-weight: 550;
+        }
+    }
+
+    .question_headbox {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h5 {
+            color: $head-color;
+            font-weight: 550;
+        }
+
+        p {
+            color: $para-color;
+            font-weight: 550;
+        }
+    }
+
+    .question_line {
+        height: 0.05rem;
+        background-color: $border-color;
+    }
+
+    .question_form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        input {
+            border: 0.08rem solid $border-color;
+            border-radius: 0.5rem;
+            padding: 0 1rem;
+            height: 2.75rem;
+
+            &:focus {
+                border-color: $accent-color;
+            }
+        }
+    }
+
+    .input_part1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .input_part_left,
+    .input_part_right {
+        display: flex;
+        flex-direction: column;
+        gap: 0.625rem;
+    }
+
+    .input_part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.625rem;
+    }
+
+    .button_part {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 0.5rem;
+
+        button {
+            padding: 0.9rem 1.5rem;
+            background-color: $accent-color;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 550;
+            letter-spacing: 0.025rem;
+            border-radius: 0.5rem;
+            border: 0.08rem solid $accent-color;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: transparent;
+                color: $accent-color;
+            }
+
+            &:active {
+                transform: scale(0.925);
+            }
+        }
+    }
+
+}
+
 // ========================================== \\
 
 

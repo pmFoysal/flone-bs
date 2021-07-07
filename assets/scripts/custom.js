@@ -9,6 +9,7 @@ headerSearchButton.addEventListener('click', function () {
     }
 });
 
+
 // ======================================== \\
 
 const topUp = document.querySelector('#top_up');
@@ -29,4 +30,25 @@ window.addEventListener('scroll', () => {
     }
 });
 
+
 // ========================================= \\
+
+function questionCollapse(openTop, openBottom, bottomClose1, bottomClose2) {
+    const opentop = document.querySelector(`#${openTop}`);
+    const openbottom = document.querySelector(`#${openBottom}`);
+    const bottomclose1 = document.querySelector(`#${bottomClose1}`);
+    const bottomclose2 = document.querySelector(`#${bottomClose2}`);
+
+    opentop.addEventListener('click', () => {
+        bottomclose1.classList.remove('question_bottom_op');
+        bottomclose2.classList.remove('question_bottom_op');
+        openbottom.classList.toggle('question_bottom_op');
+    })
+}
+
+questionCollapse('question_top1', 'question_bottom1', 'question_bottom2', 'question_bottom3');
+questionCollapse('question_top2', 'question_bottom2', 'question_bottom1', 'question_bottom3');
+questionCollapse('question_top3', 'question_bottom3', 'question_bottom1', 'question_bottom2');
+
+
+// ============================================ \\
