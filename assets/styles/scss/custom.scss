@@ -1391,6 +1391,7 @@ $accent-color: #a55eea;
         border: 0.08rem solid $border-color;
         border-radius: 0.5rem;
         transition: 0.5s;
+        background-color: #ffffff;
     }
 
     .question_top {
@@ -1551,7 +1552,242 @@ $accent-color: #a55eea;
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-Compare-] Compare Page Custom Style Starts <=====| \\
+[contact] {
+    @extend [wishlist];
+
+    .main_content_container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+
+        h3 {
+            color: $head-color;
+            text-align: center;
+            font-weight: 550;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .mapbox {
+        height: 38rem;
+        grid-column: span 3;
+        border-radius: 0.75rem;
+        overflow: hidden;
+
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .left_side {
+        height: 100%;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        background-color: #efefef;
+    }
+
+    .right_side {
+        height: 100%;
+        grid-column: span 2;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        background-color: #efefef;
+    }
+
+    .left_side_container {
+        height: 100%;
+        width: 100%;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+
+        .iconify {
+            height: 1.75rem;
+            width: auto;
+            color: $para-color;
+        }
+
+        .number_box,
+        .email_box,
+        .address_box {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem;
+        }
+
+        .address_box {
+            .text {
+                * {
+                    text-transform: capitalize;
+                }
+            }
+        }
+
+        .email_box {
+            .text {
+                * {
+                    text-transform: lowercase;
+                }
+            }
+        }
+
+        .circle {
+            height: 3rem;
+            width: 3rem;
+            border: 0.08rem solid $border-color;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 0.5rem;
+
+            * {
+                padding: 0;
+                margin: 0;
+                color: $para-color;
+                font-weight: 550;
+
+                &:hover {
+                    color: $accent-color;
+                }
+            }
+        }
+
+        .icon_box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
+
+            .icons {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1.5rem;
+
+                .iconify {
+                    height: 1.5rem;
+                    width: auto;
+                    color: $para-color;
+                }
+
+                a {
+                    &:hover {
+                        .iconify {
+                            color: $accent-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .right_side_container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        padding: 4rem;
+
+        .contact_form {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+            gap: 1.5rem;
+
+            input {
+                border: 0.08rem solid $border-color;
+                border-radius: 0.5rem;
+                height: 2.75rem;
+                padding: 0 1rem;
+                color: $head-color;
+                font-weight: 550;
+                text-transform: capitalize;
+
+                &::placeholder {
+                    color: $para-color;
+                    font-weight: 400;
+                }
+            }
+
+            input,
+            textarea {
+                &:focus {
+                    border-color: $accent-color;
+                }
+            }
+
+            .contact_subject {
+                grid-column: span 2;
+            }
+
+            .contact_email {
+                text-transform: lowercase;
+
+                &::placeholder {
+                    text-transform: capitalize;
+                }
+            }
+
+            .contact_message {
+                font-weight: 550;
+                color: $head-color;
+                padding: 1rem;
+                resize: none;
+                height: 12rem;
+                border: 0.08rem solid $border-color;
+                border-radius: 0.75rem;
+                grid-column: span 2;
+                text-transform: capitalize;
+
+                &::placeholder {
+                    color: $para-color;
+                    font-weight: 400;
+                }
+            }
+
+            .contact_button {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                grid-column: span 2;
+
+                button {
+                    padding: 0.8rem 1.6rem;
+                    font-size: 0.8rem;
+                    color: #ffffff;
+                    border: 0.08rem solid $accent-color;
+                    border-radius: 0.5rem;
+                    background-color: $accent-color;
+                    text-transform: uppercase;
+                    font-weight: 550;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // ========================================== \\
 
 
