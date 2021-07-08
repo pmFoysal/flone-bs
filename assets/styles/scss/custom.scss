@@ -11,10 +11,6 @@
     user-select: none;
 }
 
-:root {
-    --bs-font-sans-serif: 'Inter', sans-serif;
-}
-
 ::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -103,6 +99,10 @@ $holder-color: rgba(black, 50%);
 $box-shadow: 0 0 0.5rem rgba(black, 10%);
 $border-color: rgba(black, 10%);
 $accent-color: #a55eea;
+
+:root {
+    --bs-font-sans-serif: 'Inter', sans-serif;
+}
 
 
 
@@ -2086,7 +2086,192 @@ $accent-color: #a55eea;
 // ========================================== \\
 
 
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
+// |=====> [-Signing-] Signing Page Custom Style Starts <=====| \\
+[signing] {
+    @extend [wishlist];
+
+    .main_content_container {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        gap: 5rem;
+
+        ul {
+            display: flex;
+            gap: 1rem;
+        }
+
+        ul li button.active {
+            background-color: $accent-color;
+        }
+
+        ul li button {
+            padding: 0.75rem 1.5rem;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            font-weight: 550;
+            color: $accent-color;
+        }
+
+        .tab-content {
+            width: 700px;
+            background-color: #ffffff;
+            box-shadow: $box-shadow;
+            border-radius: 1rem;
+            overflow: hidden;
+            padding: 4rem;
+        }
+
+        .signin_form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+
+            .signin_email,
+            .signin_password {
+                border: 0.08rem solid $border-color;
+                color: $head-color;
+                font-weight: 550;
+                padding: 0.8rem 1rem;
+                border-radius: 0.5rem;
+
+                &::placeholder {
+                    color: $holder-color;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+
+                &:focus {
+                    border-color: $accent-color;
+                }
+            }
+
+            .signin_email {
+                text-transform: lowercase;
+            }
+
+            .textbox {
+                display: flex;
+                justify-content: space-between;
+                text-transform: capitalize;
+
+                * {
+                    color: $para-color;
+                    font-weight: 550;
+                }
+
+                a {
+                    &:hover {
+                        color: $accent-color;
+                    }
+                }
+
+                .left_side {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                }
+            }
+
+            .buttonbox {
+                margin-top: 1rem;
+
+                button {
+                    padding: 0.75rem 1.5rem;
+                    font-size: 0.8rem;
+                    text-transform: uppercase;
+                    font-weight: 550;
+                    color: #ffffff;
+                    background-color: $accent-color;
+                    border: 0.08rem solid $accent-color;
+                    border-radius: 0.4rem;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+
+        .signup_form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.75rem;
+
+            input {
+                padding: 0.8rem 1rem;
+                border: 0.08rem solid $border-color;
+                border-radius: 0.5rem;
+                color: $head-color;
+                font-weight: 550;
+
+                &::placeholder {
+                    text-transform: capitalize;
+                    font-weight: 400;
+                    color: $holder-color;
+                }
+
+                &:focus {
+                    border-color: $accent-color;
+                }
+            }
+
+            input[type="name"] {
+                text-transform: capitalize;
+            }
+
+            input[type="email"] {
+                text-transform: lowercase;
+            }
+
+            .checkbox {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+
+                * {
+                    color: $para-color;
+                    font-weight: 550;
+                    text-transform: capitalize;
+
+                    a {
+                        color: $head-color;
+
+                        &:hover {
+                            color: $accent-color;
+                        }
+                    }
+                }
+            }
+
+            .buttonbox {
+                margin-top: 1rem;
+
+                button {
+                    padding: 0.75rem 1.5rem;
+                    font-size: 0.8rem;
+                    text-transform: uppercase;
+                    font-weight: 550;
+                    color: #ffffff;
+                    background-color: $accent-color;
+                    border: 0.08rem solid $accent-color;
+                    border-radius: 0.4rem;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // ========================================== \\
 
 
