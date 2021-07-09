@@ -802,18 +802,6 @@ $accent-color: #a55eea;
                         transform: translateY(2rem);
                         opacity: 0;
                     }
-
-                    &:hover {
-                        .image1 {
-                            opacity: 0;
-                            transform: translateY(-2rem);
-                        }
-
-                        .image2 {
-                            transform: none;
-                            opacity: 1;
-                        }
-                    }
                 }
 
                 .addbox {
@@ -890,6 +878,18 @@ $accent-color: #a55eea;
                         .middle_side,
                         .right_side {
                             top: 0;
+                            opacity: 1;
+                        }
+                    }
+
+                    .imagebox {
+                        .image1 {
+                            opacity: 0;
+                            transform: translateY(-2rem);
+                        }
+
+                        .image2 {
+                            transform: none;
                             opacity: 1;
                         }
                     }
@@ -2715,22 +2715,95 @@ $accent-color: #a55eea;
 // |=====> [-Shop-] Shop Page Custom Style Starts <=====| \\
 [shop] {
     @extend [wishlist];
+    @extend [blog];
+
+    .category_side {
+        .category {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem 0;
+
+            label {
+                font-weight: 550;
+                text-transform: capitalize;
+                color: $para-color;
+                cursor: pointer;
+
+                &:hover {
+                    color: $accent-color;
+                }
+            }
+        }
+    }
+
+    .card__container {
+        height: 100%;
+        width: 100%;
+        grid-column: span 2;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+
+        .card {
+            box-shadow: 0 0 1rem rgba($accent-color, 20%);
+
+            .card__top {
+                height: 330px;
+                overflow: hidden;
+                background-color: transparent;
+            }
+
+            .card__bottom {
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-column: span 3;
+            gap: 1rem;
+            margin-top: 3rem;
+
+            .circle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 2.5rem;
+                width: 2.5rem;
+                border-radius: 100%;
+                box-shadow: 0 0 1rem rgba($accent-color, 30%);
+                cursor: pointer;
+                color: $accent-color;
+
+                &:hover {
+                    background-color: $accent-color;
+                    color: #ffffff;
+
+                    .iconify {
+                        color: #ffffff;
+                    }
+                }
+
+                .iconify {
+                    height: 1.2rem;
+                    width: auto;
+                    color: $accent-color;
+                }
+            }
+
+            .circle:nth-child(2) {
+                background-color: $accent-color;
+                color: #ffffff;
+
+                .iconify {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
 }
 
-// ========================================== \\
-
-
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
-// ========================================== \\
-
-
-// |=====> [-index-] Header-01 Custom Style Starts <=====| \\
 // ========================================== \\
