@@ -130,7 +130,7 @@ body > .container {
   --bs-font-sans-serif: "Inter", sans-serif;
 }
 
-[index] .top_up, [wishlist] .top_up, [blog] .top_up, [signing] .top_up, [about] .top_up, [contact] .top_up, [myaccount] .top_up, [P404] .top_up, [compare] .top_up, [checkout] .top_up, [cart] .top_up {
+[index] .top_up, [wishlist] .top_up, [shop] .top_up, [blog] .top_up, [signing] .top_up, [about] .top_up, [contact] .top_up, [myaccount] .top_up, [P404] .top_up, [compare] .top_up, [checkout] .top_up, [cart] .top_up {
   position: fixed;
   bottom: 1.5rem;
   right: 1rem;
@@ -155,12 +155,12 @@ body > .container {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-[index] .top_up .iconify, [wishlist] .top_up .iconify, [blog] .top_up .iconify, [signing] .top_up .iconify, [about] .top_up .iconify, [contact] .top_up .iconify, [myaccount] .top_up .iconify, [P404] .top_up .iconify, [compare] .top_up .iconify, [checkout] .top_up .iconify, [cart] .top_up .iconify {
+[index] .top_up .iconify, [wishlist] .top_up .iconify, [shop] .top_up .iconify, [blog] .top_up .iconify, [signing] .top_up .iconify, [about] .top_up .iconify, [contact] .top_up .iconify, [myaccount] .top_up .iconify, [P404] .top_up .iconify, [compare] .top_up .iconify, [checkout] .top_up .iconify, [cart] .top_up .iconify {
   height: 2rem;
   width: auto;
   color: #ffffff;
 }
-[index] .top_up a, [wishlist] .top_up a, [blog] .top_up a, [signing] .top_up a, [about] .top_up a, [contact] .top_up a, [myaccount] .top_up a, [P404] .top_up a, [compare] .top_up a, [checkout] .top_up a, [cart] .top_up a {
+[index] .top_up a, [wishlist] .top_up a, [shop] .top_up a, [blog] .top_up a, [signing] .top_up a, [about] .top_up a, [contact] .top_up a, [myaccount] .top_up a, [P404] .top_up a, [compare] .top_up a, [checkout] .top_up a, [cart] .top_up a {
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -179,7 +179,7 @@ body > .container {
       -ms-flex-pack: center;
           justify-content: center;
 }
-[index] .top_up_shown, [wishlist] .top_up_shown, [blog] .top_up_shown, [signing] .top_up_shown, [about] .top_up_shown, [contact] .top_up_shown, [myaccount] .top_up_shown, [P404] .top_up_shown, [compare] .top_up_shown, [checkout] .top_up_shown, [cart] .top_up_shown {
+[index] .top_up_shown, [wishlist] .top_up_shown, [shop] .top_up_shown, [blog] .top_up_shown, [signing] .top_up_shown, [about] .top_up_shown, [contact] .top_up_shown, [myaccount] .top_up_shown, [P404] .top_up_shown, [compare] .top_up_shown, [checkout] .top_up_shown, [cart] .top_up_shown {
   display: inline-block;
   -webkit-animation: topUp 1s forwards;
      -moz-animation: topUp 1s forwards;
@@ -205,11 +205,11 @@ body > .container {
             transform: translateY(0);
   }
 }
-[index] header, [wishlist] header, [blog] header, [signing] header, [about] header, [contact] header, [myaccount] header, [P404] header, [compare] header, [checkout] header, [cart] header {
+[index] header, [wishlist] header, [shop] header, [blog] header, [signing] header, [about] header, [contact] header, [myaccount] header, [P404] header, [compare] header, [checkout] header, [cart] header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 20;
 }
-[index] .header__left--item, [wishlist] .header__left--item, [blog] .header__left--item, [signing] .header__left--item, [about] .header__left--item, [contact] .header__left--item, [myaccount] .header__left--item, [P404] .header__left--item, [compare] .header__left--item, [checkout] .header__left--item, [cart] .header__left--item {
+[index] .header__left--item, [wishlist] .header__left--item, [shop] .header__left--item, [blog] .header__left--item, [signing] .header__left--item, [about] .header__left--item, [contact] .header__left--item, [myaccount] .header__left--item, [P404] .header__left--item, [compare] .header__left--item, [checkout] .header__left--item, [cart] .header__left--item {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -moz-inline-box;
@@ -224,24 +224,24 @@ body > .container {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .header__left--item .iconify, [wishlist] .header__left--item .iconify, [blog] .header__left--item .iconify, [signing] .header__left--item .iconify, [about] .header__left--item .iconify, [contact] .header__left--item .iconify, [myaccount] .header__left--item .iconify, [P404] .header__left--item .iconify, [compare] .header__left--item .iconify, [checkout] .header__left--item .iconify, [cart] .header__left--item .iconify {
+[index] .header__left--item .iconify, [wishlist] .header__left--item .iconify, [shop] .header__left--item .iconify, [blog] .header__left--item .iconify, [signing] .header__left--item .iconify, [about] .header__left--item .iconify, [contact] .header__left--item .iconify, [myaccount] .header__left--item .iconify, [P404] .header__left--item .iconify, [compare] .header__left--item .iconify, [checkout] .header__left--item .iconify, [cart] .header__left--item .iconify {
   margin-left: 4px;
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .header__left--item:hover, [wishlist] .header__left--item:hover, [blog] .header__left--item:hover, [signing] .header__left--item:hover, [about] .header__left--item:hover, [contact] .header__left--item:hover, [myaccount] .header__left--item:hover, [P404] .header__left--item:hover, [compare] .header__left--item:hover, [checkout] .header__left--item:hover, [cart] .header__left--item:hover {
+[index] .header__left--item:hover, [wishlist] .header__left--item:hover, [shop] .header__left--item:hover, [blog] .header__left--item:hover, [signing] .header__left--item:hover, [about] .header__left--item:hover, [contact] .header__left--item:hover, [myaccount] .header__left--item:hover, [P404] .header__left--item:hover, [compare] .header__left--item:hover, [checkout] .header__left--item:hover, [cart] .header__left--item:hover {
   color: #a55eea;
 }
-[index] .header__left--item:hover .iconify, [wishlist] .header__left--item:hover .iconify, [blog] .header__left--item:hover .iconify, [signing] .header__left--item:hover .iconify, [about] .header__left--item:hover .iconify, [contact] .header__left--item:hover .iconify, [myaccount] .header__left--item:hover .iconify, [P404] .header__left--item:hover .iconify, [compare] .header__left--item:hover .iconify, [checkout] .header__left--item:hover .iconify, [cart] .header__left--item:hover .iconify {
+[index] .header__left--item:hover .iconify, [wishlist] .header__left--item:hover .iconify, [shop] .header__left--item:hover .iconify, [blog] .header__left--item:hover .iconify, [signing] .header__left--item:hover .iconify, [about] .header__left--item:hover .iconify, [contact] .header__left--item:hover .iconify, [myaccount] .header__left--item:hover .iconify, [P404] .header__left--item:hover .iconify, [compare] .header__left--item:hover .iconify, [checkout] .header__left--item:hover .iconify, [cart] .header__left--item:hover .iconify {
   color: #a55eea;
 }
-[index] .header__left--item:hover .header__lang--box, [wishlist] .header__left--item:hover .header__lang--box, [blog] .header__left--item:hover .header__lang--box, [signing] .header__left--item:hover .header__lang--box, [about] .header__left--item:hover .header__lang--box, [contact] .header__left--item:hover .header__lang--box, [myaccount] .header__left--item:hover .header__lang--box, [P404] .header__left--item:hover .header__lang--box, [compare] .header__left--item:hover .header__lang--box, [checkout] .header__left--item:hover .header__lang--box, [cart] .header__left--item:hover .header__lang--box {
+[index] .header__left--item:hover .header__lang--box, [wishlist] .header__left--item:hover .header__lang--box, [shop] .header__left--item:hover .header__lang--box, [blog] .header__left--item:hover .header__lang--box, [signing] .header__left--item:hover .header__lang--box, [about] .header__left--item:hover .header__lang--box, [contact] .header__left--item:hover .header__lang--box, [myaccount] .header__left--item:hover .header__lang--box, [P404] .header__left--item:hover .header__lang--box, [compare] .header__left--item:hover .header__lang--box, [checkout] .header__left--item:hover .header__lang--box, [cart] .header__left--item:hover .header__lang--box {
   -webkit-transform: scaleY(1);
      -moz-transform: scaleY(1);
       -ms-transform: scaleY(1);
        -o-transform: scaleY(1);
           transform: scaleY(1);
 }
-[index] .header__lang--box, [wishlist] .header__lang--box, [blog] .header__lang--box, [signing] .header__lang--box, [about] .header__lang--box, [contact] .header__lang--box, [myaccount] .header__lang--box, [P404] .header__lang--box, [compare] .header__lang--box, [checkout] .header__lang--box, [cart] .header__lang--box {
+[index] .header__lang--box, [wishlist] .header__lang--box, [shop] .header__lang--box, [blog] .header__lang--box, [signing] .header__lang--box, [about] .header__lang--box, [contact] .header__lang--box, [myaccount] .header__lang--box, [P404] .header__lang--box, [compare] .header__lang--box, [checkout] .header__lang--box, [cart] .header__lang--box {
   padding: 1rem 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -279,24 +279,25 @@ body > .container {
        border-radius: 10px;
   z-index: 10;
 }
-[index] .lang__box--item, [wishlist] .lang__box--item, [blog] .lang__box--item, [signing] .lang__box--item, [about] .lang__box--item, [contact] .lang__box--item, [myaccount] .lang__box--item, [P404] .lang__box--item, [compare] .lang__box--item, [checkout] .lang__box--item, [cart] .lang__box--item {
+[index] .lang__box--item, [wishlist] .lang__box--item, [shop] .lang__box--item, [blog] .lang__box--item, [signing] .lang__box--item, [about] .lang__box--item, [contact] .lang__box--item, [myaccount] .lang__box--item, [P404] .lang__box--item, [compare] .lang__box--item, [checkout] .lang__box--item, [cart] .lang__box--item {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.6);
   margin: 0.5rem 0;
 }
-[index] .lang__box--item:hover, [wishlist] .lang__box--item:hover, [blog] .lang__box--item:hover, [signing] .lang__box--item:hover, [about] .lang__box--item:hover, [contact] .lang__box--item:hover, [myaccount] .lang__box--item:hover, [P404] .lang__box--item:hover, [compare] .lang__box--item:hover, [checkout] .lang__box--item:hover, [cart] .lang__box--item:hover {
+[index] .lang__box--item:hover, [wishlist] .lang__box--item:hover, [shop] .lang__box--item:hover, [blog] .lang__box--item:hover, [signing] .lang__box--item:hover, [about] .lang__box--item:hover, [contact] .lang__box--item:hover, [myaccount] .lang__box--item:hover, [P404] .lang__box--item:hover, [compare] .lang__box--item:hover, [checkout] .lang__box--item:hover, [cart] .lang__box--item:hover {
   color: #a55eea;
 }
-[index] .left__item--line, [wishlist] .left__item--line, [blog] .left__item--line, [signing] .left__item--line, [about] .left__item--line, [contact] .left__item--line, [myaccount] .left__item--line, [P404] .left__item--line, [compare] .left__item--line, [checkout] .left__item--line, [cart] .left__item--line {
+[index] .left__item--line, [wishlist] .left__item--line, [shop] .left__item--line, [blog] .left__item--line, [signing] .left__item--line, [about] .left__item--line, [contact] .left__item--line, [myaccount] .left__item--line, [P404] .left__item--line, [compare] .left__item--line, [checkout] .left__item--line, [cart] .left__item--line {
   width: 1.5px;
   height: 1rem;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 0;
   margin: 0;
 }
-[index] .right__icons a, [wishlist] .right__icons a, [blog] .right__icons a, [signing] .right__icons a, [about] .right__icons a, [contact] .right__icons a, [myaccount] .right__icons a, [P404] .right__icons a, [compare] .right__icons a, [checkout] .right__icons a, [cart] .right__icons a,
+[index] .right__icons a, [wishlist] .right__icons a, [shop] .right__icons a, [blog] .right__icons a, [signing] .right__icons a, [about] .right__icons a, [contact] .right__icons a, [myaccount] .right__icons a, [P404] .right__icons a, [compare] .right__icons a, [checkout] .right__icons a, [cart] .right__icons a,
 [index] .right__icons .iconify,
 [wishlist] .right__icons .iconify,
+[shop] .right__icons .iconify,
 [blog] .right__icons .iconify,
 [signing] .right__icons .iconify,
 [about] .right__icons .iconify,
@@ -309,12 +310,13 @@ body > .container {
   color: rgba(0, 0, 0, 0.6);
   font-size: 1.45rem;
 }
-[index] .right__icons div:hover, [wishlist] .right__icons div:hover, [blog] .right__icons div:hover, [signing] .right__icons div:hover, [about] .right__icons div:hover, [contact] .right__icons div:hover, [myaccount] .right__icons div:hover, [P404] .right__icons div:hover, [compare] .right__icons div:hover, [checkout] .right__icons div:hover, [cart] .right__icons div:hover {
+[index] .right__icons div:hover, [wishlist] .right__icons div:hover, [shop] .right__icons div:hover, [blog] .right__icons div:hover, [signing] .right__icons div:hover, [about] .right__icons div:hover, [contact] .right__icons div:hover, [myaccount] .right__icons div:hover, [P404] .right__icons div:hover, [compare] .right__icons div:hover, [checkout] .right__icons div:hover, [cart] .right__icons div:hover {
   cursor: pointer;
 }
-[index] .right__icons div:hover a, [wishlist] .right__icons div:hover a, [blog] .right__icons div:hover a, [signing] .right__icons div:hover a, [about] .right__icons div:hover a, [contact] .right__icons div:hover a, [myaccount] .right__icons div:hover a, [P404] .right__icons div:hover a, [compare] .right__icons div:hover a, [checkout] .right__icons div:hover a, [cart] .right__icons div:hover a,
+[index] .right__icons div:hover a, [wishlist] .right__icons div:hover a, [shop] .right__icons div:hover a, [blog] .right__icons div:hover a, [signing] .right__icons div:hover a, [about] .right__icons div:hover a, [contact] .right__icons div:hover a, [myaccount] .right__icons div:hover a, [P404] .right__icons div:hover a, [compare] .right__icons div:hover a, [checkout] .right__icons div:hover a, [cart] .right__icons div:hover a,
 [index] .right__icons div:hover .iconify,
 [wishlist] .right__icons div:hover .iconify,
+[shop] .right__icons div:hover .iconify,
 [blog] .right__icons div:hover .iconify,
 [signing] .right__icons div:hover .iconify,
 [about] .right__icons div:hover .iconify,
@@ -326,7 +328,7 @@ body > .container {
 [cart] .right__icons div:hover .iconify {
   color: #a55eea;
 }
-[index] .right__icon--badge::after, [wishlist] .right__icon--badge::after, [blog] .right__icon--badge::after, [signing] .right__icon--badge::after, [about] .right__icon--badge::after, [contact] .right__icon--badge::after, [myaccount] .right__icon--badge::after, [P404] .right__icon--badge::after, [compare] .right__icon--badge::after, [checkout] .right__icon--badge::after, [cart] .right__icon--badge::after {
+[index] .right__icon--badge::after, [wishlist] .right__icon--badge::after, [shop] .right__icon--badge::after, [blog] .right__icon--badge::after, [signing] .right__icon--badge::after, [about] .right__icon--badge::after, [contact] .right__icon--badge::after, [myaccount] .right__icon--badge::after, [P404] .right__icon--badge::after, [compare] .right__icon--badge::after, [checkout] .right__icon--badge::after, [cart] .right__icon--badge::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -354,10 +356,10 @@ body > .container {
       -ms-flex-pack: center;
           justify-content: center;
 }
-[index] .right__icon--badge:hover::after, [wishlist] .right__icon--badge:hover::after, [blog] .right__icon--badge:hover::after, [signing] .right__icon--badge:hover::after, [about] .right__icon--badge:hover::after, [contact] .right__icon--badge:hover::after, [myaccount] .right__icon--badge:hover::after, [P404] .right__icon--badge:hover::after, [compare] .right__icon--badge:hover::after, [checkout] .right__icon--badge:hover::after, [cart] .right__icon--badge:hover::after {
+[index] .right__icon--badge:hover::after, [wishlist] .right__icon--badge:hover::after, [shop] .right__icon--badge:hover::after, [blog] .right__icon--badge:hover::after, [signing] .right__icon--badge:hover::after, [about] .right__icon--badge:hover::after, [contact] .right__icon--badge:hover::after, [myaccount] .right__icon--badge:hover::after, [P404] .right__icon--badge:hover::after, [compare] .right__icon--badge:hover::after, [checkout] .right__icon--badge:hover::after, [cart] .right__icon--badge:hover::after {
   background-color: #a55eea;
 }
-[index] #header__search--box, [wishlist] #header__search--box, [blog] #header__search--box, [signing] #header__search--box, [about] #header__search--box, [contact] #header__search--box, [myaccount] #header__search--box, [P404] #header__search--box, [compare] #header__search--box, [checkout] #header__search--box, [cart] #header__search--box {
+[index] #header__search--box, [wishlist] #header__search--box, [shop] #header__search--box, [blog] #header__search--box, [signing] #header__search--box, [about] #header__search--box, [contact] #header__search--box, [myaccount] #header__search--box, [P404] #header__search--box, [compare] #header__search--box, [checkout] #header__search--box, [cart] #header__search--box {
   position: absolute;
   top: 150%;
   left: 0;
@@ -382,24 +384,24 @@ body > .container {
           transform-origin: left center;
   z-index: 10;
 }
-[index] #header__search--box:hover .iconify, [wishlist] #header__search--box:hover .iconify, [blog] #header__search--box:hover .iconify, [signing] #header__search--box:hover .iconify, [about] #header__search--box:hover .iconify, [contact] #header__search--box:hover .iconify, [myaccount] #header__search--box:hover .iconify, [P404] #header__search--box:hover .iconify, [compare] #header__search--box:hover .iconify, [checkout] #header__search--box:hover .iconify, [cart] #header__search--box:hover .iconify {
+[index] #header__search--box:hover .iconify, [wishlist] #header__search--box:hover .iconify, [shop] #header__search--box:hover .iconify, [blog] #header__search--box:hover .iconify, [signing] #header__search--box:hover .iconify, [about] #header__search--box:hover .iconify, [contact] #header__search--box:hover .iconify, [myaccount] #header__search--box:hover .iconify, [P404] #header__search--box:hover .iconify, [compare] #header__search--box:hover .iconify, [checkout] #header__search--box:hover .iconify, [cart] #header__search--box:hover .iconify {
   color: white;
 }
-[index] .search-close, [wishlist] .search-close, [blog] .search-close, [signing] .search-close, [about] .search-close, [contact] .search-close, [myaccount] .search-close, [P404] .search-close, [compare] .search-close, [checkout] .search-close, [cart] .search-close {
+[index] .search-close, [wishlist] .search-close, [shop] .search-close, [blog] .search-close, [signing] .search-close, [about] .search-close, [contact] .search-close, [myaccount] .search-close, [P404] .search-close, [compare] .search-close, [checkout] .search-close, [cart] .search-close {
   -webkit-transform: scaleX(0);
      -moz-transform: scaleX(0);
       -ms-transform: scaleX(0);
        -o-transform: scaleX(0);
           transform: scaleX(0);
 }
-[index] .search-open, [wishlist] .search-open, [blog] .search-open, [signing] .search-open, [about] .search-open, [contact] .search-open, [myaccount] .search-open, [P404] .search-open, [compare] .search-open, [checkout] .search-open, [cart] .search-open {
+[index] .search-open, [wishlist] .search-open, [shop] .search-open, [blog] .search-open, [signing] .search-open, [about] .search-open, [contact] .search-open, [myaccount] .search-open, [P404] .search-open, [compare] .search-open, [checkout] .search-open, [cart] .search-open {
   -webkit-transform: scaleX(1);
      -moz-transform: scaleX(1);
       -ms-transform: scaleX(1);
        -o-transform: scaleX(1);
           transform: scaleX(1);
 }
-[index] .header__search--form, [wishlist] .header__search--form, [blog] .header__search--form, [signing] .header__search--form, [about] .header__search--form, [contact] .header__search--form, [myaccount] .header__search--form, [P404] .header__search--form, [compare] .header__search--form, [checkout] .header__search--form, [cart] .header__search--form {
+[index] .header__search--form, [wishlist] .header__search--form, [shop] .header__search--form, [blog] .header__search--form, [signing] .header__search--form, [about] .header__search--form, [contact] .header__search--form, [myaccount] .header__search--form, [P404] .header__search--form, [compare] .header__search--form, [checkout] .header__search--form, [cart] .header__search--form {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -407,7 +409,7 @@ body > .container {
   display: grid;
   grid-template-columns: 1fr auto;
 }
-[index] .search-input, [wishlist] .search-input, [blog] .search-input, [signing] .search-input, [about] .search-input, [contact] .search-input, [myaccount] .search-input, [P404] .search-input, [compare] .search-input, [checkout] .search-input, [cart] .search-input {
+[index] .search-input, [wishlist] .search-input, [shop] .search-input, [blog] .search-input, [signing] .search-input, [about] .search-input, [contact] .search-input, [myaccount] .search-input, [P404] .search-input, [compare] .search-input, [checkout] .search-input, [cart] .search-input {
   height: 100%;
   width: 100%;
   padding: 0 0.9rem;
@@ -415,34 +417,34 @@ body > .container {
   font-size: 0.9375rem;
   color: rgba(0, 0, 0, 0.8);
 }
-[index] .search-input::-webkit-input-placeholder, [wishlist] .search-input::-webkit-input-placeholder, [blog] .search-input::-webkit-input-placeholder, [signing] .search-input::-webkit-input-placeholder, [about] .search-input::-webkit-input-placeholder, [contact] .search-input::-webkit-input-placeholder, [myaccount] .search-input::-webkit-input-placeholder, [P404] .search-input::-webkit-input-placeholder, [compare] .search-input::-webkit-input-placeholder, [checkout] .search-input::-webkit-input-placeholder, [cart] .search-input::-webkit-input-placeholder {
+[index] .search-input::-webkit-input-placeholder, [wishlist] .search-input::-webkit-input-placeholder, [shop] .search-input::-webkit-input-placeholder, [blog] .search-input::-webkit-input-placeholder, [signing] .search-input::-webkit-input-placeholder, [about] .search-input::-webkit-input-placeholder, [contact] .search-input::-webkit-input-placeholder, [myaccount] .search-input::-webkit-input-placeholder, [P404] .search-input::-webkit-input-placeholder, [compare] .search-input::-webkit-input-placeholder, [checkout] .search-input::-webkit-input-placeholder, [cart] .search-input::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 4px;
 }
-[index] .search-input::-moz-placeholder, [wishlist] .search-input::-moz-placeholder, [blog] .search-input::-moz-placeholder, [signing] .search-input::-moz-placeholder, [about] .search-input::-moz-placeholder, [contact] .search-input::-moz-placeholder, [myaccount] .search-input::-moz-placeholder, [P404] .search-input::-moz-placeholder, [compare] .search-input::-moz-placeholder, [checkout] .search-input::-moz-placeholder, [cart] .search-input::-moz-placeholder {
+[index] .search-input::-moz-placeholder, [wishlist] .search-input::-moz-placeholder, [shop] .search-input::-moz-placeholder, [blog] .search-input::-moz-placeholder, [signing] .search-input::-moz-placeholder, [about] .search-input::-moz-placeholder, [contact] .search-input::-moz-placeholder, [myaccount] .search-input::-moz-placeholder, [P404] .search-input::-moz-placeholder, [compare] .search-input::-moz-placeholder, [checkout] .search-input::-moz-placeholder, [cart] .search-input::-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 4px;
 }
-[index] .search-input:-ms-input-placeholder, [wishlist] .search-input:-ms-input-placeholder, [blog] .search-input:-ms-input-placeholder, [signing] .search-input:-ms-input-placeholder, [about] .search-input:-ms-input-placeholder, [contact] .search-input:-ms-input-placeholder, [myaccount] .search-input:-ms-input-placeholder, [P404] .search-input:-ms-input-placeholder, [compare] .search-input:-ms-input-placeholder, [checkout] .search-input:-ms-input-placeholder, [cart] .search-input:-ms-input-placeholder {
+[index] .search-input:-ms-input-placeholder, [wishlist] .search-input:-ms-input-placeholder, [shop] .search-input:-ms-input-placeholder, [blog] .search-input:-ms-input-placeholder, [signing] .search-input:-ms-input-placeholder, [about] .search-input:-ms-input-placeholder, [contact] .search-input:-ms-input-placeholder, [myaccount] .search-input:-ms-input-placeholder, [P404] .search-input:-ms-input-placeholder, [compare] .search-input:-ms-input-placeholder, [checkout] .search-input:-ms-input-placeholder, [cart] .search-input:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 4px;
 }
-[index] .search-input::-ms-input-placeholder, [wishlist] .search-input::-ms-input-placeholder, [blog] .search-input::-ms-input-placeholder, [signing] .search-input::-ms-input-placeholder, [about] .search-input::-ms-input-placeholder, [contact] .search-input::-ms-input-placeholder, [myaccount] .search-input::-ms-input-placeholder, [P404] .search-input::-ms-input-placeholder, [compare] .search-input::-ms-input-placeholder, [checkout] .search-input::-ms-input-placeholder, [cart] .search-input::-ms-input-placeholder {
+[index] .search-input::-ms-input-placeholder, [wishlist] .search-input::-ms-input-placeholder, [shop] .search-input::-ms-input-placeholder, [blog] .search-input::-ms-input-placeholder, [signing] .search-input::-ms-input-placeholder, [about] .search-input::-ms-input-placeholder, [contact] .search-input::-ms-input-placeholder, [myaccount] .search-input::-ms-input-placeholder, [P404] .search-input::-ms-input-placeholder, [compare] .search-input::-ms-input-placeholder, [checkout] .search-input::-ms-input-placeholder, [cart] .search-input::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 4px;
 }
-[index] .search-input::placeholder, [wishlist] .search-input::placeholder, [blog] .search-input::placeholder, [signing] .search-input::placeholder, [about] .search-input::placeholder, [contact] .search-input::placeholder, [myaccount] .search-input::placeholder, [P404] .search-input::placeholder, [compare] .search-input::placeholder, [checkout] .search-input::placeholder, [cart] .search-input::placeholder {
+[index] .search-input::placeholder, [wishlist] .search-input::placeholder, [shop] .search-input::placeholder, [blog] .search-input::placeholder, [signing] .search-input::placeholder, [about] .search-input::placeholder, [contact] .search-input::placeholder, [myaccount] .search-input::placeholder, [P404] .search-input::placeholder, [compare] .search-input::placeholder, [checkout] .search-input::placeholder, [cart] .search-input::placeholder {
   color: rgba(0, 0, 0, 0.5);
   padding-bottom: 4px;
 }
-[index] .search-button, [wishlist] .search-button, [blog] .search-button, [signing] .search-button, [about] .search-button, [contact] .search-button, [myaccount] .search-button, [P404] .search-button, [compare] .search-button, [checkout] .search-button, [cart] .search-button {
+[index] .search-button, [wishlist] .search-button, [shop] .search-button, [blog] .search-button, [signing] .search-button, [about] .search-button, [contact] .search-button, [myaccount] .search-button, [P404] .search-button, [compare] .search-button, [checkout] .search-button, [cart] .search-button {
   background-color: #a55eea;
   width: 3.2rem;
 }
-[index] .search-button .iconify, [wishlist] .search-button .iconify, [blog] .search-button .iconify, [signing] .search-button .iconify, [about] .search-button .iconify, [contact] .search-button .iconify, [myaccount] .search-button .iconify, [P404] .search-button .iconify, [compare] .search-button .iconify, [checkout] .search-button .iconify, [cart] .search-button .iconify {
+[index] .search-button .iconify, [wishlist] .search-button .iconify, [shop] .search-button .iconify, [blog] .search-button .iconify, [signing] .search-button .iconify, [about] .search-button .iconify, [contact] .search-button .iconify, [myaccount] .search-button .iconify, [P404] .search-button .iconify, [compare] .search-button .iconify, [checkout] .search-button .iconify, [cart] .search-button .iconify {
   color: white;
 }
-[index] .header2, [wishlist] .header2, [blog] .header2, [signing] .header2, [about] .header2, [contact] .header2, [myaccount] .header2, [P404] .header2, [compare] .header2, [checkout] .header2, [cart] .header2 {
+[index] .header2, [wishlist] .header2, [shop] .header2, [blog] .header2, [signing] .header2, [about] .header2, [contact] .header2, [myaccount] .header2, [P404] .header2, [compare] .header2, [checkout] .header2, [cart] .header2 {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -453,7 +455,7 @@ body > .container {
   transition: 0.3s;
   z-index: 10;
 }
-[index] .header_sticky, [wishlist] .header_sticky, [blog] .header_sticky, [signing] .header_sticky, [about] .header_sticky, [contact] .header_sticky, [myaccount] .header_sticky, [P404] .header_sticky, [compare] .header_sticky, [checkout] .header_sticky, [cart] .header_sticky {
+[index] .header_sticky, [wishlist] .header_sticky, [shop] .header_sticky, [blog] .header_sticky, [signing] .header_sticky, [about] .header_sticky, [contact] .header_sticky, [myaccount] .header_sticky, [P404] .header_sticky, [compare] .header_sticky, [checkout] .header_sticky, [cart] .header_sticky {
   -webkit-box-shadow: 0 0 3rem rgba(165, 94, 234, 0.2);
           box-shadow: 0 0 3rem rgba(165, 94, 234, 0.2);
   -webkit-animation: headerDown 1s forwards;
@@ -507,7 +509,7 @@ body > .container {
     overflow: visible;
   }
 }
-[index] .header2__container, [wishlist] .header2__container, [blog] .header2__container, [signing] .header2__container, [about] .header2__container, [contact] .header2__container, [myaccount] .header2__container, [P404] .header2__container, [compare] .header2__container, [checkout] .header2__container, [cart] .header2__container {
+[index] .header2__container, [wishlist] .header2__container, [shop] .header2__container, [blog] .header2__container, [signing] .header2__container, [about] .header2__container, [contact] .header2__container, [myaccount] .header2__container, [P404] .header2__container, [compare] .header2__container, [checkout] .header2__container, [cart] .header2__container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -524,22 +526,22 @@ body > .container {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-[index] .header2__brand, [wishlist] .header2__brand, [blog] .header2__brand, [signing] .header2__brand, [about] .header2__brand, [contact] .header2__brand, [myaccount] .header2__brand, [P404] .header2__brand, [compare] .header2__brand, [checkout] .header2__brand, [cart] .header2__brand {
+[index] .header2__brand, [wishlist] .header2__brand, [shop] .header2__brand, [blog] .header2__brand, [signing] .header2__brand, [about] .header2__brand, [contact] .header2__brand, [myaccount] .header2__brand, [P404] .header2__brand, [compare] .header2__brand, [checkout] .header2__brand, [cart] .header2__brand {
   display: none;
 }
-[index] .header2__brand a, [wishlist] .header2__brand a, [blog] .header2__brand a, [signing] .header2__brand a, [about] .header2__brand a, [contact] .header2__brand a, [myaccount] .header2__brand a, [P404] .header2__brand a, [compare] .header2__brand a, [checkout] .header2__brand a, [cart] .header2__brand a {
+[index] .header2__brand a, [wishlist] .header2__brand a, [shop] .header2__brand a, [blog] .header2__brand a, [signing] .header2__brand a, [about] .header2__brand a, [contact] .header2__brand a, [myaccount] .header2__brand a, [P404] .header2__brand a, [compare] .header2__brand a, [checkout] .header2__brand a, [cart] .header2__brand a {
   font-size: 2rem;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
 }
-[index] .header2__brand a:hover, [wishlist] .header2__brand a:hover, [blog] .header2__brand a:hover, [signing] .header2__brand a:hover, [about] .header2__brand a:hover, [contact] .header2__brand a:hover, [myaccount] .header2__brand a:hover, [P404] .header2__brand a:hover, [compare] .header2__brand a:hover, [checkout] .header2__brand a:hover, [cart] .header2__brand a:hover {
+[index] .header2__brand a:hover, [wishlist] .header2__brand a:hover, [shop] .header2__brand a:hover, [blog] .header2__brand a:hover, [signing] .header2__brand a:hover, [about] .header2__brand a:hover, [contact] .header2__brand a:hover, [myaccount] .header2__brand a:hover, [P404] .header2__brand a:hover, [compare] .header2__brand a:hover, [checkout] .header2__brand a:hover, [cart] .header2__brand a:hover {
   color: #a55eea;
 }
-[index] .header2__brand_op, [wishlist] .header2__brand_op, [blog] .header2__brand_op, [signing] .header2__brand_op, [about] .header2__brand_op, [contact] .header2__brand_op, [myaccount] .header2__brand_op, [P404] .header2__brand_op, [compare] .header2__brand_op, [checkout] .header2__brand_op, [cart] .header2__brand_op {
+[index] .header2__brand_op, [wishlist] .header2__brand_op, [shop] .header2__brand_op, [blog] .header2__brand_op, [signing] .header2__brand_op, [about] .header2__brand_op, [contact] .header2__brand_op, [myaccount] .header2__brand_op, [P404] .header2__brand_op, [compare] .header2__brand_op, [checkout] .header2__brand_op, [cart] .header2__brand_op {
   display: inline-block;
 }
-[index] .header2__item, [wishlist] .header2__item, [blog] .header2__item, [signing] .header2__item, [about] .header2__item, [contact] .header2__item, [myaccount] .header2__item, [P404] .header2__item, [compare] .header2__item, [checkout] .header2__item, [cart] .header2__item {
+[index] .header2__item, [wishlist] .header2__item, [shop] .header2__item, [blog] .header2__item, [signing] .header2__item, [about] .header2__item, [contact] .header2__item, [myaccount] .header2__item, [P404] .header2__item, [compare] .header2__item, [checkout] .header2__item, [cart] .header2__item {
   padding: 0;
   margin: 0 0.625rem;
   display: -webkit-box;
@@ -559,19 +561,20 @@ body > .container {
           align-items: center;
   cursor: pointer;
 }
-[index] .header2__item a, [wishlist] .header2__item a, [blog] .header2__item a, [signing] .header2__item a, [about] .header2__item a, [contact] .header2__item a, [myaccount] .header2__item a, [P404] .header2__item a, [compare] .header2__item a, [checkout] .header2__item a, [cart] .header2__item a {
+[index] .header2__item a, [wishlist] .header2__item a, [shop] .header2__item a, [blog] .header2__item a, [signing] .header2__item a, [about] .header2__item a, [contact] .header2__item a, [myaccount] .header2__item a, [P404] .header2__item a, [compare] .header2__item a, [checkout] .header2__item a, [cart] .header2__item a {
   text-transform: capitalize;
   padding: 1.2rem 0;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
 }
-[index] .header2__item .iconify, [wishlist] .header2__item .iconify, [blog] .header2__item .iconify, [signing] .header2__item .iconify, [about] .header2__item .iconify, [contact] .header2__item .iconify, [myaccount] .header2__item .iconify, [P404] .header2__item .iconify, [compare] .header2__item .iconify, [checkout] .header2__item .iconify, [cart] .header2__item .iconify {
+[index] .header2__item .iconify, [wishlist] .header2__item .iconify, [shop] .header2__item .iconify, [blog] .header2__item .iconify, [signing] .header2__item .iconify, [about] .header2__item .iconify, [contact] .header2__item .iconify, [myaccount] .header2__item .iconify, [P404] .header2__item .iconify, [compare] .header2__item .iconify, [checkout] .header2__item .iconify, [cart] .header2__item .iconify {
   color: rgba(0, 0, 0, 0.6);
   margin-left: 0.2rem;
 }
-[index] .header2__item:hover .iconify, [wishlist] .header2__item:hover .iconify, [blog] .header2__item:hover .iconify, [signing] .header2__item:hover .iconify, [about] .header2__item:hover .iconify, [contact] .header2__item:hover .iconify, [myaccount] .header2__item:hover .iconify, [P404] .header2__item:hover .iconify, [compare] .header2__item:hover .iconify, [checkout] .header2__item:hover .iconify, [cart] .header2__item:hover .iconify,
+[index] .header2__item:hover .iconify, [wishlist] .header2__item:hover .iconify, [shop] .header2__item:hover .iconify, [blog] .header2__item:hover .iconify, [signing] .header2__item:hover .iconify, [about] .header2__item:hover .iconify, [contact] .header2__item:hover .iconify, [myaccount] .header2__item:hover .iconify, [P404] .header2__item:hover .iconify, [compare] .header2__item:hover .iconify, [checkout] .header2__item:hover .iconify, [cart] .header2__item:hover .iconify,
 [index] .header2__item:hover a,
 [wishlist] .header2__item:hover a,
+[shop] .header2__item:hover a,
 [blog] .header2__item:hover a,
 [signing] .header2__item:hover a,
 [about] .header2__item:hover a,
@@ -583,20 +586,20 @@ body > .container {
 [cart] .header2__item:hover a {
   color: #a55eea;
 }
-[index] .header2__item:hover .window, [wishlist] .header2__item:hover .window, [blog] .header2__item:hover .window, [signing] .header2__item:hover .window, [about] .header2__item:hover .window, [contact] .header2__item:hover .window, [myaccount] .header2__item:hover .window, [P404] .header2__item:hover .window, [compare] .header2__item:hover .window, [checkout] .header2__item:hover .window, [cart] .header2__item:hover .window {
+[index] .header2__item:hover .window, [wishlist] .header2__item:hover .window, [shop] .header2__item:hover .window, [blog] .header2__item:hover .window, [signing] .header2__item:hover .window, [about] .header2__item:hover .window, [contact] .header2__item:hover .window, [myaccount] .header2__item:hover .window, [P404] .header2__item:hover .window, [compare] .header2__item:hover .window, [checkout] .header2__item:hover .window, [cart] .header2__item:hover .window {
   -webkit-transform: scaleY(1);
      -moz-transform: scaleY(1);
       -ms-transform: scaleY(1);
        -o-transform: scaleY(1);
           transform: scaleY(1);
 }
-[index] .header2__item:hover .window a, [wishlist] .header2__item:hover .window a, [blog] .header2__item:hover .window a, [signing] .header2__item:hover .window a, [about] .header2__item:hover .window a, [contact] .header2__item:hover .window a, [myaccount] .header2__item:hover .window a, [P404] .header2__item:hover .window a, [compare] .header2__item:hover .window a, [checkout] .header2__item:hover .window a, [cart] .header2__item:hover .window a {
+[index] .header2__item:hover .window a, [wishlist] .header2__item:hover .window a, [shop] .header2__item:hover .window a, [blog] .header2__item:hover .window a, [signing] .header2__item:hover .window a, [about] .header2__item:hover .window a, [contact] .header2__item:hover .window a, [myaccount] .header2__item:hover .window a, [P404] .header2__item:hover .window a, [compare] .header2__item:hover .window a, [checkout] .header2__item:hover .window a, [cart] .header2__item:hover .window a {
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .header2__item:hover .window a:hover, [wishlist] .header2__item:hover .window a:hover, [blog] .header2__item:hover .window a:hover, [signing] .header2__item:hover .window a:hover, [about] .header2__item:hover .window a:hover, [contact] .header2__item:hover .window a:hover, [myaccount] .header2__item:hover .window a:hover, [P404] .header2__item:hover .window a:hover, [compare] .header2__item:hover .window a:hover, [checkout] .header2__item:hover .window a:hover, [cart] .header2__item:hover .window a:hover {
+[index] .header2__item:hover .window a:hover, [wishlist] .header2__item:hover .window a:hover, [shop] .header2__item:hover .window a:hover, [blog] .header2__item:hover .window a:hover, [signing] .header2__item:hover .window a:hover, [about] .header2__item:hover .window a:hover, [contact] .header2__item:hover .window a:hover, [myaccount] .header2__item:hover .window a:hover, [P404] .header2__item:hover .window a:hover, [compare] .header2__item:hover .window a:hover, [checkout] .header2__item:hover .window a:hover, [cart] .header2__item:hover .window a:hover {
   color: #a55eea;
 }
-[index] .window, [wishlist] .window, [blog] .window, [signing] .window, [about] .window, [contact] .window, [myaccount] .window, [P404] .window, [compare] .window, [checkout] .window, [cart] .window {
+[index] .window, [wishlist] .window, [shop] .window, [blog] .window, [signing] .window, [about] .window, [contact] .window, [myaccount] .window, [P404] .window, [compare] .window, [checkout] .window, [cart] .window {
   position: absolute;
   top: 100%;
   left: 0;
@@ -636,7 +639,7 @@ body > .container {
   z-index: 50;
   white-space: nowrap;
 }
-[index] .window a, [wishlist] .window a, [blog] .window a, [signing] .window a, [about] .window a, [contact] .window a, [myaccount] .window a, [P404] .window a, [compare] .window a, [checkout] .window a, [cart] .window a {
+[index] .window a, [wishlist] .window a, [shop] .window a, [blog] .window a, [signing] .window a, [about] .window a, [contact] .window a, [myaccount] .window a, [P404] .window a, [compare] .window a, [checkout] .window a, [cart] .window a {
   padding: 0.4rem 0;
   margin: 0.2rem 0;
   white-space: nowrap;
@@ -657,7 +660,7 @@ body > .container {
   font-weight: 550;
   font-size: 0.9rem;
 }
-[index] .window a .point-dot, [wishlist] .window a .point-dot, [blog] .window a .point-dot, [signing] .window a .point-dot, [about] .window a .point-dot, [contact] .window a .point-dot, [myaccount] .window a .point-dot, [P404] .window a .point-dot, [compare] .window a .point-dot, [checkout] .window a .point-dot, [cart] .window a .point-dot {
+[index] .window a .point-dot, [wishlist] .window a .point-dot, [shop] .window a .point-dot, [blog] .window a .point-dot, [signing] .window a .point-dot, [about] .window a .point-dot, [contact] .window a .point-dot, [myaccount] .window a .point-dot, [P404] .window a .point-dot, [compare] .window a .point-dot, [checkout] .window a .point-dot, [cart] .window a .point-dot {
   height: 0.525rem;
   width: 0.525rem;
   -moz-border-radius: 2rem;
@@ -674,7 +677,7 @@ body > .container {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-[index] .window a:hover .point-dot, [wishlist] .window a:hover .point-dot, [blog] .window a:hover .point-dot, [signing] .window a:hover .point-dot, [about] .window a:hover .point-dot, [contact] .window a:hover .point-dot, [myaccount] .window a:hover .point-dot, [P404] .window a:hover .point-dot, [compare] .window a:hover .point-dot, [checkout] .window a:hover .point-dot, [cart] .window a:hover .point-dot {
+[index] .window a:hover .point-dot, [wishlist] .window a:hover .point-dot, [shop] .window a:hover .point-dot, [blog] .window a:hover .point-dot, [signing] .window a:hover .point-dot, [about] .window a:hover .point-dot, [contact] .window a:hover .point-dot, [myaccount] .window a:hover .point-dot, [P404] .window a:hover .point-dot, [compare] .window a:hover .point-dot, [checkout] .window a:hover .point-dot, [cart] .window a:hover .point-dot {
   -webkit-transform: scale(1);
      -moz-transform: scale(1);
       -ms-transform: scale(1);
@@ -683,48 +686,49 @@ body > .container {
   margin-left: 0;
   margin-right: 0.3rem;
 }
-[index] .shop-window, [wishlist] .shop-window, [blog] .shop-window, [signing] .shop-window, [about] .shop-window, [contact] .shop-window, [myaccount] .shop-window, [P404] .shop-window, [compare] .shop-window, [checkout] .shop-window, [cart] .shop-window {
+[index] .shop-window, [wishlist] .shop-window, [shop] .shop-window, [blog] .shop-window, [signing] .shop-window, [about] .shop-window, [contact] .shop-window, [myaccount] .shop-window, [P404] .shop-window, [compare] .shop-window, [checkout] .shop-window, [cart] .shop-window {
   background-color: #ffffff;
 }
-[index] .shop-window .row, [wishlist] .shop-window .row, [blog] .shop-window .row, [signing] .shop-window .row, [about] .shop-window .row, [contact] .shop-window .row, [myaccount] .shop-window .row, [P404] .shop-window .row, [compare] .shop-window .row, [checkout] .shop-window .row, [cart] .shop-window .row {
+[index] .shop-window .row, [wishlist] .shop-window .row, [shop] .shop-window .row, [blog] .shop-window .row, [signing] .shop-window .row, [about] .shop-window .row, [contact] .shop-window .row, [myaccount] .shop-window .row, [P404] .shop-window .row, [compare] .shop-window .row, [checkout] .shop-window .row, [cart] .shop-window .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.8rem;
   height: 100%;
 }
-[index] .shop-window .row .col *, [wishlist] .shop-window .row .col *, [blog] .shop-window .row .col *, [signing] .shop-window .row .col *, [about] .shop-window .row .col *, [contact] .shop-window .row .col *, [myaccount] .shop-window .row .col *, [P404] .shop-window .row .col *, [compare] .shop-window .row .col *, [checkout] .shop-window .row .col *, [cart] .shop-window .row .col * {
+[index] .shop-window .row .col *, [wishlist] .shop-window .row .col *, [shop] .shop-window .row .col *, [blog] .shop-window .row .col *, [signing] .shop-window .row .col *, [about] .shop-window .row .col *, [contact] .shop-window .row .col *, [myaccount] .shop-window .row .col *, [P404] .shop-window .row .col *, [compare] .shop-window .row .col *, [checkout] .shop-window .row .col *, [cart] .shop-window .row .col * {
   font-weight: 550;
   font-size: 0.9rem;
 }
-[index] .shop-window .row .img-col .menu-img, [wishlist] .shop-window .row .img-col .menu-img, [blog] .shop-window .row .img-col .menu-img, [signing] .shop-window .row .img-col .menu-img, [about] .shop-window .row .img-col .menu-img, [contact] .shop-window .row .img-col .menu-img, [myaccount] .shop-window .row .img-col .menu-img, [P404] .shop-window .row .img-col .menu-img, [compare] .shop-window .row .img-col .menu-img, [checkout] .shop-window .row .img-col .menu-img, [cart] .shop-window .row .img-col .menu-img {
+[index] .shop-window .row .img-col .menu-img, [wishlist] .shop-window .row .img-col .menu-img, [shop] .shop-window .row .img-col .menu-img, [blog] .shop-window .row .img-col .menu-img, [signing] .shop-window .row .img-col .menu-img, [about] .shop-window .row .img-col .menu-img, [contact] .shop-window .row .img-col .menu-img, [myaccount] .shop-window .row .img-col .menu-img, [P404] .shop-window .row .img-col .menu-img, [compare] .shop-window .row .img-col .menu-img, [checkout] .shop-window .row .img-col .menu-img, [cart] .shop-window .row .img-col .menu-img {
   height: 100%;
   width: auto;
 }
-[index] .home-window, [wishlist] .home-window, [blog] .home-window, [signing] .home-window, [about] .home-window, [contact] .home-window, [myaccount] .home-window, [P404] .home-window, [compare] .home-window, [checkout] .home-window, [cart] .home-window {
+[index] .home-window, [wishlist] .home-window, [shop] .home-window, [blog] .home-window, [signing] .home-window, [about] .home-window, [contact] .home-window, [myaccount] .home-window, [P404] .home-window, [compare] .home-window, [checkout] .home-window, [cart] .home-window {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.8rem;
 }
-[index] .carousel__container, [wishlist] .carousel__container, [blog] .carousel__container, [signing] .carousel__container, [about] .carousel__container, [contact] .carousel__container, [myaccount] .carousel__container, [P404] .carousel__container, [compare] .carousel__container, [checkout] .carousel__container, [cart] .carousel__container {
+[index] .carousel__container, [wishlist] .carousel__container, [shop] .carousel__container, [blog] .carousel__container, [signing] .carousel__container, [about] .carousel__container, [contact] .carousel__container, [myaccount] .carousel__container, [P404] .carousel__container, [compare] .carousel__container, [checkout] .carousel__container, [cart] .carousel__container {
   margin-top: 4rem;
   margin-bottom: 7rem;
 }
-[index] .carousel__container .carousel-inner, [wishlist] .carousel__container .carousel-inner, [blog] .carousel__container .carousel-inner, [signing] .carousel__container .carousel-inner, [about] .carousel__container .carousel-inner, [contact] .carousel__container .carousel-inner, [myaccount] .carousel__container .carousel-inner, [P404] .carousel__container .carousel-inner, [compare] .carousel__container .carousel-inner, [checkout] .carousel__container .carousel-inner, [cart] .carousel__container .carousel-inner {
+[index] .carousel__container .carousel-inner, [wishlist] .carousel__container .carousel-inner, [shop] .carousel__container .carousel-inner, [blog] .carousel__container .carousel-inner, [signing] .carousel__container .carousel-inner, [about] .carousel__container .carousel-inner, [contact] .carousel__container .carousel-inner, [myaccount] .carousel__container .carousel-inner, [P404] .carousel__container .carousel-inner, [compare] .carousel__container .carousel-inner, [checkout] .carousel__container .carousel-inner, [cart] .carousel__container .carousel-inner {
   height: 31.25rem;
 }
-[index] .carousel__container .carousel-inner .carousel-item, [wishlist] .carousel__container .carousel-inner .carousel-item, [blog] .carousel__container .carousel-inner .carousel-item, [signing] .carousel__container .carousel-inner .carousel-item, [about] .carousel__container .carousel-inner .carousel-item, [contact] .carousel__container .carousel-inner .carousel-item, [myaccount] .carousel__container .carousel-inner .carousel-item, [P404] .carousel__container .carousel-inner .carousel-item, [compare] .carousel__container .carousel-inner .carousel-item, [checkout] .carousel__container .carousel-inner .carousel-item, [cart] .carousel__container .carousel-inner .carousel-item {
+[index] .carousel__container .carousel-inner .carousel-item, [wishlist] .carousel__container .carousel-inner .carousel-item, [shop] .carousel__container .carousel-inner .carousel-item, [blog] .carousel__container .carousel-inner .carousel-item, [signing] .carousel__container .carousel-inner .carousel-item, [about] .carousel__container .carousel-inner .carousel-item, [contact] .carousel__container .carousel-inner .carousel-item, [myaccount] .carousel__container .carousel-inner .carousel-item, [P404] .carousel__container .carousel-inner .carousel-item, [compare] .carousel__container .carousel-inner .carousel-item, [checkout] .carousel__container .carousel-inner .carousel-item, [cart] .carousel__container .carousel-inner .carousel-item {
   width: 100%;
   height: 100%;
 }
-[index] .carousel__container .carousel-control-prev, [wishlist] .carousel__container .carousel-control-prev, [blog] .carousel__container .carousel-control-prev, [signing] .carousel__container .carousel-control-prev, [about] .carousel__container .carousel-control-prev, [contact] .carousel__container .carousel-control-prev, [myaccount] .carousel__container .carousel-control-prev, [P404] .carousel__container .carousel-control-prev, [compare] .carousel__container .carousel-control-prev, [checkout] .carousel__container .carousel-control-prev, [cart] .carousel__container .carousel-control-prev {
+[index] .carousel__container .carousel-control-prev, [wishlist] .carousel__container .carousel-control-prev, [shop] .carousel__container .carousel-control-prev, [blog] .carousel__container .carousel-control-prev, [signing] .carousel__container .carousel-control-prev, [about] .carousel__container .carousel-control-prev, [contact] .carousel__container .carousel-control-prev, [myaccount] .carousel__container .carousel-control-prev, [P404] .carousel__container .carousel-control-prev, [compare] .carousel__container .carousel-control-prev, [checkout] .carousel__container .carousel-control-prev, [cart] .carousel__container .carousel-control-prev {
   left: -5%;
 }
-[index] .carousel__container .carousel-control-next, [wishlist] .carousel__container .carousel-control-next, [blog] .carousel__container .carousel-control-next, [signing] .carousel__container .carousel-control-next, [about] .carousel__container .carousel-control-next, [contact] .carousel__container .carousel-control-next, [myaccount] .carousel__container .carousel-control-next, [P404] .carousel__container .carousel-control-next, [compare] .carousel__container .carousel-control-next, [checkout] .carousel__container .carousel-control-next, [cart] .carousel__container .carousel-control-next {
+[index] .carousel__container .carousel-control-next, [wishlist] .carousel__container .carousel-control-next, [shop] .carousel__container .carousel-control-next, [blog] .carousel__container .carousel-control-next, [signing] .carousel__container .carousel-control-next, [about] .carousel__container .carousel-control-next, [contact] .carousel__container .carousel-control-next, [myaccount] .carousel__container .carousel-control-next, [P404] .carousel__container .carousel-control-next, [compare] .carousel__container .carousel-control-next, [checkout] .carousel__container .carousel-control-next, [cart] .carousel__container .carousel-control-next {
   left: 101.5%;
 }
-[index] .carousel__container .carousel-control-prev, [wishlist] .carousel__container .carousel-control-prev, [blog] .carousel__container .carousel-control-prev, [signing] .carousel__container .carousel-control-prev, [about] .carousel__container .carousel-control-prev, [contact] .carousel__container .carousel-control-prev, [myaccount] .carousel__container .carousel-control-prev, [P404] .carousel__container .carousel-control-prev, [compare] .carousel__container .carousel-control-prev, [checkout] .carousel__container .carousel-control-prev, [cart] .carousel__container .carousel-control-prev,
+[index] .carousel__container .carousel-control-prev, [wishlist] .carousel__container .carousel-control-prev, [shop] .carousel__container .carousel-control-prev, [blog] .carousel__container .carousel-control-prev, [signing] .carousel__container .carousel-control-prev, [about] .carousel__container .carousel-control-prev, [contact] .carousel__container .carousel-control-prev, [myaccount] .carousel__container .carousel-control-prev, [P404] .carousel__container .carousel-control-prev, [compare] .carousel__container .carousel-control-prev, [checkout] .carousel__container .carousel-control-prev, [cart] .carousel__container .carousel-control-prev,
 [index] .carousel__container .carousel-control-next,
 [wishlist] .carousel__container .carousel-control-next,
+[shop] .carousel__container .carousel-control-next,
 [blog] .carousel__container .carousel-control-next,
 [signing] .carousel__container .carousel-control-next,
 [about] .carousel__container .carousel-control-next,
@@ -737,9 +741,10 @@ body > .container {
   width: auto;
   position: absolute;
 }
-[index] .carousel__container .carousel-control-prev .iconify, [wishlist] .carousel__container .carousel-control-prev .iconify, [blog] .carousel__container .carousel-control-prev .iconify, [signing] .carousel__container .carousel-control-prev .iconify, [about] .carousel__container .carousel-control-prev .iconify, [contact] .carousel__container .carousel-control-prev .iconify, [myaccount] .carousel__container .carousel-control-prev .iconify, [P404] .carousel__container .carousel-control-prev .iconify, [compare] .carousel__container .carousel-control-prev .iconify, [checkout] .carousel__container .carousel-control-prev .iconify, [cart] .carousel__container .carousel-control-prev .iconify,
+[index] .carousel__container .carousel-control-prev .iconify, [wishlist] .carousel__container .carousel-control-prev .iconify, [shop] .carousel__container .carousel-control-prev .iconify, [blog] .carousel__container .carousel-control-prev .iconify, [signing] .carousel__container .carousel-control-prev .iconify, [about] .carousel__container .carousel-control-prev .iconify, [contact] .carousel__container .carousel-control-prev .iconify, [myaccount] .carousel__container .carousel-control-prev .iconify, [P404] .carousel__container .carousel-control-prev .iconify, [compare] .carousel__container .carousel-control-prev .iconify, [checkout] .carousel__container .carousel-control-prev .iconify, [cart] .carousel__container .carousel-control-prev .iconify,
 [index] .carousel__container .carousel-control-next .iconify,
 [wishlist] .carousel__container .carousel-control-next .iconify,
+[shop] .carousel__container .carousel-control-next .iconify,
 [blog] .carousel__container .carousel-control-next .iconify,
 [signing] .carousel__container .carousel-control-next .iconify,
 [about] .carousel__container .carousel-control-next .iconify,
@@ -753,9 +758,10 @@ body > .container {
   width: auto;
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .carousel__container .carousel-control-prev:hover .iconify, [wishlist] .carousel__container .carousel-control-prev:hover .iconify, [blog] .carousel__container .carousel-control-prev:hover .iconify, [signing] .carousel__container .carousel-control-prev:hover .iconify, [about] .carousel__container .carousel-control-prev:hover .iconify, [contact] .carousel__container .carousel-control-prev:hover .iconify, [myaccount] .carousel__container .carousel-control-prev:hover .iconify, [P404] .carousel__container .carousel-control-prev:hover .iconify, [compare] .carousel__container .carousel-control-prev:hover .iconify, [checkout] .carousel__container .carousel-control-prev:hover .iconify, [cart] .carousel__container .carousel-control-prev:hover .iconify,
+[index] .carousel__container .carousel-control-prev:hover .iconify, [wishlist] .carousel__container .carousel-control-prev:hover .iconify, [shop] .carousel__container .carousel-control-prev:hover .iconify, [blog] .carousel__container .carousel-control-prev:hover .iconify, [signing] .carousel__container .carousel-control-prev:hover .iconify, [about] .carousel__container .carousel-control-prev:hover .iconify, [contact] .carousel__container .carousel-control-prev:hover .iconify, [myaccount] .carousel__container .carousel-control-prev:hover .iconify, [P404] .carousel__container .carousel-control-prev:hover .iconify, [compare] .carousel__container .carousel-control-prev:hover .iconify, [checkout] .carousel__container .carousel-control-prev:hover .iconify, [cart] .carousel__container .carousel-control-prev:hover .iconify,
 [index] .carousel__container .carousel-control-next:hover .iconify,
 [wishlist] .carousel__container .carousel-control-next:hover .iconify,
+[shop] .carousel__container .carousel-control-next:hover .iconify,
 [blog] .carousel__container .carousel-control-next:hover .iconify,
 [signing] .carousel__container .carousel-control-next:hover .iconify,
 [about] .carousel__container .carousel-control-next:hover .iconify,
@@ -767,15 +773,16 @@ body > .container {
 [cart] .carousel__container .carousel-control-next:hover .iconify {
   color: #a55eea;
 }
-[index] .container__carousel, [wishlist] .container__carousel, [blog] .container__carousel, [signing] .container__carousel, [about] .container__carousel, [contact] .container__carousel, [myaccount] .container__carousel, [P404] .container__carousel, [compare] .container__carousel, [checkout] .container__carousel, [cart] .container__carousel {
+[index] .container__carousel, [wishlist] .container__carousel, [shop] .container__carousel, [blog] .container__carousel, [signing] .container__carousel, [about] .container__carousel, [contact] .container__carousel, [myaccount] .container__carousel, [P404] .container__carousel, [compare] .container__carousel, [checkout] .container__carousel, [cart] .container__carousel {
   height: 100%;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr auto;
 }
-[index] .carousel__left, [wishlist] .carousel__left, [blog] .carousel__left, [signing] .carousel__left, [about] .carousel__left, [contact] .carousel__left, [myaccount] .carousel__left, [P404] .carousel__left, [compare] .carousel__left, [checkout] .carousel__left, [cart] .carousel__left,
+[index] .carousel__left, [wishlist] .carousel__left, [shop] .carousel__left, [blog] .carousel__left, [signing] .carousel__left, [about] .carousel__left, [contact] .carousel__left, [myaccount] .carousel__left, [P404] .carousel__left, [compare] .carousel__left, [checkout] .carousel__left, [cart] .carousel__left,
 [index] .carousel__right,
 [wishlist] .carousel__right,
+[shop] .carousel__right,
 [blog] .carousel__right,
 [signing] .carousel__right,
 [about] .carousel__right,
@@ -803,13 +810,13 @@ body > .container {
       -ms-flex-pack: center;
           justify-content: center;
 }
-[index] .carousel__left .display-2, [wishlist] .carousel__left .display-2, [blog] .carousel__left .display-2, [signing] .carousel__left .display-2, [about] .carousel__left .display-2, [contact] .carousel__left .display-2, [myaccount] .carousel__left .display-2, [P404] .carousel__left .display-2, [compare] .carousel__left .display-2, [checkout] .carousel__left .display-2, [cart] .carousel__left .display-2 {
+[index] .carousel__left .display-2, [wishlist] .carousel__left .display-2, [shop] .carousel__left .display-2, [blog] .carousel__left .display-2, [signing] .carousel__left .display-2, [about] .carousel__left .display-2, [contact] .carousel__left .display-2, [myaccount] .carousel__left .display-2, [P404] .carousel__left .display-2, [compare] .carousel__left .display-2, [checkout] .carousel__left .display-2, [cart] .carousel__left .display-2 {
   width: 70%;
 }
-[index] .carousel__left h4, [wishlist] .carousel__left h4, [blog] .carousel__left h4, [signing] .carousel__left h4, [about] .carousel__left h4, [contact] .carousel__left h4, [myaccount] .carousel__left h4, [P404] .carousel__left h4, [compare] .carousel__left h4, [checkout] .carousel__left h4, [cart] .carousel__left h4 {
+[index] .carousel__left h4, [wishlist] .carousel__left h4, [shop] .carousel__left h4, [blog] .carousel__left h4, [signing] .carousel__left h4, [about] .carousel__left h4, [contact] .carousel__left h4, [myaccount] .carousel__left h4, [P404] .carousel__left h4, [compare] .carousel__left h4, [checkout] .carousel__left h4, [cart] .carousel__left h4 {
   font-weight: 400;
 }
-[index] .carousel__left .btn, [wishlist] .carousel__left .btn, [blog] .carousel__left .btn, [signing] .carousel__left .btn, [about] .carousel__left .btn, [contact] .carousel__left .btn, [myaccount] .carousel__left .btn, [P404] .carousel__left .btn, [compare] .carousel__left .btn, [checkout] .carousel__left .btn, [cart] .carousel__left .btn {
+[index] .carousel__left .btn, [wishlist] .carousel__left .btn, [shop] .carousel__left .btn, [blog] .carousel__left .btn, [signing] .carousel__left .btn, [about] .carousel__left .btn, [contact] .carousel__left .btn, [myaccount] .carousel__left .btn, [P404] .carousel__left .btn, [compare] .carousel__left .btn, [checkout] .carousel__left .btn, [cart] .carousel__left .btn {
   width: 27%;
   padding: 0.8rem;
   text-transform: uppercase;
@@ -817,27 +824,27 @@ body > .container {
   color: rgba(0, 0, 0, 0.6);
   margin-top: 2rem;
 }
-[index] .carousel__left .btn:hover, [wishlist] .carousel__left .btn:hover, [blog] .carousel__left .btn:hover, [signing] .carousel__left .btn:hover, [about] .carousel__left .btn:hover, [contact] .carousel__left .btn:hover, [myaccount] .carousel__left .btn:hover, [P404] .carousel__left .btn:hover, [compare] .carousel__left .btn:hover, [checkout] .carousel__left .btn:hover, [cart] .carousel__left .btn:hover {
+[index] .carousel__left .btn:hover, [wishlist] .carousel__left .btn:hover, [shop] .carousel__left .btn:hover, [blog] .carousel__left .btn:hover, [signing] .carousel__left .btn:hover, [about] .carousel__left .btn:hover, [contact] .carousel__left .btn:hover, [myaccount] .carousel__left .btn:hover, [P404] .carousel__left .btn:hover, [compare] .carousel__left .btn:hover, [checkout] .carousel__left .btn:hover, [cart] .carousel__left .btn:hover {
   background-color: #a55eea;
   border-color: #a55eea;
   color: #ffffff;
 }
-[index] .carousel__left .btn:focus, [wishlist] .carousel__left .btn:focus, [blog] .carousel__left .btn:focus, [signing] .carousel__left .btn:focus, [about] .carousel__left .btn:focus, [contact] .carousel__left .btn:focus, [myaccount] .carousel__left .btn:focus, [P404] .carousel__left .btn:focus, [compare] .carousel__left .btn:focus, [checkout] .carousel__left .btn:focus, [cart] .carousel__left .btn:focus {
+[index] .carousel__left .btn:focus, [wishlist] .carousel__left .btn:focus, [shop] .carousel__left .btn:focus, [blog] .carousel__left .btn:focus, [signing] .carousel__left .btn:focus, [about] .carousel__left .btn:focus, [contact] .carousel__left .btn:focus, [myaccount] .carousel__left .btn:focus, [P404] .carousel__left .btn:focus, [compare] .carousel__left .btn:focus, [checkout] .carousel__left .btn:focus, [cart] .carousel__left .btn:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   outline: none;
 }
-[index] .category__cards, [wishlist] .category__cards, [blog] .category__cards, [signing] .category__cards, [about] .category__cards, [contact] .category__cards, [myaccount] .category__cards, [P404] .category__cards, [compare] .category__cards, [checkout] .category__cards, [cart] .category__cards {
+[index] .category__cards, [wishlist] .category__cards, [shop] .category__cards, [blog] .category__cards, [signing] .category__cards, [about] .category__cards, [contact] .category__cards, [myaccount] .category__cards, [P404] .category__cards, [compare] .category__cards, [checkout] .category__cards, [cart] .category__cards {
   padding: 0;
   width: 100%;
   margin-bottom: 7rem;
 }
-[index] .category__cards .container_row, [wishlist] .category__cards .container_row, [blog] .category__cards .container_row, [signing] .category__cards .container_row, [about] .category__cards .container_row, [contact] .category__cards .container_row, [myaccount] .category__cards .container_row, [P404] .category__cards .container_row, [compare] .category__cards .container_row, [checkout] .category__cards .container_row, [cart] .category__cards .container_row {
+[index] .category__cards .container_row, [wishlist] .category__cards .container_row, [shop] .category__cards .container_row, [blog] .category__cards .container_row, [signing] .category__cards .container_row, [about] .category__cards .container_row, [contact] .category__cards .container_row, [myaccount] .category__cards .container_row, [P404] .category__cards .container_row, [compare] .category__cards .container_row, [checkout] .category__cards .container_row, [cart] .category__cards .container_row {
   padding: 0;
   height: 15.625rem;
   gap: 2rem;
 }
-[index] .category__card, [wishlist] .category__card, [blog] .category__card, [signing] .category__card, [about] .category__card, [contact] .category__card, [myaccount] .category__card, [P404] .category__card, [compare] .category__card, [checkout] .category__card, [cart] .category__card {
+[index] .category__card, [wishlist] .category__card, [shop] .category__card, [blog] .category__card, [signing] .category__card, [about] .category__card, [contact] .category__card, [myaccount] .category__card, [P404] .category__card, [compare] .category__card, [checkout] .category__card, [cart] .category__card {
   padding: 0;
   height: 100%;
   width: 100%;
@@ -847,28 +854,28 @@ body > .container {
   overflow: hidden;
   cursor: pointer;
 }
-[index] .category__card:hover img, [wishlist] .category__card:hover img, [blog] .category__card:hover img, [signing] .category__card:hover img, [about] .category__card:hover img, [contact] .category__card:hover img, [myaccount] .category__card:hover img, [P404] .category__card:hover img, [compare] .category__card:hover img, [checkout] .category__card:hover img, [cart] .category__card:hover img {
+[index] .category__card:hover img, [wishlist] .category__card:hover img, [shop] .category__card:hover img, [blog] .category__card:hover img, [signing] .category__card:hover img, [about] .category__card:hover img, [contact] .category__card:hover img, [myaccount] .category__card:hover img, [P404] .category__card:hover img, [compare] .category__card:hover img, [checkout] .category__card:hover img, [cart] .category__card:hover img {
   -webkit-transform: scale(1.15);
      -moz-transform: scale(1.15);
       -ms-transform: scale(1.15);
        -o-transform: scale(1.15);
           transform: scale(1.15);
 }
-[index] .card_right, [wishlist] .card_right, [blog] .card_right, [signing] .card_right, [about] .card_right, [contact] .card_right, [myaccount] .card_right, [P404] .card_right, [compare] .card_right, [checkout] .card_right, [cart] .card_right {
+[index] .card_right, [wishlist] .card_right, [shop] .card_right, [blog] .card_right, [signing] .card_right, [about] .card_right, [contact] .card_right, [myaccount] .card_right, [P404] .card_right, [compare] .card_right, [checkout] .card_right, [cart] .card_right {
   height: 100%;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 2;
 }
-[index] .card_right img, [wishlist] .card_right img, [blog] .card_right img, [signing] .card_right img, [about] .card_right img, [contact] .card_right img, [myaccount] .card_right img, [P404] .card_right img, [compare] .card_right img, [checkout] .card_right img, [cart] .card_right img {
+[index] .card_right img, [wishlist] .card_right img, [shop] .card_right img, [blog] .card_right img, [signing] .card_right img, [about] .card_right img, [contact] .card_right img, [myaccount] .card_right img, [P404] .card_right img, [compare] .card_right img, [checkout] .card_right img, [cart] .card_right img {
   height: 100%;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-[index] .card_left, [wishlist] .card_left, [blog] .card_left, [signing] .card_left, [about] .card_left, [contact] .card_left, [myaccount] .card_left, [P404] .card_left, [compare] .card_left, [checkout] .card_left, [cart] .card_left {
+[index] .card_left, [wishlist] .card_left, [shop] .card_left, [blog] .card_left, [signing] .card_left, [about] .card_left, [contact] .card_left, [myaccount] .card_left, [P404] .card_left, [compare] .card_left, [checkout] .card_left, [cart] .card_left {
   height: 100%;
   width: 100%;
   padding-left: 1.75rem;
@@ -891,9 +898,10 @@ body > .container {
           justify-content: center;
   z-index: 3;
 }
-[index] .card_left h1, [wishlist] .card_left h1, [blog] .card_left h1, [signing] .card_left h1, [about] .card_left h1, [contact] .card_left h1, [myaccount] .card_left h1, [P404] .card_left h1, [compare] .card_left h1, [checkout] .card_left h1, [cart] .card_left h1,
+[index] .card_left h1, [wishlist] .card_left h1, [shop] .card_left h1, [blog] .card_left h1, [signing] .card_left h1, [about] .card_left h1, [contact] .card_left h1, [myaccount] .card_left h1, [P404] .card_left h1, [compare] .card_left h1, [checkout] .card_left h1, [cart] .card_left h1,
 [index] .card_left span,
 [wishlist] .card_left span,
+[shop] .card_left span,
 [blog] .card_left span,
 [signing] .card_left span,
 [about] .card_left span,
@@ -906,10 +914,10 @@ body > .container {
   color: darkolivegreen;
   font-weight: 400;
 }
-[index] .card_left p, [wishlist] .card_left p, [blog] .card_left p, [signing] .card_left p, [about] .card_left p, [contact] .card_left p, [myaccount] .card_left p, [P404] .card_left p, [compare] .card_left p, [checkout] .card_left p, [cart] .card_left p {
+[index] .card_left p, [wishlist] .card_left p, [shop] .card_left p, [blog] .card_left p, [signing] .card_left p, [about] .card_left p, [contact] .card_left p, [myaccount] .card_left p, [P404] .card_left p, [compare] .card_left p, [checkout] .card_left p, [cart] .card_left p {
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .card_left .circle, [wishlist] .card_left .circle, [blog] .card_left .circle, [signing] .card_left .circle, [about] .card_left .circle, [contact] .card_left .circle, [myaccount] .card_left .circle, [P404] .card_left .circle, [compare] .card_left .circle, [checkout] .card_left .circle, [cart] .card_left .circle {
+[index] .card_left .circle, [wishlist] .card_left .circle, [shop] .card_left .circle, [blog] .card_left .circle, [signing] .card_left .circle, [about] .card_left .circle, [contact] .card_left .circle, [myaccount] .card_left .circle, [P404] .card_left .circle, [compare] .card_left .circle, [checkout] .card_left .circle, [cart] .card_left .circle {
   height: 2rem;
   width: 2rem;
   -moz-border-radius: 100%;
@@ -932,21 +940,21 @@ body > .container {
   border: 0.125rem solid darkolivegreen;
   cursor: pointer;
 }
-[index] .card_left .circle .iconify, [wishlist] .card_left .circle .iconify, [blog] .card_left .circle .iconify, [signing] .card_left .circle .iconify, [about] .card_left .circle .iconify, [contact] .card_left .circle .iconify, [myaccount] .card_left .circle .iconify, [P404] .card_left .circle .iconify, [compare] .card_left .circle .iconify, [checkout] .card_left .circle .iconify, [cart] .card_left .circle .iconify {
+[index] .card_left .circle .iconify, [wishlist] .card_left .circle .iconify, [shop] .card_left .circle .iconify, [blog] .card_left .circle .iconify, [signing] .card_left .circle .iconify, [about] .card_left .circle .iconify, [contact] .card_left .circle .iconify, [myaccount] .card_left .circle .iconify, [P404] .card_left .circle .iconify, [compare] .card_left .circle .iconify, [checkout] .card_left .circle .iconify, [cart] .card_left .circle .iconify {
   height: 1.2rem;
   width: auto;
   color: darkolivegreen;
 }
-[index] .card_left .circle:hover, [wishlist] .card_left .circle:hover, [blog] .card_left .circle:hover, [signing] .card_left .circle:hover, [about] .card_left .circle:hover, [contact] .card_left .circle:hover, [myaccount] .card_left .circle:hover, [P404] .card_left .circle:hover, [compare] .card_left .circle:hover, [checkout] .card_left .circle:hover, [cart] .card_left .circle:hover {
+[index] .card_left .circle:hover, [wishlist] .card_left .circle:hover, [shop] .card_left .circle:hover, [blog] .card_left .circle:hover, [signing] .card_left .circle:hover, [about] .card_left .circle:hover, [contact] .card_left .circle:hover, [myaccount] .card_left .circle:hover, [P404] .card_left .circle:hover, [compare] .card_left .circle:hover, [checkout] .card_left .circle:hover, [cart] .card_left .circle:hover {
   opacity: 0.7;
 }
-[index] .daily__deals, [wishlist] .daily__deals, [blog] .daily__deals, [signing] .daily__deals, [about] .daily__deals, [contact] .daily__deals, [myaccount] .daily__deals, [P404] .daily__deals, [compare] .daily__deals, [checkout] .daily__deals, [cart] .daily__deals {
+[index] .daily__deals, [wishlist] .daily__deals, [shop] .daily__deals, [blog] .daily__deals, [signing] .daily__deals, [about] .daily__deals, [contact] .daily__deals, [myaccount] .daily__deals, [P404] .daily__deals, [compare] .daily__deals, [checkout] .daily__deals, [cart] .daily__deals {
   padding: 0;
 }
-[index] .daily__deals h1, [wishlist] .daily__deals h1, [blog] .daily__deals h1, [signing] .daily__deals h1, [about] .daily__deals h1, [contact] .daily__deals h1, [myaccount] .daily__deals h1, [P404] .daily__deals h1, [compare] .daily__deals h1, [checkout] .daily__deals h1, [cart] .daily__deals h1 {
+[index] .daily__deals h1, [wishlist] .daily__deals h1, [shop] .daily__deals h1, [blog] .daily__deals h1, [signing] .daily__deals h1, [about] .daily__deals h1, [contact] .daily__deals h1, [myaccount] .daily__deals h1, [P404] .daily__deals h1, [compare] .daily__deals h1, [checkout] .daily__deals h1, [cart] .daily__deals h1 {
   margin-bottom: 4rem;
 }
-[index] .daily__deals #pills-tab, [wishlist] .daily__deals #pills-tab, [blog] .daily__deals #pills-tab, [signing] .daily__deals #pills-tab, [about] .daily__deals #pills-tab, [contact] .daily__deals #pills-tab, [myaccount] .daily__deals #pills-tab, [P404] .daily__deals #pills-tab, [compare] .daily__deals #pills-tab, [checkout] .daily__deals #pills-tab, [cart] .daily__deals #pills-tab {
+[index] .daily__deals #pills-tab, [wishlist] .daily__deals #pills-tab, [shop] .daily__deals #pills-tab, [blog] .daily__deals #pills-tab, [signing] .daily__deals #pills-tab, [about] .daily__deals #pills-tab, [contact] .daily__deals #pills-tab, [myaccount] .daily__deals #pills-tab, [P404] .daily__deals #pills-tab, [compare] .daily__deals #pills-tab, [checkout] .daily__deals #pills-tab, [cart] .daily__deals #pills-tab {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -964,20 +972,20 @@ body > .container {
           justify-content: center;
   gap: 1rem;
 }
-[index] .daily__deals #pills-tab button, [wishlist] .daily__deals #pills-tab button, [blog] .daily__deals #pills-tab button, [signing] .daily__deals #pills-tab button, [about] .daily__deals #pills-tab button, [contact] .daily__deals #pills-tab button, [myaccount] .daily__deals #pills-tab button, [P404] .daily__deals #pills-tab button, [compare] .daily__deals #pills-tab button, [checkout] .daily__deals #pills-tab button, [cart] .daily__deals #pills-tab button {
+[index] .daily__deals #pills-tab button, [wishlist] .daily__deals #pills-tab button, [shop] .daily__deals #pills-tab button, [blog] .daily__deals #pills-tab button, [signing] .daily__deals #pills-tab button, [about] .daily__deals #pills-tab button, [contact] .daily__deals #pills-tab button, [myaccount] .daily__deals #pills-tab button, [P404] .daily__deals #pills-tab button, [compare] .daily__deals #pills-tab button, [checkout] .daily__deals #pills-tab button, [cart] .daily__deals #pills-tab button {
   text-transform: capitalize;
   background-color: transparent;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
 }
-[index] .daily__deals #pills-tab .active, [wishlist] .daily__deals #pills-tab .active, [blog] .daily__deals #pills-tab .active, [signing] .daily__deals #pills-tab .active, [about] .daily__deals #pills-tab .active, [contact] .daily__deals #pills-tab .active, [myaccount] .daily__deals #pills-tab .active, [P404] .daily__deals #pills-tab .active, [compare] .daily__deals #pills-tab .active, [checkout] .daily__deals #pills-tab .active, [cart] .daily__deals #pills-tab .active {
+[index] .daily__deals #pills-tab .active, [wishlist] .daily__deals #pills-tab .active, [shop] .daily__deals #pills-tab .active, [blog] .daily__deals #pills-tab .active, [signing] .daily__deals #pills-tab .active, [about] .daily__deals #pills-tab .active, [contact] .daily__deals #pills-tab .active, [myaccount] .daily__deals #pills-tab .active, [P404] .daily__deals #pills-tab .active, [compare] .daily__deals #pills-tab .active, [checkout] .daily__deals #pills-tab .active, [cart] .daily__deals #pills-tab .active {
   color: #a55eea;
 }
-[index] .daily__deals #pills-tabContent .tab-pane, [wishlist] .daily__deals #pills-tabContent .tab-pane, [blog] .daily__deals #pills-tabContent .tab-pane, [signing] .daily__deals #pills-tabContent .tab-pane, [about] .daily__deals #pills-tabContent .tab-pane, [contact] .daily__deals #pills-tabContent .tab-pane, [myaccount] .daily__deals #pills-tabContent .tab-pane, [P404] .daily__deals #pills-tabContent .tab-pane, [compare] .daily__deals #pills-tabContent .tab-pane, [checkout] .daily__deals #pills-tabContent .tab-pane, [cart] .daily__deals #pills-tabContent .tab-pane {
+[index] .daily__deals #pills-tabContent .tab-pane, [wishlist] .daily__deals #pills-tabContent .tab-pane, [shop] .daily__deals #pills-tabContent .tab-pane, [blog] .daily__deals #pills-tabContent .tab-pane, [signing] .daily__deals #pills-tabContent .tab-pane, [about] .daily__deals #pills-tabContent .tab-pane, [contact] .daily__deals #pills-tabContent .tab-pane, [myaccount] .daily__deals #pills-tabContent .tab-pane, [P404] .daily__deals #pills-tabContent .tab-pane, [compare] .daily__deals #pills-tabContent .tab-pane, [checkout] .daily__deals #pills-tabContent .tab-pane, [cart] .daily__deals #pills-tabContent .tab-pane {
   height: 100%;
   width: 100%;
 }
-[index] .title_line::before, [wishlist] .title_line::before, [blog] .title_line::before, [signing] .title_line::before, [about] .title_line::before, [contact] .title_line::before, [myaccount] .title_line::before, [P404] .title_line::before, [compare] .title_line::before, [checkout] .title_line::before, [cart] .title_line::before, [index] .title_line::after, [wishlist] .title_line::after, [blog] .title_line::after, [signing] .title_line::after, [about] .title_line::after, [contact] .title_line::after, [myaccount] .title_line::after, [P404] .title_line::after, [compare] .title_line::after, [checkout] .title_line::after, [cart] .title_line::after {
+[index] .title_line::before, [wishlist] .title_line::before, [shop] .title_line::before, [blog] .title_line::before, [signing] .title_line::before, [about] .title_line::before, [contact] .title_line::before, [myaccount] .title_line::before, [P404] .title_line::before, [compare] .title_line::before, [checkout] .title_line::before, [cart] .title_line::before, [index] .title_line::after, [wishlist] .title_line::after, [shop] .title_line::after, [blog] .title_line::after, [signing] .title_line::after, [about] .title_line::after, [contact] .title_line::after, [myaccount] .title_line::after, [P404] .title_line::after, [compare] .title_line::after, [checkout] .title_line::after, [cart] .title_line::after {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -992,32 +1000,33 @@ body > .container {
        border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
-[index] .title_line::before, [wishlist] .title_line::before, [blog] .title_line::before, [signing] .title_line::before, [about] .title_line::before, [contact] .title_line::before, [myaccount] .title_line::before, [P404] .title_line::before, [compare] .title_line::before, [checkout] .title_line::before, [cart] .title_line::before {
+[index] .title_line::before, [wishlist] .title_line::before, [shop] .title_line::before, [blog] .title_line::before, [signing] .title_line::before, [about] .title_line::before, [contact] .title_line::before, [myaccount] .title_line::before, [P404] .title_line::before, [compare] .title_line::before, [checkout] .title_line::before, [cart] .title_line::before {
   right: 107%;
 }
-[index] .title_line::after, [wishlist] .title_line::after, [blog] .title_line::after, [signing] .title_line::after, [about] .title_line::after, [contact] .title_line::after, [myaccount] .title_line::after, [P404] .title_line::after, [compare] .title_line::after, [checkout] .title_line::after, [cart] .title_line::after {
+[index] .title_line::after, [wishlist] .title_line::after, [shop] .title_line::after, [blog] .title_line::after, [signing] .title_line::after, [about] .title_line::after, [contact] .title_line::after, [myaccount] .title_line::after, [P404] .title_line::after, [compare] .title_line::after, [checkout] .title_line::after, [cart] .title_line::after {
   left: 107%;
 }
-[index] .card__container, [wishlist] .card__container, [blog] .card__container, [signing] .card__container, [about] .card__container, [contact] .card__container, [myaccount] .card__container, [P404] .card__container, [compare] .card__container, [checkout] .card__container, [cart] .card__container {
+[index] .card__container, [wishlist] .card__container, [shop] .card__container, [blog] .card__container, [signing] .card__container, [about] .card__container, [contact] .card__container, [myaccount] .card__container, [P404] .card__container, [compare] .card__container, [checkout] .card__container, [cart] .card__container {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
-[index] .card__container .card, [wishlist] .card__container .card, [blog] .card__container .card, [signing] .card__container .card, [about] .card__container .card, [contact] .card__container .card, [myaccount] .card__container .card, [P404] .card__container .card, [compare] .card__container .card, [checkout] .card__container .card, [cart] .card__container .card {
+[index] .card__container .card, [wishlist] .card__container .card, [shop] .card__container .card, [blog] .card__container .card, [signing] .card__container .card, [about] .card__container .card, [contact] .card__container .card, [myaccount] .card__container .card, [P404] .card__container .card, [compare] .card__container .card, [checkout] .card__container .card, [cart] .card__container .card {
   border: 0;
   background-color: transparent;
   -moz-border-radius: 0.8rem;
        border-radius: 0.8rem;
   overflow: hidden;
 }
-[index] .card__container .card .card__top, [wishlist] .card__container .card .card__top, [blog] .card__container .card .card__top, [signing] .card__container .card .card__top, [about] .card__container .card .card__top, [contact] .card__container .card .card__top, [myaccount] .card__container .card .card__top, [P404] .card__container .card .card__top, [compare] .card__container .card .card__top, [checkout] .card__container .card .card__top, [cart] .card__container .card .card__top {
+[index] .card__container .card .card__top, [wishlist] .card__container .card .card__top, [shop] .card__container .card .card__top, [blog] .card__container .card .card__top, [signing] .card__container .card .card__top, [about] .card__container .card .card__top, [contact] .card__container .card .card__top, [myaccount] .card__container .card .card__top, [P404] .card__container .card .card__top, [compare] .card__container .card .card__top, [checkout] .card__container .card .card__top, [cart] .card__container .card .card__top {
   background-color: #efefef;
   width: 100%;
   height: 21.875rem;
   cursor: pointer;
+  overflow: hidden;
 }
-[index] .card__container .card .card__top .tagbox, [wishlist] .card__container .card .card__top .tagbox, [blog] .card__container .card .card__top .tagbox, [signing] .card__container .card .card__top .tagbox, [about] .card__container .card .card__top .tagbox, [contact] .card__container .card .card__top .tagbox, [myaccount] .card__container .card .card__top .tagbox, [P404] .card__container .card .card__top .tagbox, [compare] .card__container .card .card__top .tagbox, [checkout] .card__container .card .card__top .tagbox, [cart] .card__container .card .card__top .tagbox {
+[index] .card__container .card .card__top .tagbox, [wishlist] .card__container .card .card__top .tagbox, [shop] .card__container .card .card__top .tagbox, [blog] .card__container .card .card__top .tagbox, [signing] .card__container .card .card__top .tagbox, [about] .card__container .card .card__top .tagbox, [contact] .card__container .card .card__top .tagbox, [myaccount] .card__container .card .card__top .tagbox, [P404] .card__container .card .card__top .tagbox, [compare] .card__container .card .card__top .tagbox, [checkout] .card__container .card .card__top .tagbox, [cart] .card__container .card .card__top .tagbox {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -1036,7 +1045,7 @@ body > .container {
   gap: 0.4rem;
   z-index: 5;
 }
-[index] .card__container .card .card__top .tag, [wishlist] .card__container .card .card__top .tag, [blog] .card__container .card .card__top .tag, [signing] .card__container .card .card__top .tag, [about] .card__container .card .card__top .tag, [contact] .card__container .card .card__top .tag, [myaccount] .card__container .card .card__top .tag, [P404] .card__container .card .card__top .tag, [compare] .card__container .card .card__top .tag, [checkout] .card__container .card .card__top .tag, [cart] .card__container .card .card__top .tag {
+[index] .card__container .card .card__top .tag, [wishlist] .card__container .card .card__top .tag, [shop] .card__container .card .card__top .tag, [blog] .card__container .card .card__top .tag, [signing] .card__container .card .card__top .tag, [about] .card__container .card .card__top .tag, [contact] .card__container .card .card__top .tag, [myaccount] .card__container .card .card__top .tag, [P404] .card__container .card .card__top .tag, [compare] .card__container .card .card__top .tag, [checkout] .card__container .card .card__top .tag, [cart] .card__container .card .card__top .tag {
   padding: 0.3rem 0.8rem;
   text-transform: capitalize;
   font-weight: 550;
@@ -1045,13 +1054,13 @@ body > .container {
   -moz-border-radius: 0.2rem;
        border-radius: 0.2rem;
 }
-[index] .card__container .card .card__top .tag1, [wishlist] .card__container .card .card__top .tag1, [blog] .card__container .card .card__top .tag1, [signing] .card__container .card .card__top .tag1, [about] .card__container .card .card__top .tag1, [contact] .card__container .card .card__top .tag1, [myaccount] .card__container .card .card__top .tag1, [P404] .card__container .card .card__top .tag1, [compare] .card__container .card .card__top .tag1, [checkout] .card__container .card .card__top .tag1, [cart] .card__container .card .card__top .tag1 {
+[index] .card__container .card .card__top .tag1, [wishlist] .card__container .card .card__top .tag1, [shop] .card__container .card .card__top .tag1, [blog] .card__container .card .card__top .tag1, [signing] .card__container .card .card__top .tag1, [about] .card__container .card .card__top .tag1, [contact] .card__container .card .card__top .tag1, [myaccount] .card__container .card .card__top .tag1, [P404] .card__container .card .card__top .tag1, [compare] .card__container .card .card__top .tag1, [checkout] .card__container .card .card__top .tag1, [cart] .card__container .card .card__top .tag1 {
   background-color: orchid;
 }
-[index] .card__container .card .card__top .tag2, [wishlist] .card__container .card .card__top .tag2, [blog] .card__container .card .card__top .tag2, [signing] .card__container .card .card__top .tag2, [about] .card__container .card .card__top .tag2, [contact] .card__container .card .card__top .tag2, [myaccount] .card__container .card .card__top .tag2, [P404] .card__container .card .card__top .tag2, [compare] .card__container .card .card__top .tag2, [checkout] .card__container .card .card__top .tag2, [cart] .card__container .card .card__top .tag2 {
+[index] .card__container .card .card__top .tag2, [wishlist] .card__container .card .card__top .tag2, [shop] .card__container .card .card__top .tag2, [blog] .card__container .card .card__top .tag2, [signing] .card__container .card .card__top .tag2, [about] .card__container .card .card__top .tag2, [contact] .card__container .card .card__top .tag2, [myaccount] .card__container .card .card__top .tag2, [P404] .card__container .card .card__top .tag2, [compare] .card__container .card .card__top .tag2, [checkout] .card__container .card .card__top .tag2, [cart] .card__container .card .card__top .tag2 {
   background-color: #a55eea;
 }
-[index] .card__container .card .card__top .imagebox, [wishlist] .card__container .card .card__top .imagebox, [blog] .card__container .card .card__top .imagebox, [signing] .card__container .card .card__top .imagebox, [about] .card__container .card .card__top .imagebox, [contact] .card__container .card .card__top .imagebox, [myaccount] .card__container .card .card__top .imagebox, [P404] .card__container .card .card__top .imagebox, [compare] .card__container .card .card__top .imagebox, [checkout] .card__container .card .card__top .imagebox, [cart] .card__container .card .card__top .imagebox {
+[index] .card__container .card .card__top .imagebox, [wishlist] .card__container .card .card__top .imagebox, [shop] .card__container .card .card__top .imagebox, [blog] .card__container .card .card__top .imagebox, [signing] .card__container .card .card__top .imagebox, [about] .card__container .card .card__top .imagebox, [contact] .card__container .card .card__top .imagebox, [myaccount] .card__container .card .card__top .imagebox, [P404] .card__container .card .card__top .imagebox, [compare] .card__container .card .card__top .imagebox, [checkout] .card__container .card .card__top .imagebox, [cart] .card__container .card .card__top .imagebox {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1059,7 +1068,7 @@ body > .container {
   left: 0;
   overflow: hidden;
 }
-[index] .card__container .card .card__top .imagebox img, [wishlist] .card__container .card .card__top .imagebox img, [blog] .card__container .card .card__top .imagebox img, [signing] .card__container .card .card__top .imagebox img, [about] .card__container .card .card__top .imagebox img, [contact] .card__container .card .card__top .imagebox img, [myaccount] .card__container .card .card__top .imagebox img, [P404] .card__container .card .card__top .imagebox img, [compare] .card__container .card .card__top .imagebox img, [checkout] .card__container .card .card__top .imagebox img, [cart] .card__container .card .card__top .imagebox img {
+[index] .card__container .card .card__top .imagebox img, [wishlist] .card__container .card .card__top .imagebox img, [shop] .card__container .card .card__top .imagebox img, [blog] .card__container .card .card__top .imagebox img, [signing] .card__container .card .card__top .imagebox img, [about] .card__container .card .card__top .imagebox img, [contact] .card__container .card .card__top .imagebox img, [myaccount] .card__container .card .card__top .imagebox img, [P404] .card__container .card .card__top .imagebox img, [compare] .card__container .card .card__top .imagebox img, [checkout] .card__container .card .card__top .imagebox img, [cart] .card__container .card .card__top .imagebox img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -1073,7 +1082,7 @@ body > .container {
   left: 0;
   z-index: 2;
 }
-[index] .card__container .card .card__top .imagebox .image2, [wishlist] .card__container .card .card__top .imagebox .image2, [blog] .card__container .card .card__top .imagebox .image2, [signing] .card__container .card .card__top .imagebox .image2, [about] .card__container .card .card__top .imagebox .image2, [contact] .card__container .card .card__top .imagebox .image2, [myaccount] .card__container .card .card__top .imagebox .image2, [P404] .card__container .card .card__top .imagebox .image2, [compare] .card__container .card .card__top .imagebox .image2, [checkout] .card__container .card .card__top .imagebox .image2, [cart] .card__container .card .card__top .imagebox .image2 {
+[index] .card__container .card .card__top .imagebox .image2, [wishlist] .card__container .card .card__top .imagebox .image2, [shop] .card__container .card .card__top .imagebox .image2, [blog] .card__container .card .card__top .imagebox .image2, [signing] .card__container .card .card__top .imagebox .image2, [about] .card__container .card .card__top .imagebox .image2, [contact] .card__container .card .card__top .imagebox .image2, [myaccount] .card__container .card .card__top .imagebox .image2, [P404] .card__container .card .card__top .imagebox .image2, [compare] .card__container .card .card__top .imagebox .image2, [checkout] .card__container .card .card__top .imagebox .image2, [cart] .card__container .card .card__top .imagebox .image2 {
   z-index: 1;
   -webkit-transform: translateY(2rem);
      -moz-transform: translateY(2rem);
@@ -1082,7 +1091,7 @@ body > .container {
           transform: translateY(2rem);
   opacity: 0;
 }
-[index] .card__container .card .card__top .imagebox:hover .image1, [wishlist] .card__container .card .card__top .imagebox:hover .image1, [blog] .card__container .card .card__top .imagebox:hover .image1, [signing] .card__container .card .card__top .imagebox:hover .image1, [about] .card__container .card .card__top .imagebox:hover .image1, [contact] .card__container .card .card__top .imagebox:hover .image1, [myaccount] .card__container .card .card__top .imagebox:hover .image1, [P404] .card__container .card .card__top .imagebox:hover .image1, [compare] .card__container .card .card__top .imagebox:hover .image1, [checkout] .card__container .card .card__top .imagebox:hover .image1, [cart] .card__container .card .card__top .imagebox:hover .image1 {
+[index] .card__container .card .card__top .imagebox:hover .image1, [wishlist] .card__container .card .card__top .imagebox:hover .image1, [shop] .card__container .card .card__top .imagebox:hover .image1, [blog] .card__container .card .card__top .imagebox:hover .image1, [signing] .card__container .card .card__top .imagebox:hover .image1, [about] .card__container .card .card__top .imagebox:hover .image1, [contact] .card__container .card .card__top .imagebox:hover .image1, [myaccount] .card__container .card .card__top .imagebox:hover .image1, [P404] .card__container .card .card__top .imagebox:hover .image1, [compare] .card__container .card .card__top .imagebox:hover .image1, [checkout] .card__container .card .card__top .imagebox:hover .image1, [cart] .card__container .card .card__top .imagebox:hover .image1 {
   opacity: 0;
   -webkit-transform: translateY(-2rem);
      -moz-transform: translateY(-2rem);
@@ -1090,7 +1099,7 @@ body > .container {
        -o-transform: translateY(-2rem);
           transform: translateY(-2rem);
 }
-[index] .card__container .card .card__top .imagebox:hover .image2, [wishlist] .card__container .card .card__top .imagebox:hover .image2, [blog] .card__container .card .card__top .imagebox:hover .image2, [signing] .card__container .card .card__top .imagebox:hover .image2, [about] .card__container .card .card__top .imagebox:hover .image2, [contact] .card__container .card .card__top .imagebox:hover .image2, [myaccount] .card__container .card .card__top .imagebox:hover .image2, [P404] .card__container .card .card__top .imagebox:hover .image2, [compare] .card__container .card .card__top .imagebox:hover .image2, [checkout] .card__container .card .card__top .imagebox:hover .image2, [cart] .card__container .card .card__top .imagebox:hover .image2 {
+[index] .card__container .card .card__top .imagebox:hover .image2, [wishlist] .card__container .card .card__top .imagebox:hover .image2, [shop] .card__container .card .card__top .imagebox:hover .image2, [blog] .card__container .card .card__top .imagebox:hover .image2, [signing] .card__container .card .card__top .imagebox:hover .image2, [about] .card__container .card .card__top .imagebox:hover .image2, [contact] .card__container .card .card__top .imagebox:hover .image2, [myaccount] .card__container .card .card__top .imagebox:hover .image2, [P404] .card__container .card .card__top .imagebox:hover .image2, [compare] .card__container .card .card__top .imagebox:hover .image2, [checkout] .card__container .card .card__top .imagebox:hover .image2, [cart] .card__container .card .card__top .imagebox:hover .image2 {
   -webkit-transform: none;
      -moz-transform: none;
       -ms-transform: none;
@@ -1098,7 +1107,158 @@ body > .container {
           transform: none;
   opacity: 1;
 }
-[index] .card__container .card .card__bottom, [wishlist] .card__container .card .card__bottom, [blog] .card__container .card .card__bottom, [signing] .card__container .card .card__bottom, [about] .card__container .card .card__bottom, [contact] .card__container .card .card__bottom, [myaccount] .card__container .card .card__bottom, [P404] .card__container .card .card__bottom, [compare] .card__container .card .card__bottom, [checkout] .card__container .card .card__bottom, [cart] .card__container .card .card__bottom {
+[index] .card__container .card .card__top .addbox, [wishlist] .card__container .card .card__top .addbox, [shop] .card__container .card .card__top .addbox, [blog] .card__container .card .card__top .addbox, [signing] .card__container .card .card__top .addbox, [about] .card__container .card .card__top .addbox, [contact] .card__container .card .card__top .addbox, [myaccount] .card__container .card .card__top .addbox, [P404] .card__container .card .card__top .addbox, [compare] .card__container .card .card__top .addbox, [checkout] .card__container .card .card__top .addbox, [cart] .card__container .card .card__top .addbox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  z-index: 10;
+}
+[index] .card__container .card .card__top .addbox *, [wishlist] .card__container .card .card__top .addbox *, [shop] .card__container .card .card__top .addbox *, [blog] .card__container .card .card__top .addbox *, [signing] .card__container .card .card__top .addbox *, [about] .card__container .card .card__top .addbox *, [contact] .card__container .card .card__top .addbox *, [myaccount] .card__container .card .card__top .addbox *, [P404] .card__container .card .card__top .addbox *, [compare] .card__container .card .card__top .addbox *, [checkout] .card__container .card .card__top .addbox *, [cart] .card__container .card .card__top .addbox * {
+  margin: 0;
+  padding: 0;
+}
+[index] .card__container .card .card__top .addbox .left_side, [wishlist] .card__container .card .card__top .addbox .left_side, [shop] .card__container .card .card__top .addbox .left_side, [blog] .card__container .card .card__top .addbox .left_side, [signing] .card__container .card .card__top .addbox .left_side, [about] .card__container .card .card__top .addbox .left_side, [contact] .card__container .card .card__top .addbox .left_side, [myaccount] .card__container .card .card__top .addbox .left_side, [P404] .card__container .card .card__top .addbox .left_side, [compare] .card__container .card .card__top .addbox .left_side, [checkout] .card__container .card .card__top .addbox .left_side, [cart] .card__container .card .card__top .addbox .left_side,
+[index] .card__container .card .card__top .addbox .right_side,
+[wishlist] .card__container .card .card__top .addbox .right_side,
+[shop] .card__container .card .card__top .addbox .right_side,
+[blog] .card__container .card .card__top .addbox .right_side,
+[signing] .card__container .card .card__top .addbox .right_side,
+[about] .card__container .card .card__top .addbox .right_side,
+[contact] .card__container .card .card__top .addbox .right_side,
+[myaccount] .card__container .card .card__top .addbox .right_side,
+[P404] .card__container .card .card__top .addbox .right_side,
+[compare] .card__container .card .card__top .addbox .right_side,
+[checkout] .card__container .card .card__top .addbox .right_side,
+[cart] .card__container .card .card__top .addbox .right_side {
+  top: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #a55eea;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  padding: 0.75rem 0.9rem;
+  opacity: 0;
+}
+[index] .card__container .card .card__top .addbox .left_side .iconify, [wishlist] .card__container .card .card__top .addbox .left_side .iconify, [shop] .card__container .card .card__top .addbox .left_side .iconify, [blog] .card__container .card .card__top .addbox .left_side .iconify, [signing] .card__container .card .card__top .addbox .left_side .iconify, [about] .card__container .card .card__top .addbox .left_side .iconify, [contact] .card__container .card .card__top .addbox .left_side .iconify, [myaccount] .card__container .card .card__top .addbox .left_side .iconify, [P404] .card__container .card .card__top .addbox .left_side .iconify, [compare] .card__container .card .card__top .addbox .left_side .iconify, [checkout] .card__container .card .card__top .addbox .left_side .iconify, [cart] .card__container .card .card__top .addbox .left_side .iconify,
+[index] .card__container .card .card__top .addbox .right_side .iconify,
+[wishlist] .card__container .card .card__top .addbox .right_side .iconify,
+[shop] .card__container .card .card__top .addbox .right_side .iconify,
+[blog] .card__container .card .card__top .addbox .right_side .iconify,
+[signing] .card__container .card .card__top .addbox .right_side .iconify,
+[about] .card__container .card .card__top .addbox .right_side .iconify,
+[contact] .card__container .card .card__top .addbox .right_side .iconify,
+[myaccount] .card__container .card .card__top .addbox .right_side .iconify,
+[P404] .card__container .card .card__top .addbox .right_side .iconify,
+[compare] .card__container .card .card__top .addbox .right_side .iconify,
+[checkout] .card__container .card .card__top .addbox .right_side .iconify,
+[cart] .card__container .card .card__top .addbox .right_side .iconify {
+  height: 1.2rem;
+  width: auto;
+  color: #ffffff;
+}
+[index] .card__container .card .card__top .addbox .left_side:hover, [wishlist] .card__container .card .card__top .addbox .left_side:hover, [shop] .card__container .card .card__top .addbox .left_side:hover, [blog] .card__container .card .card__top .addbox .left_side:hover, [signing] .card__container .card .card__top .addbox .left_side:hover, [about] .card__container .card .card__top .addbox .left_side:hover, [contact] .card__container .card .card__top .addbox .left_side:hover, [myaccount] .card__container .card .card__top .addbox .left_side:hover, [P404] .card__container .card .card__top .addbox .left_side:hover, [compare] .card__container .card .card__top .addbox .left_side:hover, [checkout] .card__container .card .card__top .addbox .left_side:hover, [cart] .card__container .card .card__top .addbox .left_side:hover,
+[index] .card__container .card .card__top .addbox .right_side:hover,
+[wishlist] .card__container .card .card__top .addbox .right_side:hover,
+[shop] .card__container .card .card__top .addbox .right_side:hover,
+[blog] .card__container .card .card__top .addbox .right_side:hover,
+[signing] .card__container .card .card__top .addbox .right_side:hover,
+[about] .card__container .card .card__top .addbox .right_side:hover,
+[contact] .card__container .card .card__top .addbox .right_side:hover,
+[myaccount] .card__container .card .card__top .addbox .right_side:hover,
+[P404] .card__container .card .card__top .addbox .right_side:hover,
+[compare] .card__container .card .card__top .addbox .right_side:hover,
+[checkout] .card__container .card .card__top .addbox .right_side:hover,
+[cart] .card__container .card .card__top .addbox .right_side:hover {
+  background-color: #151515;
+}
+[index] .card__container .card .card__top .addbox .middle_side, [wishlist] .card__container .card .card__top .addbox .middle_side, [shop] .card__container .card .card__top .addbox .middle_side, [blog] .card__container .card .card__top .addbox .middle_side, [signing] .card__container .card .card__top .addbox .middle_side, [about] .card__container .card .card__top .addbox .middle_side, [contact] .card__container .card .card__top .addbox .middle_side, [myaccount] .card__container .card .card__top .addbox .middle_side, [P404] .card__container .card .card__top .addbox .middle_side, [compare] .card__container .card .card__top .addbox .middle_side, [checkout] .card__container .card .card__top .addbox .middle_side, [cart] .card__container .card .card__top .addbox .middle_side {
+  top: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+  border-left: 0.08rem solid #ffffff;
+  border-right: 0.08rem solid #ffffff;
+  background-color: #a55eea;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+}
+[index] .card__container .card .card__top .addbox .middle_side .iconify, [wishlist] .card__container .card .card__top .addbox .middle_side .iconify, [shop] .card__container .card .card__top .addbox .middle_side .iconify, [blog] .card__container .card .card__top .addbox .middle_side .iconify, [signing] .card__container .card .card__top .addbox .middle_side .iconify, [about] .card__container .card .card__top .addbox .middle_side .iconify, [contact] .card__container .card .card__top .addbox .middle_side .iconify, [myaccount] .card__container .card .card__top .addbox .middle_side .iconify, [P404] .card__container .card .card__top .addbox .middle_side .iconify, [compare] .card__container .card .card__top .addbox .middle_side .iconify, [checkout] .card__container .card .card__top .addbox .middle_side .iconify, [cart] .card__container .card .card__top .addbox .middle_side .iconify {
+  height: 1.2rem;
+  width: auto;
+  color: #ffffff;
+}
+[index] .card__container .card .card__top .addbox .middle_side p, [wishlist] .card__container .card .card__top .addbox .middle_side p, [shop] .card__container .card .card__top .addbox .middle_side p, [blog] .card__container .card .card__top .addbox .middle_side p, [signing] .card__container .card .card__top .addbox .middle_side p, [about] .card__container .card .card__top .addbox .middle_side p, [contact] .card__container .card .card__top .addbox .middle_side p, [myaccount] .card__container .card .card__top .addbox .middle_side p, [P404] .card__container .card .card__top .addbox .middle_side p, [compare] .card__container .card .card__top .addbox .middle_side p, [checkout] .card__container .card .card__top .addbox .middle_side p, [cart] .card__container .card .card__top .addbox .middle_side p {
+  font-weight: 550;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 0.95rem;
+}
+[index] .card__container .card .card__top .addbox .middle_side:hover, [wishlist] .card__container .card .card__top .addbox .middle_side:hover, [shop] .card__container .card .card__top .addbox .middle_side:hover, [blog] .card__container .card .card__top .addbox .middle_side:hover, [signing] .card__container .card .card__top .addbox .middle_side:hover, [about] .card__container .card .card__top .addbox .middle_side:hover, [contact] .card__container .card .card__top .addbox .middle_side:hover, [myaccount] .card__container .card .card__top .addbox .middle_side:hover, [P404] .card__container .card .card__top .addbox .middle_side:hover, [compare] .card__container .card .card__top .addbox .middle_side:hover, [checkout] .card__container .card .card__top .addbox .middle_side:hover, [cart] .card__container .card .card__top .addbox .middle_side:hover {
+  background-color: #151515;
+}
+[index] .card__container .card .card__top:hover .addbox .left_side, [wishlist] .card__container .card .card__top:hover .addbox .left_side, [shop] .card__container .card .card__top:hover .addbox .left_side, [blog] .card__container .card .card__top:hover .addbox .left_side, [signing] .card__container .card .card__top:hover .addbox .left_side, [about] .card__container .card .card__top:hover .addbox .left_side, [contact] .card__container .card .card__top:hover .addbox .left_side, [myaccount] .card__container .card .card__top:hover .addbox .left_side, [P404] .card__container .card .card__top:hover .addbox .left_side, [compare] .card__container .card .card__top:hover .addbox .left_side, [checkout] .card__container .card .card__top:hover .addbox .left_side, [cart] .card__container .card .card__top:hover .addbox .left_side,
+[index] .card__container .card .card__top:hover .addbox .middle_side,
+[wishlist] .card__container .card .card__top:hover .addbox .middle_side,
+[shop] .card__container .card .card__top:hover .addbox .middle_side,
+[blog] .card__container .card .card__top:hover .addbox .middle_side,
+[signing] .card__container .card .card__top:hover .addbox .middle_side,
+[about] .card__container .card .card__top:hover .addbox .middle_side,
+[contact] .card__container .card .card__top:hover .addbox .middle_side,
+[myaccount] .card__container .card .card__top:hover .addbox .middle_side,
+[P404] .card__container .card .card__top:hover .addbox .middle_side,
+[compare] .card__container .card .card__top:hover .addbox .middle_side,
+[checkout] .card__container .card .card__top:hover .addbox .middle_side,
+[cart] .card__container .card .card__top:hover .addbox .middle_side,
+[index] .card__container .card .card__top:hover .addbox .right_side,
+[wishlist] .card__container .card .card__top:hover .addbox .right_side,
+[shop] .card__container .card .card__top:hover .addbox .right_side,
+[blog] .card__container .card .card__top:hover .addbox .right_side,
+[signing] .card__container .card .card__top:hover .addbox .right_side,
+[about] .card__container .card .card__top:hover .addbox .right_side,
+[contact] .card__container .card .card__top:hover .addbox .right_side,
+[myaccount] .card__container .card .card__top:hover .addbox .right_side,
+[P404] .card__container .card .card__top:hover .addbox .right_side,
+[compare] .card__container .card .card__top:hover .addbox .right_side,
+[checkout] .card__container .card .card__top:hover .addbox .right_side,
+[cart] .card__container .card .card__top:hover .addbox .right_side {
+  top: 0;
+  opacity: 1;
+}
+[index] .card__container .card .card__bottom, [wishlist] .card__container .card .card__bottom, [shop] .card__container .card .card__bottom, [blog] .card__container .card .card__bottom, [signing] .card__container .card .card__bottom, [about] .card__container .card .card__bottom, [contact] .card__container .card .card__bottom, [myaccount] .card__container .card .card__bottom, [P404] .card__container .card .card__bottom, [compare] .card__container .card .card__bottom, [checkout] .card__container .card .card__bottom, [cart] .card__container .card .card__bottom {
   padding: 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1115,31 +1275,31 @@ body > .container {
   gap: 0.75rem;
   background-color: #ffffff;
 }
-[index] .card__container .card .card__bottom .iconify, [wishlist] .card__container .card .card__bottom .iconify, [blog] .card__container .card .card__bottom .iconify, [signing] .card__container .card .card__bottom .iconify, [about] .card__container .card .card__bottom .iconify, [contact] .card__container .card .card__bottom .iconify, [myaccount] .card__container .card .card__bottom .iconify, [P404] .card__container .card .card__bottom .iconify, [compare] .card__container .card .card__bottom .iconify, [checkout] .card__container .card .card__bottom .iconify, [cart] .card__container .card .card__bottom .iconify {
+[index] .card__container .card .card__bottom .iconify, [wishlist] .card__container .card .card__bottom .iconify, [shop] .card__container .card .card__bottom .iconify, [blog] .card__container .card .card__bottom .iconify, [signing] .card__container .card .card__bottom .iconify, [about] .card__container .card .card__bottom .iconify, [contact] .card__container .card .card__bottom .iconify, [myaccount] .card__container .card .card__bottom .iconify, [P404] .card__container .card .card__bottom .iconify, [compare] .card__container .card .card__bottom .iconify, [checkout] .card__container .card .card__bottom .iconify, [cart] .card__container .card .card__bottom .iconify {
   height: 1.1rem;
   width: auto;
 }
-[index] .card__container .card .card__bottom .rated_star, [wishlist] .card__container .card .card__bottom .rated_star, [blog] .card__container .card .card__bottom .rated_star, [signing] .card__container .card .card__bottom .rated_star, [about] .card__container .card .card__bottom .rated_star, [contact] .card__container .card .card__bottom .rated_star, [myaccount] .card__container .card .card__bottom .rated_star, [P404] .card__container .card .card__bottom .rated_star, [compare] .card__container .card .card__bottom .rated_star, [checkout] .card__container .card .card__bottom .rated_star, [cart] .card__container .card .card__bottom .rated_star {
+[index] .card__container .card .card__bottom .rated_star, [wishlist] .card__container .card .card__bottom .rated_star, [shop] .card__container .card .card__bottom .rated_star, [blog] .card__container .card .card__bottom .rated_star, [signing] .card__container .card .card__bottom .rated_star, [about] .card__container .card .card__bottom .rated_star, [contact] .card__container .card .card__bottom .rated_star, [myaccount] .card__container .card .card__bottom .rated_star, [P404] .card__container .card .card__bottom .rated_star, [compare] .card__container .card .card__bottom .rated_star, [checkout] .card__container .card .card__bottom .rated_star, [cart] .card__container .card .card__bottom .rated_star {
   color: green;
 }
-[index] .card__container .card .card__bottom .title, [wishlist] .card__container .card .card__bottom .title, [blog] .card__container .card .card__bottom .title, [signing] .card__container .card .card__bottom .title, [about] .card__container .card .card__bottom .title, [contact] .card__container .card .card__bottom .title, [myaccount] .card__container .card .card__bottom .title, [P404] .card__container .card .card__bottom .title, [compare] .card__container .card .card__bottom .title, [checkout] .card__container .card .card__bottom .title, [cart] .card__container .card .card__bottom .title {
+[index] .card__container .card .card__bottom .title, [wishlist] .card__container .card .card__bottom .title, [shop] .card__container .card .card__bottom .title, [blog] .card__container .card .card__bottom .title, [signing] .card__container .card .card__bottom .title, [about] .card__container .card .card__bottom .title, [contact] .card__container .card .card__bottom .title, [myaccount] .card__container .card .card__bottom .title, [P404] .card__container .card .card__bottom .title, [compare] .card__container .card .card__bottom .title, [checkout] .card__container .card .card__bottom .title, [cart] .card__container .card .card__bottom .title {
   font-weight: 550;
   color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
 }
-[index] .card__container .card .card__bottom .title:hover, [wishlist] .card__container .card .card__bottom .title:hover, [blog] .card__container .card .card__bottom .title:hover, [signing] .card__container .card .card__bottom .title:hover, [about] .card__container .card .card__bottom .title:hover, [contact] .card__container .card .card__bottom .title:hover, [myaccount] .card__container .card .card__bottom .title:hover, [P404] .card__container .card .card__bottom .title:hover, [compare] .card__container .card .card__bottom .title:hover, [checkout] .card__container .card .card__bottom .title:hover, [cart] .card__container .card .card__bottom .title:hover {
+[index] .card__container .card .card__bottom .title:hover, [wishlist] .card__container .card .card__bottom .title:hover, [shop] .card__container .card .card__bottom .title:hover, [blog] .card__container .card .card__bottom .title:hover, [signing] .card__container .card .card__bottom .title:hover, [about] .card__container .card .card__bottom .title:hover, [contact] .card__container .card .card__bottom .title:hover, [myaccount] .card__container .card .card__bottom .title:hover, [P404] .card__container .card .card__bottom .title:hover, [compare] .card__container .card .card__bottom .title:hover, [checkout] .card__container .card .card__bottom .title:hover, [cart] .card__container .card .card__bottom .title:hover {
   color: #a55eea;
 }
-[index] .card__container .card .card__bottom .price_text, [wishlist] .card__container .card .card__bottom .price_text, [blog] .card__container .card .card__bottom .price_text, [signing] .card__container .card .card__bottom .price_text, [about] .card__container .card .card__bottom .price_text, [contact] .card__container .card .card__bottom .price_text, [myaccount] .card__container .card .card__bottom .price_text, [P404] .card__container .card .card__bottom .price_text, [compare] .card__container .card .card__bottom .price_text, [checkout] .card__container .card .card__bottom .price_text, [cart] .card__container .card .card__bottom .price_text {
+[index] .card__container .card .card__bottom .price_text, [wishlist] .card__container .card .card__bottom .price_text, [shop] .card__container .card .card__bottom .price_text, [blog] .card__container .card .card__bottom .price_text, [signing] .card__container .card .card__bottom .price_text, [about] .card__container .card .card__bottom .price_text, [contact] .card__container .card .card__bottom .price_text, [myaccount] .card__container .card .card__bottom .price_text, [P404] .card__container .card .card__bottom .price_text, [compare] .card__container .card .card__bottom .price_text, [checkout] .card__container .card .card__bottom .price_text, [cart] .card__container .card .card__bottom .price_text {
   color: rgba(0, 0, 0, 0.8);
   font-weight: 550;
 }
-[index] .card__container .card .card__bottom .price_text span, [wishlist] .card__container .card .card__bottom .price_text span, [blog] .card__container .card .card__bottom .price_text span, [signing] .card__container .card .card__bottom .price_text span, [about] .card__container .card .card__bottom .price_text span, [contact] .card__container .card .card__bottom .price_text span, [myaccount] .card__container .card .card__bottom .price_text span, [P404] .card__container .card .card__bottom .price_text span, [compare] .card__container .card .card__bottom .price_text span, [checkout] .card__container .card .card__bottom .price_text span, [cart] .card__container .card .card__bottom .price_text span {
+[index] .card__container .card .card__bottom .price_text span, [wishlist] .card__container .card .card__bottom .price_text span, [shop] .card__container .card .card__bottom .price_text span, [blog] .card__container .card .card__bottom .price_text span, [signing] .card__container .card .card__bottom .price_text span, [about] .card__container .card .card__bottom .price_text span, [contact] .card__container .card .card__bottom .price_text span, [myaccount] .card__container .card .card__bottom .price_text span, [P404] .card__container .card .card__bottom .price_text span, [compare] .card__container .card .card__bottom .price_text span, [checkout] .card__container .card .card__bottom .price_text span, [cart] .card__container .card .card__bottom .price_text span {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
   text-decoration: line-through;
 }
-[index] .service__cards, [wishlist] .service__cards, [blog] .service__cards, [signing] .service__cards, [about] .service__cards, [contact] .service__cards, [myaccount] .service__cards, [P404] .service__cards, [compare] .service__cards, [checkout] .service__cards, [cart] .service__cards {
+[index] .service__cards, [wishlist] .service__cards, [shop] .service__cards, [blog] .service__cards, [signing] .service__cards, [about] .service__cards, [contact] .service__cards, [myaccount] .service__cards, [P404] .service__cards, [compare] .service__cards, [checkout] .service__cards, [cart] .service__cards {
   height: 15.625rem;
   margin: 7rem 0;
   padding: 0;
@@ -1147,7 +1307,7 @@ body > .container {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-[index] .service__card, [wishlist] .service__card, [blog] .service__card, [signing] .service__card, [about] .service__card, [contact] .service__card, [myaccount] .service__card, [P404] .service__card, [compare] .service__card, [checkout] .service__card, [cart] .service__card {
+[index] .service__card, [wishlist] .service__card, [shop] .service__card, [blog] .service__card, [signing] .service__card, [about] .service__card, [contact] .service__card, [myaccount] .service__card, [P404] .service__card, [compare] .service__card, [checkout] .service__card, [cart] .service__card {
   -moz-border-radius: 0.9rem;
        border-radius: 0.9rem;
   border: 0.3125rem solid #ffffff;
@@ -1175,23 +1335,23 @@ body > .container {
           justify-content: center;
   gap: 1rem;
 }
-[index] .service__card *, [wishlist] .service__card *, [blog] .service__card *, [signing] .service__card *, [about] .service__card *, [contact] .service__card *, [myaccount] .service__card *, [P404] .service__card *, [compare] .service__card *, [checkout] .service__card *, [cart] .service__card * {
+[index] .service__card *, [wishlist] .service__card *, [shop] .service__card *, [blog] .service__card *, [signing] .service__card *, [about] .service__card *, [contact] .service__card *, [myaccount] .service__card *, [P404] .service__card *, [compare] .service__card *, [checkout] .service__card *, [cart] .service__card * {
   padding: 0;
   margin: 0;
   text-transform: capitalize;
 }
-[index] .service__card .iconify, [wishlist] .service__card .iconify, [blog] .service__card .iconify, [signing] .service__card .iconify, [about] .service__card .iconify, [contact] .service__card .iconify, [myaccount] .service__card .iconify, [P404] .service__card .iconify, [compare] .service__card .iconify, [checkout] .service__card .iconify, [cart] .service__card .iconify {
+[index] .service__card .iconify, [wishlist] .service__card .iconify, [shop] .service__card .iconify, [blog] .service__card .iconify, [signing] .service__card .iconify, [about] .service__card .iconify, [contact] .service__card .iconify, [myaccount] .service__card .iconify, [P404] .service__card .iconify, [compare] .service__card .iconify, [checkout] .service__card .iconify, [cart] .service__card .iconify {
   height: 3rem;
   width: auto;
   color: rgba(0, 0, 0, 0.7);
 }
-[index] .service__card p, [wishlist] .service__card p, [blog] .service__card p, [signing] .service__card p, [about] .service__card p, [contact] .service__card p, [myaccount] .service__card p, [P404] .service__card p, [compare] .service__card p, [checkout] .service__card p, [cart] .service__card p {
+[index] .service__card p, [wishlist] .service__card p, [shop] .service__card p, [blog] .service__card p, [signing] .service__card p, [about] .service__card p, [contact] .service__card p, [myaccount] .service__card p, [P404] .service__card p, [compare] .service__card p, [checkout] .service__card p, [cart] .service__card p {
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .service__card h4, [wishlist] .service__card h4, [blog] .service__card h4, [signing] .service__card h4, [about] .service__card h4, [contact] .service__card h4, [myaccount] .service__card h4, [P404] .service__card h4, [compare] .service__card h4, [checkout] .service__card h4, [cart] .service__card h4 {
+[index] .service__card h4, [wishlist] .service__card h4, [shop] .service__card h4, [blog] .service__card h4, [signing] .service__card h4, [about] .service__card h4, [contact] .service__card h4, [myaccount] .service__card h4, [P404] .service__card h4, [compare] .service__card h4, [checkout] .service__card h4, [cart] .service__card h4 {
   color: rgba(0, 0, 0, 0.7);
 }
-[index] .service__card:hover .iconify, [wishlist] .service__card:hover .iconify, [blog] .service__card:hover .iconify, [signing] .service__card:hover .iconify, [about] .service__card:hover .iconify, [contact] .service__card:hover .iconify, [myaccount] .service__card:hover .iconify, [P404] .service__card:hover .iconify, [compare] .service__card:hover .iconify, [checkout] .service__card:hover .iconify, [cart] .service__card:hover .iconify {
+[index] .service__card:hover .iconify, [wishlist] .service__card:hover .iconify, [shop] .service__card:hover .iconify, [blog] .service__card:hover .iconify, [signing] .service__card:hover .iconify, [about] .service__card:hover .iconify, [contact] .service__card:hover .iconify, [myaccount] .service__card:hover .iconify, [P404] .service__card:hover .iconify, [compare] .service__card:hover .iconify, [checkout] .service__card:hover .iconify, [cart] .service__card:hover .iconify {
   -webkit-animation: serviceAnim 0.3s forwards;
      -moz-animation: serviceAnim 0.3s forwards;
           animation: serviceAnim 0.3s forwards;
@@ -1272,7 +1432,7 @@ body > .container {
             transform: scale(1.1) rotate(-10deg);
   }
 }
-[index] .subscribe, [wishlist] .subscribe, [blog] .subscribe, [signing] .subscribe, [about] .subscribe, [contact] .subscribe, [myaccount] .subscribe, [P404] .subscribe, [compare] .subscribe, [checkout] .subscribe, [cart] .subscribe {
+[index] .subscribe, [wishlist] .subscribe, [shop] .subscribe, [blog] .subscribe, [signing] .subscribe, [about] .subscribe, [contact] .subscribe, [myaccount] .subscribe, [P404] .subscribe, [compare] .subscribe, [checkout] .subscribe, [cart] .subscribe {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1300,7 +1460,7 @@ body > .container {
   text-transform: capitalize;
   margin-bottom: 7rem;
 }
-[index] .subscribe .emailbox, [wishlist] .subscribe .emailbox, [blog] .subscribe .emailbox, [signing] .subscribe .emailbox, [about] .subscribe .emailbox, [contact] .subscribe .emailbox, [myaccount] .subscribe .emailbox, [P404] .subscribe .emailbox, [compare] .subscribe .emailbox, [checkout] .subscribe .emailbox, [cart] .subscribe .emailbox {
+[index] .subscribe .emailbox, [wishlist] .subscribe .emailbox, [shop] .subscribe .emailbox, [blog] .subscribe .emailbox, [signing] .subscribe .emailbox, [about] .subscribe .emailbox, [contact] .subscribe .emailbox, [myaccount] .subscribe .emailbox, [P404] .subscribe .emailbox, [compare] .subscribe .emailbox, [checkout] .subscribe .emailbox, [cart] .subscribe .emailbox {
   height: 3rem;
   width: 600px;
   background-color: transparent;
@@ -1315,55 +1475,55 @@ body > .container {
   -moz-border-radius: 0.75rem;
        border-radius: 0.75rem;
 }
-[index] .subscribe .emailbox #email, [wishlist] .subscribe .emailbox #email, [blog] .subscribe .emailbox #email, [signing] .subscribe .emailbox #email, [about] .subscribe .emailbox #email, [contact] .subscribe .emailbox #email, [myaccount] .subscribe .emailbox #email, [P404] .subscribe .emailbox #email, [compare] .subscribe .emailbox #email, [checkout] .subscribe .emailbox #email, [cart] .subscribe .emailbox #email {
+[index] .subscribe .emailbox #email, [wishlist] .subscribe .emailbox #email, [shop] .subscribe .emailbox #email, [blog] .subscribe .emailbox #email, [signing] .subscribe .emailbox #email, [about] .subscribe .emailbox #email, [contact] .subscribe .emailbox #email, [myaccount] .subscribe .emailbox #email, [P404] .subscribe .emailbox #email, [compare] .subscribe .emailbox #email, [checkout] .subscribe .emailbox #email, [cart] .subscribe .emailbox #email {
   padding: 0 0.75rem;
   color: rgba(0, 0, 0, 0.8);
   font-weight: 550;
   text-transform: lowercase;
 }
-[index] .subscribe .emailbox #email::-webkit-input-placeholder, [wishlist] .subscribe .emailbox #email::-webkit-input-placeholder, [blog] .subscribe .emailbox #email::-webkit-input-placeholder, [signing] .subscribe .emailbox #email::-webkit-input-placeholder, [about] .subscribe .emailbox #email::-webkit-input-placeholder, [contact] .subscribe .emailbox #email::-webkit-input-placeholder, [myaccount] .subscribe .emailbox #email::-webkit-input-placeholder, [P404] .subscribe .emailbox #email::-webkit-input-placeholder, [compare] .subscribe .emailbox #email::-webkit-input-placeholder, [checkout] .subscribe .emailbox #email::-webkit-input-placeholder, [cart] .subscribe .emailbox #email::-webkit-input-placeholder {
+[index] .subscribe .emailbox #email::-webkit-input-placeholder, [wishlist] .subscribe .emailbox #email::-webkit-input-placeholder, [shop] .subscribe .emailbox #email::-webkit-input-placeholder, [blog] .subscribe .emailbox #email::-webkit-input-placeholder, [signing] .subscribe .emailbox #email::-webkit-input-placeholder, [about] .subscribe .emailbox #email::-webkit-input-placeholder, [contact] .subscribe .emailbox #email::-webkit-input-placeholder, [myaccount] .subscribe .emailbox #email::-webkit-input-placeholder, [P404] .subscribe .emailbox #email::-webkit-input-placeholder, [compare] .subscribe .emailbox #email::-webkit-input-placeholder, [checkout] .subscribe .emailbox #email::-webkit-input-placeholder, [cart] .subscribe .emailbox #email::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   font-weight: 400;
 }
-[index] .subscribe .emailbox #email::-moz-placeholder, [wishlist] .subscribe .emailbox #email::-moz-placeholder, [blog] .subscribe .emailbox #email::-moz-placeholder, [signing] .subscribe .emailbox #email::-moz-placeholder, [about] .subscribe .emailbox #email::-moz-placeholder, [contact] .subscribe .emailbox #email::-moz-placeholder, [myaccount] .subscribe .emailbox #email::-moz-placeholder, [P404] .subscribe .emailbox #email::-moz-placeholder, [compare] .subscribe .emailbox #email::-moz-placeholder, [checkout] .subscribe .emailbox #email::-moz-placeholder, [cart] .subscribe .emailbox #email::-moz-placeholder {
+[index] .subscribe .emailbox #email::-moz-placeholder, [wishlist] .subscribe .emailbox #email::-moz-placeholder, [shop] .subscribe .emailbox #email::-moz-placeholder, [blog] .subscribe .emailbox #email::-moz-placeholder, [signing] .subscribe .emailbox #email::-moz-placeholder, [about] .subscribe .emailbox #email::-moz-placeholder, [contact] .subscribe .emailbox #email::-moz-placeholder, [myaccount] .subscribe .emailbox #email::-moz-placeholder, [P404] .subscribe .emailbox #email::-moz-placeholder, [compare] .subscribe .emailbox #email::-moz-placeholder, [checkout] .subscribe .emailbox #email::-moz-placeholder, [cart] .subscribe .emailbox #email::-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   font-weight: 400;
 }
-[index] .subscribe .emailbox #email:-ms-input-placeholder, [wishlist] .subscribe .emailbox #email:-ms-input-placeholder, [blog] .subscribe .emailbox #email:-ms-input-placeholder, [signing] .subscribe .emailbox #email:-ms-input-placeholder, [about] .subscribe .emailbox #email:-ms-input-placeholder, [contact] .subscribe .emailbox #email:-ms-input-placeholder, [myaccount] .subscribe .emailbox #email:-ms-input-placeholder, [P404] .subscribe .emailbox #email:-ms-input-placeholder, [compare] .subscribe .emailbox #email:-ms-input-placeholder, [checkout] .subscribe .emailbox #email:-ms-input-placeholder, [cart] .subscribe .emailbox #email:-ms-input-placeholder {
+[index] .subscribe .emailbox #email:-ms-input-placeholder, [wishlist] .subscribe .emailbox #email:-ms-input-placeholder, [shop] .subscribe .emailbox #email:-ms-input-placeholder, [blog] .subscribe .emailbox #email:-ms-input-placeholder, [signing] .subscribe .emailbox #email:-ms-input-placeholder, [about] .subscribe .emailbox #email:-ms-input-placeholder, [contact] .subscribe .emailbox #email:-ms-input-placeholder, [myaccount] .subscribe .emailbox #email:-ms-input-placeholder, [P404] .subscribe .emailbox #email:-ms-input-placeholder, [compare] .subscribe .emailbox #email:-ms-input-placeholder, [checkout] .subscribe .emailbox #email:-ms-input-placeholder, [cart] .subscribe .emailbox #email:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   font-weight: 400;
 }
-[index] .subscribe .emailbox #email::-ms-input-placeholder, [wishlist] .subscribe .emailbox #email::-ms-input-placeholder, [blog] .subscribe .emailbox #email::-ms-input-placeholder, [signing] .subscribe .emailbox #email::-ms-input-placeholder, [about] .subscribe .emailbox #email::-ms-input-placeholder, [contact] .subscribe .emailbox #email::-ms-input-placeholder, [myaccount] .subscribe .emailbox #email::-ms-input-placeholder, [P404] .subscribe .emailbox #email::-ms-input-placeholder, [compare] .subscribe .emailbox #email::-ms-input-placeholder, [checkout] .subscribe .emailbox #email::-ms-input-placeholder, [cart] .subscribe .emailbox #email::-ms-input-placeholder {
+[index] .subscribe .emailbox #email::-ms-input-placeholder, [wishlist] .subscribe .emailbox #email::-ms-input-placeholder, [shop] .subscribe .emailbox #email::-ms-input-placeholder, [blog] .subscribe .emailbox #email::-ms-input-placeholder, [signing] .subscribe .emailbox #email::-ms-input-placeholder, [about] .subscribe .emailbox #email::-ms-input-placeholder, [contact] .subscribe .emailbox #email::-ms-input-placeholder, [myaccount] .subscribe .emailbox #email::-ms-input-placeholder, [P404] .subscribe .emailbox #email::-ms-input-placeholder, [compare] .subscribe .emailbox #email::-ms-input-placeholder, [checkout] .subscribe .emailbox #email::-ms-input-placeholder, [cart] .subscribe .emailbox #email::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   font-weight: 400;
 }
-[index] .subscribe .emailbox #email::placeholder, [wishlist] .subscribe .emailbox #email::placeholder, [blog] .subscribe .emailbox #email::placeholder, [signing] .subscribe .emailbox #email::placeholder, [about] .subscribe .emailbox #email::placeholder, [contact] .subscribe .emailbox #email::placeholder, [myaccount] .subscribe .emailbox #email::placeholder, [P404] .subscribe .emailbox #email::placeholder, [compare] .subscribe .emailbox #email::placeholder, [checkout] .subscribe .emailbox #email::placeholder, [cart] .subscribe .emailbox #email::placeholder {
+[index] .subscribe .emailbox #email::placeholder, [wishlist] .subscribe .emailbox #email::placeholder, [shop] .subscribe .emailbox #email::placeholder, [blog] .subscribe .emailbox #email::placeholder, [signing] .subscribe .emailbox #email::placeholder, [about] .subscribe .emailbox #email::placeholder, [contact] .subscribe .emailbox #email::placeholder, [myaccount] .subscribe .emailbox #email::placeholder, [P404] .subscribe .emailbox #email::placeholder, [compare] .subscribe .emailbox #email::placeholder, [checkout] .subscribe .emailbox #email::placeholder, [cart] .subscribe .emailbox #email::placeholder {
   color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
   font-weight: 400;
 }
-[index] .subscribe .emailbox .iconify, [wishlist] .subscribe .emailbox .iconify, [blog] .subscribe .emailbox .iconify, [signing] .subscribe .emailbox .iconify, [about] .subscribe .emailbox .iconify, [contact] .subscribe .emailbox .iconify, [myaccount] .subscribe .emailbox .iconify, [P404] .subscribe .emailbox .iconify, [compare] .subscribe .emailbox .iconify, [checkout] .subscribe .emailbox .iconify, [cart] .subscribe .emailbox .iconify {
+[index] .subscribe .emailbox .iconify, [wishlist] .subscribe .emailbox .iconify, [shop] .subscribe .emailbox .iconify, [blog] .subscribe .emailbox .iconify, [signing] .subscribe .emailbox .iconify, [about] .subscribe .emailbox .iconify, [contact] .subscribe .emailbox .iconify, [myaccount] .subscribe .emailbox .iconify, [P404] .subscribe .emailbox .iconify, [compare] .subscribe .emailbox .iconify, [checkout] .subscribe .emailbox .iconify, [cart] .subscribe .emailbox .iconify {
   height: 1.75rem;
   width: auto;
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .subscribe .emailbox .iconify:hover, [wishlist] .subscribe .emailbox .iconify:hover, [blog] .subscribe .emailbox .iconify:hover, [signing] .subscribe .emailbox .iconify:hover, [about] .subscribe .emailbox .iconify:hover, [contact] .subscribe .emailbox .iconify:hover, [myaccount] .subscribe .emailbox .iconify:hover, [P404] .subscribe .emailbox .iconify:hover, [compare] .subscribe .emailbox .iconify:hover, [checkout] .subscribe .emailbox .iconify:hover, [cart] .subscribe .emailbox .iconify:hover {
+[index] .subscribe .emailbox .iconify:hover, [wishlist] .subscribe .emailbox .iconify:hover, [shop] .subscribe .emailbox .iconify:hover, [blog] .subscribe .emailbox .iconify:hover, [signing] .subscribe .emailbox .iconify:hover, [about] .subscribe .emailbox .iconify:hover, [contact] .subscribe .emailbox .iconify:hover, [myaccount] .subscribe .emailbox .iconify:hover, [P404] .subscribe .emailbox .iconify:hover, [compare] .subscribe .emailbox .iconify:hover, [checkout] .subscribe .emailbox .iconify:hover, [cart] .subscribe .emailbox .iconify:hover {
   color: #a55eea;
 }
-[index] .footer1, [wishlist] .footer1, [blog] .footer1, [signing] .footer1, [about] .footer1, [contact] .footer1, [myaccount] .footer1, [P404] .footer1, [compare] .footer1, [checkout] .footer1, [cart] .footer1 {
+[index] .footer1, [wishlist] .footer1, [shop] .footer1, [blog] .footer1, [signing] .footer1, [about] .footer1, [contact] .footer1, [myaccount] .footer1, [P404] .footer1, [compare] .footer1, [checkout] .footer1, [cart] .footer1 {
   padding: 6rem 0;
   background-color: #f0f0f0;
 }
-[index] .footer__container, [wishlist] .footer__container, [blog] .footer__container, [signing] .footer__container, [about] .footer__container, [contact] .footer__container, [myaccount] .footer__container, [P404] .footer__container, [compare] .footer__container, [checkout] .footer__container, [cart] .footer__container {
+[index] .footer__container, [wishlist] .footer__container, [shop] .footer__container, [blog] .footer__container, [signing] .footer__container, [about] .footer__container, [contact] .footer__container, [myaccount] .footer__container, [P404] .footer__container, [compare] .footer__container, [checkout] .footer__container, [cart] .footer__container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 2rem;
 }
-[index] .footer1__box, [wishlist] .footer1__box, [blog] .footer1__box, [signing] .footer1__box, [about] .footer1__box, [contact] .footer1__box, [myaccount] .footer1__box, [P404] .footer1__box, [compare] .footer1__box, [checkout] .footer1__box, [cart] .footer1__box {
+[index] .footer1__box, [wishlist] .footer1__box, [shop] .footer1__box, [blog] .footer1__box, [signing] .footer1__box, [about] .footer1__box, [contact] .footer1__box, [myaccount] .footer1__box, [P404] .footer1__box, [compare] .footer1__box, [checkout] .footer1__box, [cart] .footer1__box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1389,39 +1549,39 @@ body > .container {
   text-transform: capitalize;
   gap: 0.75rem;
 }
-[index] .footer1__box *, [wishlist] .footer1__box *, [blog] .footer1__box *, [signing] .footer1__box *, [about] .footer1__box *, [contact] .footer1__box *, [myaccount] .footer1__box *, [P404] .footer1__box *, [compare] .footer1__box *, [checkout] .footer1__box *, [cart] .footer1__box * {
+[index] .footer1__box *, [wishlist] .footer1__box *, [shop] .footer1__box *, [blog] .footer1__box *, [signing] .footer1__box *, [about] .footer1__box *, [contact] .footer1__box *, [myaccount] .footer1__box *, [P404] .footer1__box *, [compare] .footer1__box *, [checkout] .footer1__box *, [cart] .footer1__box * {
   padding: 0;
   margin: 0;
 }
-[index] .footer1__box .brand__name, [wishlist] .footer1__box .brand__name, [blog] .footer1__box .brand__name, [signing] .footer1__box .brand__name, [about] .footer1__box .brand__name, [contact] .footer1__box .brand__name, [myaccount] .footer1__box .brand__name, [P404] .footer1__box .brand__name, [compare] .footer1__box .brand__name, [checkout] .footer1__box .brand__name, [cart] .footer1__box .brand__name {
+[index] .footer1__box .brand__name, [wishlist] .footer1__box .brand__name, [shop] .footer1__box .brand__name, [blog] .footer1__box .brand__name, [signing] .footer1__box .brand__name, [about] .footer1__box .brand__name, [contact] .footer1__box .brand__name, [myaccount] .footer1__box .brand__name, [P404] .footer1__box .brand__name, [compare] .footer1__box .brand__name, [checkout] .footer1__box .brand__name, [cart] .footer1__box .brand__name {
   display: inline-block;
   font-size: 2rem;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.8);
 }
-[index] .footer1__box .brand__name:hover, [wishlist] .footer1__box .brand__name:hover, [blog] .footer1__box .brand__name:hover, [signing] .footer1__box .brand__name:hover, [about] .footer1__box .brand__name:hover, [contact] .footer1__box .brand__name:hover, [myaccount] .footer1__box .brand__name:hover, [P404] .footer1__box .brand__name:hover, [compare] .footer1__box .brand__name:hover, [checkout] .footer1__box .brand__name:hover, [cart] .footer1__box .brand__name:hover {
+[index] .footer1__box .brand__name:hover, [wishlist] .footer1__box .brand__name:hover, [shop] .footer1__box .brand__name:hover, [blog] .footer1__box .brand__name:hover, [signing] .footer1__box .brand__name:hover, [about] .footer1__box .brand__name:hover, [contact] .footer1__box .brand__name:hover, [myaccount] .footer1__box .brand__name:hover, [P404] .footer1__box .brand__name:hover, [compare] .footer1__box .brand__name:hover, [checkout] .footer1__box .brand__name:hover, [cart] .footer1__box .brand__name:hover {
   color: #a55eea;
 }
-[index] .footer1__box .brand__title, [wishlist] .footer1__box .brand__title, [blog] .footer1__box .brand__title, [signing] .footer1__box .brand__title, [about] .footer1__box .brand__title, [contact] .footer1__box .brand__title, [myaccount] .footer1__box .brand__title, [P404] .footer1__box .brand__title, [compare] .footer1__box .brand__title, [checkout] .footer1__box .brand__title, [cart] .footer1__box .brand__title {
+[index] .footer1__box .brand__title, [wishlist] .footer1__box .brand__title, [shop] .footer1__box .brand__title, [blog] .footer1__box .brand__title, [signing] .footer1__box .brand__title, [about] .footer1__box .brand__title, [contact] .footer1__box .brand__title, [myaccount] .footer1__box .brand__title, [P404] .footer1__box .brand__title, [compare] .footer1__box .brand__title, [checkout] .footer1__box .brand__title, [cart] .footer1__box .brand__title {
   font-weight: 550;
   color: rgba(0, 0, 0, 0.7);
 }
-[index] .footer1__box .footer__title, [wishlist] .footer1__box .footer__title, [blog] .footer1__box .footer__title, [signing] .footer1__box .footer__title, [about] .footer1__box .footer__title, [contact] .footer1__box .footer__title, [myaccount] .footer1__box .footer__title, [P404] .footer1__box .footer__title, [compare] .footer1__box .footer__title, [checkout] .footer1__box .footer__title, [cart] .footer1__box .footer__title {
+[index] .footer1__box .footer__title, [wishlist] .footer1__box .footer__title, [shop] .footer1__box .footer__title, [blog] .footer1__box .footer__title, [signing] .footer1__box .footer__title, [about] .footer1__box .footer__title, [contact] .footer1__box .footer__title, [myaccount] .footer1__box .footer__title, [P404] .footer1__box .footer__title, [compare] .footer1__box .footer__title, [checkout] .footer1__box .footer__title, [cart] .footer1__box .footer__title {
   text-transform: uppercase;
   font-weight: 550;
   color: rgba(0, 0, 0, 0.7);
   margin-bottom: 0.5rem;
 }
-[index] .footer1__box a, [wishlist] .footer1__box a, [blog] .footer1__box a, [signing] .footer1__box a, [about] .footer1__box a, [contact] .footer1__box a, [myaccount] .footer1__box a, [P404] .footer1__box a, [compare] .footer1__box a, [checkout] .footer1__box a, [cart] .footer1__box a {
+[index] .footer1__box a, [wishlist] .footer1__box a, [shop] .footer1__box a, [blog] .footer1__box a, [signing] .footer1__box a, [about] .footer1__box a, [contact] .footer1__box a, [myaccount] .footer1__box a, [P404] .footer1__box a, [compare] .footer1__box a, [checkout] .footer1__box a, [cart] .footer1__box a {
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .footer1__box a:hover, [wishlist] .footer1__box a:hover, [blog] .footer1__box a:hover, [signing] .footer1__box a:hover, [about] .footer1__box a:hover, [contact] .footer1__box a:hover, [myaccount] .footer1__box a:hover, [P404] .footer1__box a:hover, [compare] .footer1__box a:hover, [checkout] .footer1__box a:hover, [cart] .footer1__box a:hover {
+[index] .footer1__box a:hover, [wishlist] .footer1__box a:hover, [shop] .footer1__box a:hover, [blog] .footer1__box a:hover, [signing] .footer1__box a:hover, [about] .footer1__box a:hover, [contact] .footer1__box a:hover, [myaccount] .footer1__box a:hover, [P404] .footer1__box a:hover, [compare] .footer1__box a:hover, [checkout] .footer1__box a:hover, [cart] .footer1__box a:hover {
   color: #a55eea;
 }
-[index] .footer1__box .subscribe__text, [wishlist] .footer1__box .subscribe__text, [blog] .footer1__box .subscribe__text, [signing] .footer1__box .subscribe__text, [about] .footer1__box .subscribe__text, [contact] .footer1__box .subscribe__text, [myaccount] .footer1__box .subscribe__text, [P404] .footer1__box .subscribe__text, [compare] .footer1__box .subscribe__text, [checkout] .footer1__box .subscribe__text, [cart] .footer1__box .subscribe__text {
+[index] .footer1__box .subscribe__text, [wishlist] .footer1__box .subscribe__text, [shop] .footer1__box .subscribe__text, [blog] .footer1__box .subscribe__text, [signing] .footer1__box .subscribe__text, [about] .footer1__box .subscribe__text, [contact] .footer1__box .subscribe__text, [myaccount] .footer1__box .subscribe__text, [P404] .footer1__box .subscribe__text, [compare] .footer1__box .subscribe__text, [checkout] .footer1__box .subscribe__text, [cart] .footer1__box .subscribe__text {
   color: rgba(0, 0, 0, 0.6);
 }
-[index] .footer1__box .footer__form, [wishlist] .footer1__box .footer__form, [blog] .footer1__box .footer__form, [signing] .footer1__box .footer__form, [about] .footer1__box .footer__form, [contact] .footer1__box .footer__form, [myaccount] .footer1__box .footer__form, [P404] .footer1__box .footer__form, [compare] .footer1__box .footer__form, [checkout] .footer1__box .footer__form, [cart] .footer1__box .footer__form {
+[index] .footer1__box .footer__form, [wishlist] .footer1__box .footer__form, [shop] .footer1__box .footer__form, [blog] .footer1__box .footer__form, [signing] .footer1__box .footer__form, [about] .footer1__box .footer__form, [contact] .footer1__box .footer__form, [myaccount] .footer1__box .footer__form, [P404] .footer1__box .footer__form, [compare] .footer1__box .footer__form, [checkout] .footer1__box .footer__form, [cart] .footer1__box .footer__form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1446,7 +1606,7 @@ body > .container {
           align-items: flex-start;
   gap: 0.75rem;
 }
-[index] .footer1__box .footer__form input[type=email], [wishlist] .footer1__box .footer__form input[type=email], [blog] .footer1__box .footer__form input[type=email], [signing] .footer1__box .footer__form input[type=email], [about] .footer1__box .footer__form input[type=email], [contact] .footer1__box .footer__form input[type=email], [myaccount] .footer1__box .footer__form input[type=email], [P404] .footer1__box .footer__form input[type=email], [compare] .footer1__box .footer__form input[type=email], [checkout] .footer1__box .footer__form input[type=email], [cart] .footer1__box .footer__form input[type=email] {
+[index] .footer1__box .footer__form input[type=email], [wishlist] .footer1__box .footer__form input[type=email], [shop] .footer1__box .footer__form input[type=email], [blog] .footer1__box .footer__form input[type=email], [signing] .footer1__box .footer__form input[type=email], [about] .footer1__box .footer__form input[type=email], [contact] .footer1__box .footer__form input[type=email], [myaccount] .footer1__box .footer__form input[type=email], [P404] .footer1__box .footer__form input[type=email], [compare] .footer1__box .footer__form input[type=email], [checkout] .footer1__box .footer__form input[type=email], [cart] .footer1__box .footer__form input[type=email] {
   border: 0.125rem solid rgba(0, 0, 0, 0.1);
   height: 2.5rem;
   padding: 0 0.75rem;
@@ -1457,35 +1617,35 @@ body > .container {
   margin-top: 0.5rem;
   text-transform: lowercase;
 }
-[index] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [blog] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [signing] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [about] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [contact] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [P404] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [compare] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [cart] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder {
+[index] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [shop] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [blog] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [signing] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [about] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [contact] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [P404] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [compare] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder, [cart] .footer1__box .footer__form input[type=email]::-webkit-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-transform: capitalize;
 }
-[index] .footer1__box .footer__form input[type=email]::-moz-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-moz-placeholder, [blog] .footer1__box .footer__form input[type=email]::-moz-placeholder, [signing] .footer1__box .footer__form input[type=email]::-moz-placeholder, [about] .footer1__box .footer__form input[type=email]::-moz-placeholder, [contact] .footer1__box .footer__form input[type=email]::-moz-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-moz-placeholder, [P404] .footer1__box .footer__form input[type=email]::-moz-placeholder, [compare] .footer1__box .footer__form input[type=email]::-moz-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-moz-placeholder, [cart] .footer1__box .footer__form input[type=email]::-moz-placeholder {
+[index] .footer1__box .footer__form input[type=email]::-moz-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-moz-placeholder, [shop] .footer1__box .footer__form input[type=email]::-moz-placeholder, [blog] .footer1__box .footer__form input[type=email]::-moz-placeholder, [signing] .footer1__box .footer__form input[type=email]::-moz-placeholder, [about] .footer1__box .footer__form input[type=email]::-moz-placeholder, [contact] .footer1__box .footer__form input[type=email]::-moz-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-moz-placeholder, [P404] .footer1__box .footer__form input[type=email]::-moz-placeholder, [compare] .footer1__box .footer__form input[type=email]::-moz-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-moz-placeholder, [cart] .footer1__box .footer__form input[type=email]::-moz-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-transform: capitalize;
 }
-[index] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [blog] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [signing] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [about] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [contact] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [P404] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [compare] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [cart] .footer1__box .footer__form input[type=email]:-ms-input-placeholder {
+[index] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [shop] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [blog] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [signing] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [about] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [contact] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [P404] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [compare] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]:-ms-input-placeholder, [cart] .footer1__box .footer__form input[type=email]:-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-transform: capitalize;
 }
-[index] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [blog] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [signing] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [about] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [contact] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [P404] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [compare] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [cart] .footer1__box .footer__form input[type=email]::-ms-input-placeholder {
+[index] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [wishlist] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [shop] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [blog] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [signing] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [about] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [contact] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [myaccount] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [P404] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [compare] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [checkout] .footer1__box .footer__form input[type=email]::-ms-input-placeholder, [cart] .footer1__box .footer__form input[type=email]::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-transform: capitalize;
 }
-[index] .footer1__box .footer__form input[type=email]::placeholder, [wishlist] .footer1__box .footer__form input[type=email]::placeholder, [blog] .footer1__box .footer__form input[type=email]::placeholder, [signing] .footer1__box .footer__form input[type=email]::placeholder, [about] .footer1__box .footer__form input[type=email]::placeholder, [contact] .footer1__box .footer__form input[type=email]::placeholder, [myaccount] .footer1__box .footer__form input[type=email]::placeholder, [P404] .footer1__box .footer__form input[type=email]::placeholder, [compare] .footer1__box .footer__form input[type=email]::placeholder, [checkout] .footer1__box .footer__form input[type=email]::placeholder, [cart] .footer1__box .footer__form input[type=email]::placeholder {
+[index] .footer1__box .footer__form input[type=email]::placeholder, [wishlist] .footer1__box .footer__form input[type=email]::placeholder, [shop] .footer1__box .footer__form input[type=email]::placeholder, [blog] .footer1__box .footer__form input[type=email]::placeholder, [signing] .footer1__box .footer__form input[type=email]::placeholder, [about] .footer1__box .footer__form input[type=email]::placeholder, [contact] .footer1__box .footer__form input[type=email]::placeholder, [myaccount] .footer1__box .footer__form input[type=email]::placeholder, [P404] .footer1__box .footer__form input[type=email]::placeholder, [compare] .footer1__box .footer__form input[type=email]::placeholder, [checkout] .footer1__box .footer__form input[type=email]::placeholder, [cart] .footer1__box .footer__form input[type=email]::placeholder {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   text-transform: capitalize;
 }
-[index] .footer1__box .footer__form input[type=email]:focus, [wishlist] .footer1__box .footer__form input[type=email]:focus, [blog] .footer1__box .footer__form input[type=email]:focus, [signing] .footer1__box .footer__form input[type=email]:focus, [about] .footer1__box .footer__form input[type=email]:focus, [contact] .footer1__box .footer__form input[type=email]:focus, [myaccount] .footer1__box .footer__form input[type=email]:focus, [P404] .footer1__box .footer__form input[type=email]:focus, [compare] .footer1__box .footer__form input[type=email]:focus, [checkout] .footer1__box .footer__form input[type=email]:focus, [cart] .footer1__box .footer__form input[type=email]:focus {
+[index] .footer1__box .footer__form input[type=email]:focus, [wishlist] .footer1__box .footer__form input[type=email]:focus, [shop] .footer1__box .footer__form input[type=email]:focus, [blog] .footer1__box .footer__form input[type=email]:focus, [signing] .footer1__box .footer__form input[type=email]:focus, [about] .footer1__box .footer__form input[type=email]:focus, [contact] .footer1__box .footer__form input[type=email]:focus, [myaccount] .footer1__box .footer__form input[type=email]:focus, [P404] .footer1__box .footer__form input[type=email]:focus, [compare] .footer1__box .footer__form input[type=email]:focus, [checkout] .footer1__box .footer__form input[type=email]:focus, [cart] .footer1__box .footer__form input[type=email]:focus {
   border-color: #a55eea;
 }
-[index] .footer1__box .footer__form button[type=submit], [wishlist] .footer1__box .footer__form button[type=submit], [blog] .footer1__box .footer__form button[type=submit], [signing] .footer1__box .footer__form button[type=submit], [about] .footer1__box .footer__form button[type=submit], [contact] .footer1__box .footer__form button[type=submit], [myaccount] .footer1__box .footer__form button[type=submit], [P404] .footer1__box .footer__form button[type=submit], [compare] .footer1__box .footer__form button[type=submit], [checkout] .footer1__box .footer__form button[type=submit], [cart] .footer1__box .footer__form button[type=submit] {
+[index] .footer1__box .footer__form button[type=submit], [wishlist] .footer1__box .footer__form button[type=submit], [shop] .footer1__box .footer__form button[type=submit], [blog] .footer1__box .footer__form button[type=submit], [signing] .footer1__box .footer__form button[type=submit], [about] .footer1__box .footer__form button[type=submit], [contact] .footer1__box .footer__form button[type=submit], [myaccount] .footer1__box .footer__form button[type=submit], [P404] .footer1__box .footer__form button[type=submit], [compare] .footer1__box .footer__form button[type=submit], [checkout] .footer1__box .footer__form button[type=submit], [cart] .footer1__box .footer__form button[type=submit] {
   padding: 0.625rem 1rem;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -1499,12 +1659,12 @@ body > .container {
   -moz-transition: 0.25s;
   transition: 0.25s;
 }
-[index] .footer1__box .footer__form button[type=submit]:hover, [wishlist] .footer1__box .footer__form button[type=submit]:hover, [blog] .footer1__box .footer__form button[type=submit]:hover, [signing] .footer1__box .footer__form button[type=submit]:hover, [about] .footer1__box .footer__form button[type=submit]:hover, [contact] .footer1__box .footer__form button[type=submit]:hover, [myaccount] .footer1__box .footer__form button[type=submit]:hover, [P404] .footer1__box .footer__form button[type=submit]:hover, [compare] .footer1__box .footer__form button[type=submit]:hover, [checkout] .footer1__box .footer__form button[type=submit]:hover, [cart] .footer1__box .footer__form button[type=submit]:hover {
+[index] .footer1__box .footer__form button[type=submit]:hover, [wishlist] .footer1__box .footer__form button[type=submit]:hover, [shop] .footer1__box .footer__form button[type=submit]:hover, [blog] .footer1__box .footer__form button[type=submit]:hover, [signing] .footer1__box .footer__form button[type=submit]:hover, [about] .footer1__box .footer__form button[type=submit]:hover, [contact] .footer1__box .footer__form button[type=submit]:hover, [myaccount] .footer1__box .footer__form button[type=submit]:hover, [P404] .footer1__box .footer__form button[type=submit]:hover, [compare] .footer1__box .footer__form button[type=submit]:hover, [checkout] .footer1__box .footer__form button[type=submit]:hover, [cart] .footer1__box .footer__form button[type=submit]:hover {
   background-color: transparent;
   color: #a55eea;
   font-weight: 550;
 }
-[index] .footer2, [wishlist] .footer2, [blog] .footer2, [signing] .footer2, [about] .footer2, [contact] .footer2, [myaccount] .footer2, [P404] .footer2, [compare] .footer2, [checkout] .footer2, [cart] .footer2 {
+[index] .footer2, [wishlist] .footer2, [shop] .footer2, [blog] .footer2, [signing] .footer2, [about] .footer2, [contact] .footer2, [myaccount] .footer2, [P404] .footer2, [compare] .footer2, [checkout] .footer2, [cart] .footer2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1523,14 +1683,14 @@ body > .container {
   padding: 1.5rem 0;
   background-color: #ffffff;
 }
-[index] .footer2 *, [wishlist] .footer2 *, [blog] .footer2 *, [signing] .footer2 *, [about] .footer2 *, [contact] .footer2 *, [myaccount] .footer2 *, [P404] .footer2 *, [compare] .footer2 *, [checkout] .footer2 *, [cart] .footer2 * {
+[index] .footer2 *, [wishlist] .footer2 *, [shop] .footer2 *, [blog] .footer2 *, [signing] .footer2 *, [about] .footer2 *, [contact] .footer2 *, [myaccount] .footer2 *, [P404] .footer2 *, [compare] .footer2 *, [checkout] .footer2 *, [cart] .footer2 * {
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
   text-transform: capitalize;
 }
-[index] .footer2 a, [wishlist] .footer2 a, [blog] .footer2 a, [signing] .footer2 a, [about] .footer2 a, [contact] .footer2 a, [myaccount] .footer2 a, [P404] .footer2 a, [compare] .footer2 a, [checkout] .footer2 a, [cart] .footer2 a {
+[index] .footer2 a, [wishlist] .footer2 a, [shop] .footer2 a, [blog] .footer2 a, [signing] .footer2 a, [about] .footer2 a, [contact] .footer2 a, [myaccount] .footer2 a, [P404] .footer2 a, [compare] .footer2 a, [checkout] .footer2 a, [cart] .footer2 a {
   padding: 0.4rem 0.8rem;
   margin-left: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -1542,18 +1702,18 @@ body > .container {
   -moz-transition: 0.25s;
   transition: 0.25s;
 }
-[index] .footer2 a:hover, [wishlist] .footer2 a:hover, [blog] .footer2 a:hover, [signing] .footer2 a:hover, [about] .footer2 a:hover, [contact] .footer2 a:hover, [myaccount] .footer2 a:hover, [P404] .footer2 a:hover, [compare] .footer2 a:hover, [checkout] .footer2 a:hover, [cart] .footer2 a:hover {
+[index] .footer2 a:hover, [wishlist] .footer2 a:hover, [shop] .footer2 a:hover, [blog] .footer2 a:hover, [signing] .footer2 a:hover, [about] .footer2 a:hover, [contact] .footer2 a:hover, [myaccount] .footer2 a:hover, [P404] .footer2 a:hover, [compare] .footer2 a:hover, [checkout] .footer2 a:hover, [cart] .footer2 a:hover {
   background-color: #a55eea;
   color: #ffffff;
 }
 
-[wishlist] .header_top, [blog] .header_top, [signing] .header_top, [about] .header_top, [contact] .header_top, [myaccount] .header_top, [P404] .header_top, [compare] .header_top, [checkout] .header_top, [cart] .header_top {
+[wishlist] .header_top, [shop] .header_top, [blog] .header_top, [signing] .header_top, [about] .header_top, [contact] .header_top, [myaccount] .header_top, [P404] .header_top, [compare] .header_top, [checkout] .header_top, [cart] .header_top {
   border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
   margin: 0;
   padding: 0;
   z-index: 20;
 }
-[wishlist] .header_top_container, [blog] .header_top_container, [signing] .header_top_container, [about] .header_top_container, [contact] .header_top_container, [myaccount] .header_top_container, [P404] .header_top_container, [compare] .header_top_container, [checkout] .header_top_container, [cart] .header_top_container {
+[wishlist] .header_top_container, [shop] .header_top_container, [blog] .header_top_container, [signing] .header_top_container, [about] .header_top_container, [contact] .header_top_container, [myaccount] .header_top_container, [P404] .header_top_container, [compare] .header_top_container, [checkout] .header_top_container, [cart] .header_top_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -webkit-box-align: center;
@@ -1562,7 +1722,7 @@ body > .container {
       -ms-flex-align: center;
           align-items: center;
 }
-[wishlist] .header_top_right, [blog] .header_top_right, [signing] .header_top_right, [about] .header_top_right, [contact] .header_top_right, [myaccount] .header_top_right, [P404] .header_top_right, [compare] .header_top_right, [checkout] .header_top_right, [cart] .header_top_right {
+[wishlist] .header_top_right, [shop] .header_top_right, [blog] .header_top_right, [signing] .header_top_right, [about] .header_top_right, [contact] .header_top_right, [myaccount] .header_top_right, [P404] .header_top_right, [compare] .header_top_right, [checkout] .header_top_right, [cart] .header_top_right {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1581,11 +1741,11 @@ body > .container {
   color: rgba(0, 0, 0, 0.6);
   text-transform: capitalize;
 }
-[wishlist] .header_top_right span, [blog] .header_top_right span, [signing] .header_top_right span, [about] .header_top_right span, [contact] .header_top_right span, [myaccount] .header_top_right span, [P404] .header_top_right span, [compare] .header_top_right span, [checkout] .header_top_right span, [cart] .header_top_right span {
+[wishlist] .header_top_right span, [shop] .header_top_right span, [blog] .header_top_right span, [signing] .header_top_right span, [about] .header_top_right span, [contact] .header_top_right span, [myaccount] .header_top_right span, [P404] .header_top_right span, [compare] .header_top_right span, [checkout] .header_top_right span, [cart] .header_top_right span {
   color: red;
   margin-left: 0.35rem;
 }
-[wishlist] .header_bottom, [blog] .header_bottom, [signing] .header_bottom, [about] .header_bottom, [contact] .header_bottom, [myaccount] .header_bottom, [P404] .header_bottom, [compare] .header_bottom, [checkout] .header_bottom, [cart] .header_bottom {
+[wishlist] .header_bottom, [shop] .header_bottom, [blog] .header_bottom, [signing] .header_bottom, [about] .header_bottom, [contact] .header_bottom, [myaccount] .header_bottom, [P404] .header_bottom, [compare] .header_bottom, [checkout] .header_bottom, [cart] .header_bottom {
   border: 0;
   padding: 0;
   z-index: 10;
@@ -1598,7 +1758,7 @@ body > .container {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-[wishlist] .header2__container, [blog] .header2__container, [signing] .header2__container, [about] .header2__container, [contact] .header2__container, [myaccount] .header2__container, [P404] .header2__container, [compare] .header2__container, [checkout] .header2__container, [cart] .header2__container {
+[wishlist] .header2__container, [shop] .header2__container, [blog] .header2__container, [signing] .header2__container, [about] .header2__container, [contact] .header2__container, [myaccount] .header2__container, [P404] .header2__container, [compare] .header2__container, [checkout] .header2__container, [cart] .header2__container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1615,14 +1775,14 @@ body > .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-[wishlist] .header2__brand, [blog] .header2__brand, [signing] .header2__brand, [about] .header2__brand, [contact] .header2__brand, [myaccount] .header2__brand, [P404] .header2__brand, [compare] .header2__brand, [checkout] .header2__brand, [cart] .header2__brand {
+[wishlist] .header2__brand, [shop] .header2__brand, [blog] .header2__brand, [signing] .header2__brand, [about] .header2__brand, [contact] .header2__brand, [myaccount] .header2__brand, [P404] .header2__brand, [compare] .header2__brand, [checkout] .header2__brand, [cart] .header2__brand {
   display: inline-block;
 }
-[wishlist] .page_navigation, [blog] .page_navigation, [signing] .page_navigation, [about] .page_navigation, [contact] .page_navigation, [myaccount] .page_navigation, [P404] .page_navigation, [compare] .page_navigation, [checkout] .page_navigation, [cart] .page_navigation {
+[wishlist] .page_navigation, [shop] .page_navigation, [blog] .page_navigation, [signing] .page_navigation, [about] .page_navigation, [contact] .page_navigation, [myaccount] .page_navigation, [P404] .page_navigation, [compare] .page_navigation, [checkout] .page_navigation, [cart] .page_navigation {
   padding: 1.5rem 0;
   background-color: #ffffff;
 }
-[wishlist] .page_navigation_container, [blog] .page_navigation_container, [signing] .page_navigation_container, [about] .page_navigation_container, [contact] .page_navigation_container, [myaccount] .page_navigation_container, [P404] .page_navigation_container, [compare] .page_navigation_container, [checkout] .page_navigation_container, [cart] .page_navigation_container {
+[wishlist] .page_navigation_container, [shop] .page_navigation_container, [blog] .page_navigation_container, [signing] .page_navigation_container, [about] .page_navigation_container, [contact] .page_navigation_container, [myaccount] .page_navigation_container, [P404] .page_navigation_container, [compare] .page_navigation_container, [checkout] .page_navigation_container, [cart] .page_navigation_container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1639,7 +1799,7 @@ body > .container {
       -ms-flex-pack: center;
           justify-content: center;
 }
-[wishlist] .page_navigation_container p, [blog] .page_navigation_container p, [signing] .page_navigation_container p, [about] .page_navigation_container p, [contact] .page_navigation_container p, [myaccount] .page_navigation_container p, [P404] .page_navigation_container p, [compare] .page_navigation_container p, [checkout] .page_navigation_container p, [cart] .page_navigation_container p {
+[wishlist] .page_navigation_container p, [shop] .page_navigation_container p, [blog] .page_navigation_container p, [signing] .page_navigation_container p, [about] .page_navigation_container p, [contact] .page_navigation_container p, [myaccount] .page_navigation_container p, [P404] .page_navigation_container p, [compare] .page_navigation_container p, [checkout] .page_navigation_container p, [cart] .page_navigation_container p {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
   font-size: 1.1rem;
@@ -1647,17 +1807,17 @@ body > .container {
   padding: 0;
   margin: 0;
 }
-[wishlist] .page_navigation_container p a, [blog] .page_navigation_container p a, [signing] .page_navigation_container p a, [about] .page_navigation_container p a, [contact] .page_navigation_container p a, [myaccount] .page_navigation_container p a, [P404] .page_navigation_container p a, [compare] .page_navigation_container p a, [checkout] .page_navigation_container p a, [cart] .page_navigation_container p a {
+[wishlist] .page_navigation_container p a, [shop] .page_navigation_container p a, [blog] .page_navigation_container p a, [signing] .page_navigation_container p a, [about] .page_navigation_container p a, [contact] .page_navigation_container p a, [myaccount] .page_navigation_container p a, [P404] .page_navigation_container p a, [compare] .page_navigation_container p a, [checkout] .page_navigation_container p a, [cart] .page_navigation_container p a {
   font-weight: 550;
   color: rgba(0, 0, 0, 0.8);
 }
-[wishlist] .page_navigation_container p a:hover, [blog] .page_navigation_container p a:hover, [signing] .page_navigation_container p a:hover, [about] .page_navigation_container p a:hover, [contact] .page_navigation_container p a:hover, [myaccount] .page_navigation_container p a:hover, [P404] .page_navigation_container p a:hover, [compare] .page_navigation_container p a:hover, [checkout] .page_navigation_container p a:hover, [cart] .page_navigation_container p a:hover {
+[wishlist] .page_navigation_container p a:hover, [shop] .page_navigation_container p a:hover, [blog] .page_navigation_container p a:hover, [signing] .page_navigation_container p a:hover, [about] .page_navigation_container p a:hover, [contact] .page_navigation_container p a:hover, [myaccount] .page_navigation_container p a:hover, [P404] .page_navigation_container p a:hover, [compare] .page_navigation_container p a:hover, [checkout] .page_navigation_container p a:hover, [cart] .page_navigation_container p a:hover {
   color: #a55eea;
 }
-[wishlist] .main_content, [blog] .main_content, [signing] .main_content, [about] .main_content, [contact] .main_content, [myaccount] .main_content, [P404] .main_content, [compare] .main_content, [checkout] .main_content, [cart] .main_content {
+[wishlist] .main_content, [shop] .main_content, [blog] .main_content, [signing] .main_content, [about] .main_content, [contact] .main_content, [myaccount] .main_content, [P404] .main_content, [compare] .main_content, [checkout] .main_content, [cart] .main_content {
   padding: 7rem 0;
 }
-[wishlist] .main_content_container, [blog] .main_content_container, [signing] .main_content_container, [about] .main_content_container, [contact] .main_content_container, [myaccount] .main_content_container, [P404] .main_content_container, [compare] .main_content_container, [checkout] .main_content_container, [cart] .main_content_container {
+[wishlist] .main_content_container, [shop] .main_content_container, [blog] .main_content_container, [signing] .main_content_container, [about] .main_content_container, [contact] .main_content_container, [myaccount] .main_content_container, [P404] .main_content_container, [compare] .main_content_container, [checkout] .main_content_container, [cart] .main_content_container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -1682,17 +1842,17 @@ body > .container {
           align-items: center;
   gap: 2rem;
 }
-[wishlist] .main_content_container .iconify, [blog] .main_content_container .iconify, [signing] .main_content_container .iconify, [about] .main_content_container .iconify, [contact] .main_content_container .iconify, [myaccount] .main_content_container .iconify, [P404] .main_content_container .iconify, [compare] .main_content_container .iconify, [checkout] .main_content_container .iconify, [cart] .main_content_container .iconify {
+[wishlist] .main_content_container .iconify, [shop] .main_content_container .iconify, [blog] .main_content_container .iconify, [signing] .main_content_container .iconify, [about] .main_content_container .iconify, [contact] .main_content_container .iconify, [myaccount] .main_content_container .iconify, [P404] .main_content_container .iconify, [compare] .main_content_container .iconify, [checkout] .main_content_container .iconify, [cart] .main_content_container .iconify {
   height: 10rem;
   width: auto;
   color: rgba(0, 0, 0, 0.6);
 }
-[wishlist] .main_content_container p, [blog] .main_content_container p, [signing] .main_content_container p, [about] .main_content_container p, [contact] .main_content_container p, [myaccount] .main_content_container p, [P404] .main_content_container p, [compare] .main_content_container p, [checkout] .main_content_container p, [cart] .main_content_container p {
+[wishlist] .main_content_container p, [shop] .main_content_container p, [blog] .main_content_container p, [signing] .main_content_container p, [about] .main_content_container p, [contact] .main_content_container p, [myaccount] .main_content_container p, [P404] .main_content_container p, [compare] .main_content_container p, [checkout] .main_content_container p, [cart] .main_content_container p {
   color: rgba(0, 0, 0, 0.6);
   font-weight: 550;
   text-transform: capitalize;
 }
-[wishlist] .main_content_container .main_content_button, [blog] .main_content_container .main_content_button, [signing] .main_content_container .main_content_button, [about] .main_content_container .main_content_button, [contact] .main_content_container .main_content_button, [myaccount] .main_content_container .main_content_button, [P404] .main_content_container .main_content_button, [compare] .main_content_container .main_content_button, [checkout] .main_content_container .main_content_button, [cart] .main_content_container .main_content_button {
+[wishlist] .main_content_container .main_content_button, [shop] .main_content_container .main_content_button, [blog] .main_content_container .main_content_button, [signing] .main_content_container .main_content_button, [about] .main_content_container .main_content_button, [contact] .main_content_container .main_content_button, [myaccount] .main_content_container .main_content_button, [P404] .main_content_container .main_content_button, [compare] .main_content_container .main_content_button, [checkout] .main_content_container .main_content_button, [cart] .main_content_container .main_content_button {
   padding: 0.9rem 1.7rem;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -1706,7 +1866,7 @@ body > .container {
   -moz-transition: 0.3s;
   transition: 0.3s;
 }
-[wishlist] .main_content_container .main_content_button:hover, [blog] .main_content_container .main_content_button:hover, [signing] .main_content_container .main_content_button:hover, [about] .main_content_container .main_content_button:hover, [contact] .main_content_container .main_content_button:hover, [myaccount] .main_content_container .main_content_button:hover, [P404] .main_content_container .main_content_button:hover, [compare] .main_content_container .main_content_button:hover, [checkout] .main_content_container .main_content_button:hover, [cart] .main_content_container .main_content_button:hover {
+[wishlist] .main_content_container .main_content_button:hover, [shop] .main_content_container .main_content_button:hover, [blog] .main_content_container .main_content_button:hover, [signing] .main_content_container .main_content_button:hover, [about] .main_content_container .main_content_button:hover, [contact] .main_content_container .main_content_button:hover, [myaccount] .main_content_container .main_content_button:hover, [P404] .main_content_container .main_content_button:hover, [compare] .main_content_container .main_content_button:hover, [checkout] .main_content_container .main_content_button:hover, [cart] .main_content_container .main_content_button:hover {
   background-color: transparent;
   border-color: #a55eea;
   color: #a55eea;
